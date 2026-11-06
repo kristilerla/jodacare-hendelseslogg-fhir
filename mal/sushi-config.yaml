@@ -2,22 +2,22 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-# Oppdater med riktig informasjon
-id: hl7.fhir.no.mal
-canonical: http://hl7.no/fhir/ig/mal
-name: Mal
-title: "Mal"
-description: Implementasjonsguide for å TODO
+# Øvingsguide laget på Norwegian FHIR Hackathon 2026 (FHIR 101-sporet).
+# Hvis id endres, må linjen i ig.ini endres tilsvarende.
+id: jodacare.fhir.hendelseslogg
+canonical: https://kristilerla.github.io/jodacare-hendelseslogg-fhir
+name: JodaCareHendelseslogg
+title: "JodaCare hendelseslogg"
+description: Øvingsguide som beskriver hvordan hendelser fra hendelsesloggen i JodaCare kan uttrykkes i HL7 FHIR. Laget på Norwegian FHIR Hackathon 2026.
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
 copyrightYear: 2026+
 releaseLabel: ci-build
 jurisdiction: urn:iso:std:iso:3166#NO "Norway"
-# Oppdater navn og URL til din organisasjon
 publisher:
-  name: HL7 Norge
-  url: https://www.hl7.no
+  name: Kristil Erla Håland
+  url: https://jodacare.no
 dependencies:
   hl7.fhir.no.basis: 2.2.2
 
