@@ -1,14 +1,63 @@
-Mal : Validation Results
+JodaCareHendelseslogg : Validation Results
 =========================================
 
-err = 1, warn = 17, info = 7, broken links = 0
+err = 1, warn = 60, info = 194, broken links = 0
 IG Publisher Version: 3.0.3
-Generated Fri Nov 06 10:58:13 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.mal#0.1.0 (canonical = http://hl7.no/fhir/ig/mal)
+Generated Fri Nov 06 16:02:28 UTC 2026. FHIR version 4.0.1 for jodacare.fhir.hendelseslogg#0.1.0 (canonical = https://kristilerla.github.io/jodacare-hendelseslogg-fhir)
  Build Errors : 0 / 13 / 0
- /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.mal : 0 / 2 / 3
- /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/Patient-Pasient-1 : 0 / 0 / 1
- /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/StructureDefinition-mal-observation-blodprove : 0 / 1 / 4
- /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/StructureDefinition-mal-patient : 1 / 1 / 3
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-alvorlighetsgrad-adferd : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-alvorlighetsgrad-anfall : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-alvorlighetsgrad-fall : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-hendelsesfelt : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-hendelsestype : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-svar-adferd-tiltak : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-svar-adferd-type : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-svar-anfall-anfallstype : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-svar-anfall-bevissthet : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-svar-dobesok-konsistens : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-svar-dobesok-mengde : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-svar-dobesok-type : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-svar-ernaering-konsistens : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-svar-ernaering-maltid : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-svar-ernaering-mengde : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-svar-humor-energi : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-svar-humor-sosial : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-svar-humor-stemning : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-svar-sovn-kvalitet : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ImplementationGuide-jodacare.fhir.hendelseslogg : 0 / 2 / 3
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/Observation-Hendelse-Anfall-1 : 0 / 0 / 10
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/Observation-Hendelse-Sovn-1 : 0 / 0 / 7
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/Patient-Tjenestemottaker-Ida : 0 / 0 / 1
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/Practitioner-Ansatt-Ahmed : 0 / 0 / 1
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/Provenance-Proveniens-Anfall-1 : 0 / 0 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/StructureDefinition-jodacare-hendelse : 0 / 1 / 7
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/StructureDefinition-jodacare-hendelse-adferd : 0 / 1 / 22
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/StructureDefinition-jodacare-hendelse-anfall : 0 / 0 / 21
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/StructureDefinition-jodacare-hendelse-dobesok : 0 / 1 / 15
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/StructureDefinition-jodacare-hendelse-ernaering : 0 / 1 / 15
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/StructureDefinition-jodacare-hendelse-fall : 0 / 1 / 19
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/StructureDefinition-jodacare-hendelse-humor : 0 / 1 / 13
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/StructureDefinition-jodacare-hendelse-medisin : 0 / 1 / 17
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/StructureDefinition-jodacare-hendelse-sovn : 0 / 0 / 17
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/StructureDefinition-jodacare-tjenestemottaker : 1 / 1 / 3
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-alvorlighetsgrad-adferd-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-alvorlighetsgrad-anfall-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-alvorlighetsgrad-fall-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-hendelsestype-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-svar-adferd-tiltak-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-svar-adferd-type-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-svar-anfall-anfallstype-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-svar-anfall-bevissthet-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-svar-dobesok-konsistens-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-svar-dobesok-mengde-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-svar-dobesok-type-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-svar-ernaering-konsistens-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-svar-ernaering-maltid-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-svar-ernaering-mengde-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-svar-humor-energi-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-svar-humor-sosial-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-svar-humor-stemning-vs : 0 / 1 / 2
+ /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/ValueSet-jodacare-svar-sovn-kvalitet-vs : 0 / 1 / 2
 </table>
 
 == n/a ==
@@ -27,27 +76,404 @@ WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-ta
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 
 
-== fsh-generated/resources/ImplementationGuide-hl7.fhir.no.mal.json ==
-INFORMATION: ImplementationGuide/hl7.fhir.no.mal: ImplementationGuide.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
-WARNING: ImplementationGuide/hl7.fhir.no.mal: ImplementationGuide.dependsOn[2].uri: A definition could not be found for Canonical URL 'http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis'
-WARNING: ImplementationGuide/hl7.fhir.no.mal: ImplementationGuide.dependsOn[2]: The canonical URL http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis doesn't point to an actual ImplementationGuide resource
-INFORMATION: Resource: The resource ImplementationGuide/hl7.fhir.no.mal could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+== fsh-generated/resources/CodeSystem-jodacare-alvorlighetsgrad-adferd.json ==
+INFORMATION: CodeSystem/jodacare-alvorlighetsgrad-adferd: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-alvorlighetsgrad-adferd should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
-== fsh-generated/resources/Patient-Pasient-1.json ==
+== fsh-generated/resources/CodeSystem-jodacare-alvorlighetsgrad-anfall.json ==
+INFORMATION: CodeSystem/jodacare-alvorlighetsgrad-anfall: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-alvorlighetsgrad-anfall should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
-== fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json ==
-INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
-INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.4.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
-INFORMATION: Resource: The resource StructureDefinition/mal-observation-blodprove could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
-WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/ig/mal/StructureDefinition/mal-observation-blodprove'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/CodeSystem-jodacare-alvorlighetsgrad-fall.json ==
+INFORMATION: CodeSystem/jodacare-alvorlighetsgrad-fall: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-alvorlighetsgrad-fall should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
-== fsh-generated/resources/StructureDefinition-mal-patient.json ==
-INFORMATION: StructureDefinition/mal-patient: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
-WARNING: StructureDefinition/mal-patient: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-citizenship'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.4.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.4.0 (from hl7.fhir.uv.extensions.r4#5.4.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-citizenship' to 'http://hl7.org/fhir/StructureDefinition/patient-citizenship|5.4.0'
-ERROR: StructureDefinition/mal-patient: StructureDefinition.snapshot.element[11].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension points to something that is not a value set (CodeSystem)
-INFORMATION: Resource: The resource StructureDefinition/mal-patient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+== fsh-generated/resources/CodeSystem-jodacare-hendelsesfelt.json ==
+INFORMATION: CodeSystem/jodacare-hendelsesfelt: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-hendelsesfelt should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-hendelsestype.json ==
+INFORMATION: CodeSystem/jodacare-hendelsestype: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-hendelsestype should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-svar-adferd-tiltak.json ==
+INFORMATION: CodeSystem/jodacare-svar-adferd-tiltak: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-svar-adferd-tiltak should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-svar-adferd-type.json ==
+INFORMATION: CodeSystem/jodacare-svar-adferd-type: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-svar-adferd-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-svar-anfall-anfallstype.json ==
+INFORMATION: CodeSystem/jodacare-svar-anfall-anfallstype: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-svar-anfall-anfallstype should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-svar-anfall-bevissthet.json ==
+INFORMATION: CodeSystem/jodacare-svar-anfall-bevissthet: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-svar-anfall-bevissthet should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-svar-dobesok-konsistens.json ==
+INFORMATION: CodeSystem/jodacare-svar-dobesok-konsistens: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-svar-dobesok-konsistens should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-svar-dobesok-mengde.json ==
+INFORMATION: CodeSystem/jodacare-svar-dobesok-mengde: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-svar-dobesok-mengde should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-svar-dobesok-type.json ==
+INFORMATION: CodeSystem/jodacare-svar-dobesok-type: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-svar-dobesok-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-svar-ernaering-konsistens.json ==
+INFORMATION: CodeSystem/jodacare-svar-ernaering-konsistens: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-svar-ernaering-konsistens should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-svar-ernaering-maltid.json ==
+INFORMATION: CodeSystem/jodacare-svar-ernaering-maltid: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-svar-ernaering-maltid should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-svar-ernaering-mengde.json ==
+INFORMATION: CodeSystem/jodacare-svar-ernaering-mengde: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-svar-ernaering-mengde should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-svar-humor-energi.json ==
+INFORMATION: CodeSystem/jodacare-svar-humor-energi: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-svar-humor-energi should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-svar-humor-sosial.json ==
+INFORMATION: CodeSystem/jodacare-svar-humor-sosial: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-svar-humor-sosial should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-svar-humor-stemning.json ==
+INFORMATION: CodeSystem/jodacare-svar-humor-stemning: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-svar-humor-stemning should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-jodacare-svar-sovn-kvalitet.json ==
+INFORMATION: CodeSystem/jodacare-svar-sovn-kvalitet: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource CodeSystem/jodacare-svar-sovn-kvalitet should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ImplementationGuide-jodacare.fhir.hendelseslogg.json ==
+INFORMATION: ImplementationGuide/jodacare.fhir.hendelseslogg: ImplementationGuide.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: ImplementationGuide/jodacare.fhir.hendelseslogg: ImplementationGuide.dependsOn[2].uri: A definition could not be found for Canonical URL 'http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis'
+WARNING: ImplementationGuide/jodacare.fhir.hendelseslogg: ImplementationGuide.dependsOn[2]: The canonical URL http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis doesn't point to an actual ImplementationGuide resource
+INFORMATION: Resource: The resource ImplementationGuide/jodacare.fhir.hendelseslogg could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/Observation-Hendelse-Anfall-1.json ==
+INFORMATION: Observation/Hendelse-Anfall-1: Observation.component[0].code: Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: Observation/Hendelse-Anfall-1: Observation.component[0].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype|0.1.0
+INFORMATION: Observation/Hendelse-Anfall-1: Observation.component[1].code: Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: Observation/Hendelse-Anfall-1: Observation.component[2].code: Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: Observation/Hendelse-Anfall-1: Observation.component[2].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet|0.1.0
+INFORMATION: Observation/Hendelse-Anfall-1: Observation.component[3].code: Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: Observation/Hendelse-Anfall-1: Observation.component[3].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall|0.1.0
+INFORMATION: Observation/Hendelse-Anfall-1: Observation.component[4].code: Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: Observation/Hendelse-Anfall-1: Observation.component[5].code: Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+
+
+== fsh-generated/resources/Observation-Hendelse-Sovn-1.json ==
+INFORMATION: Observation/Hendelse-Sovn-1: Observation.component[0].code: Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: Observation/Hendelse-Sovn-1: Observation.component[1].code: Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: Observation/Hendelse-Sovn-1: Observation.component[2].code: Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: Observation/Hendelse-Sovn-1: Observation.component[3].code: Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: Observation/Hendelse-Sovn-1: Observation.component[4].code: Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: Observation/Hendelse-Sovn-1: Observation.component[4].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet|0.1.0
+
+
+== fsh-generated/resources/Patient-Tjenestemottaker-Ida.json ==
+
+
+== fsh-generated/resources/Practitioner-Ansatt-Ahmed.json ==
+
+
+== fsh-generated/resources/Provenance-Proveniens-Anfall-1.json ==
+INFORMATION: Provenance/Proveniens-Anfall-1: Provenance.activity.coding[0].display: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-DataOperation#CREATE for language(s) 'no-NO'. The display is 'create' which is a valid display for the default language
+
+
+== fsh-generated/resources/StructureDefinition-jodacare-hendelse.json ==
+INFORMATION: StructureDefinition/jodacare-hendelse: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+INFORMATION: StructureDefinition/jodacare-hendelse: StructureDefinition.snapshot.element[54].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse: StructureDefinition.differential.element[9].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse: StructureDefinition.differential.element[7].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/jodacare-hendelse: StructureDefinition.snapshot.element[41].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: Resource: The resource StructureDefinition/jodacare-hendelse could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-jodacare-hendelse-adferd.json ==
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.4.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.snapshot.element[54].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.snapshot.element[63].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.snapshot.element[72].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.snapshot.element[81].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.snapshot.element[90].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.snapshot.element[99].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.snapshot.element[115].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.snapshot.element[124].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.differential.element[6].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.differential.element[9].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.differential.element[12].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.differential.element[15].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.differential.element[18].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.differential.element[23].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.differential.element[26].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-adferd: StructureDefinition.snapshot.element[41].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: Resource: The resource StructureDefinition/jodacare-hendelse-adferd could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-adferd'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-jodacare-hendelse-anfall.json ==
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.snapshot.element[54].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.snapshot.element[63].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.snapshot.element[72].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.snapshot.element[88].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.snapshot.element[97].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.snapshot.element[106].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.snapshot.element[115].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.snapshot.element[124].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.differential.element[6].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.differential.element[9].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.differential.element[14].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.differential.element[17].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.differential.element[20].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.differential.element[23].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.differential.element[26].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-anfall: StructureDefinition.snapshot.element[41].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: Resource: The resource StructureDefinition/jodacare-hendelse-anfall could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-jodacare-hendelse-dobesok.json ==
+INFORMATION: StructureDefinition/jodacare-hendelse-dobesok: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+INFORMATION: StructureDefinition/jodacare-hendelse-dobesok: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-dobesok: StructureDefinition.snapshot.element[54].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-dobesok: StructureDefinition.snapshot.element[63].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-dobesok: StructureDefinition.snapshot.element[72].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-dobesok: StructureDefinition.snapshot.element[81].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-dobesok: StructureDefinition.snapshot.element[90].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-dobesok: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-dobesok: StructureDefinition.differential.element[5].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-dobesok: StructureDefinition.differential.element[8].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-dobesok: StructureDefinition.differential.element[11].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-dobesok: StructureDefinition.differential.element[14].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-dobesok: StructureDefinition.snapshot.element[41].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: Resource: The resource StructureDefinition/jodacare-hendelse-dobesok could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-dobesok'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-jodacare-hendelse-ernaering.json ==
+INFORMATION: StructureDefinition/jodacare-hendelse-ernaering: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+INFORMATION: StructureDefinition/jodacare-hendelse-ernaering: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-ernaering: StructureDefinition.snapshot.element[54].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-ernaering: StructureDefinition.snapshot.element[63].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-ernaering: StructureDefinition.snapshot.element[72].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-ernaering: StructureDefinition.snapshot.element[81].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-ernaering: StructureDefinition.snapshot.element[97].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-ernaering: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-ernaering: StructureDefinition.differential.element[5].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-ernaering: StructureDefinition.differential.element[8].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-ernaering: StructureDefinition.differential.element[11].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-ernaering: StructureDefinition.differential.element[16].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-ernaering: StructureDefinition.snapshot.element[41].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: Resource: The resource StructureDefinition/jodacare-hendelse-ernaering could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-ernaering'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-jodacare-hendelse-fall.json ==
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.snapshot.element[54].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.snapshot.element[63].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.snapshot.element[72].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.snapshot.element[81].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.snapshot.element[90].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.snapshot.element[99].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.snapshot.element[108].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.differential.element[6].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.differential.element[9].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.differential.element[12].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.differential.element[15].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.differential.element[18].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.differential.element[21].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-fall: StructureDefinition.snapshot.element[41].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: Resource: The resource StructureDefinition/jodacare-hendelse-fall could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-fall'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-jodacare-hendelse-humor.json ==
+INFORMATION: StructureDefinition/jodacare-hendelse-humor: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+INFORMATION: StructureDefinition/jodacare-hendelse-humor: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-humor: StructureDefinition.snapshot.element[54].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-humor: StructureDefinition.snapshot.element[63].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-humor: StructureDefinition.snapshot.element[72].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-humor: StructureDefinition.snapshot.element[81].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-humor: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-humor: StructureDefinition.differential.element[5].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-humor: StructureDefinition.differential.element[8].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-humor: StructureDefinition.differential.element[11].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-humor: StructureDefinition.snapshot.element[41].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: Resource: The resource StructureDefinition/jodacare-hendelse-humor could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-humor'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-jodacare-hendelse-medisin.json ==
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.snapshot.element[54].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.snapshot.element[63].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.snapshot.element[72].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.snapshot.element[81].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.snapshot.element[90].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.snapshot.element[99].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.differential.element[5].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.differential.element[8].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.differential.element[11].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.differential.element[14].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.differential.element[17].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-medisin: StructureDefinition.snapshot.element[41].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: Resource: The resource StructureDefinition/jodacare-hendelse-medisin could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-medisin'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-jodacare-hendelse-sovn.json ==
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.snapshot.element[54].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.snapshot.element[63].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.snapshot.element[72].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.snapshot.element[81].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.snapshot.element[90].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.snapshot.element[99].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.differential.element[4].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.differential.element[7].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.differential.element[10].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.differential.element[13].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.differential.element[16].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0
+INFORMATION: StructureDefinition/jodacare-hendelse-sovn: StructureDefinition.snapshot.element[41].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: Resource: The resource StructureDefinition/jodacare-hendelse-sovn could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-jodacare-tjenestemottaker.json ==
+INFORMATION: StructureDefinition/jodacare-tjenestemottaker: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: StructureDefinition/jodacare-tjenestemottaker: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-citizenship'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.4.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.4.0 (from hl7.fhir.uv.extensions.r4#5.4.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-citizenship' to 'http://hl7.org/fhir/StructureDefinition/patient-citizenship|5.4.0'
+ERROR: StructureDefinition/jodacare-tjenestemottaker: StructureDefinition.snapshot.element[11].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension points to something that is not a value set (CodeSystem)
+INFORMATION: Resource: The resource StructureDefinition/jodacare-tjenestemottaker could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-alvorlighetsgrad-adferd-vs.json ==
+INFORMATION: ValueSet/jodacare-alvorlighetsgrad-adferd-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-alvorlighetsgrad-adferd-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-alvorlighetsgrad-anfall-vs.json ==
+INFORMATION: ValueSet/jodacare-alvorlighetsgrad-anfall-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-alvorlighetsgrad-anfall-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-alvorlighetsgrad-fall-vs.json ==
+INFORMATION: ValueSet/jodacare-alvorlighetsgrad-fall-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-alvorlighetsgrad-fall-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-hendelsestype-vs.json ==
+INFORMATION: ValueSet/jodacare-hendelsestype-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-hendelsestype-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-svar-adferd-tiltak-vs.json ==
+INFORMATION: ValueSet/jodacare-svar-adferd-tiltak-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-svar-adferd-tiltak-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-svar-adferd-type-vs.json ==
+INFORMATION: ValueSet/jodacare-svar-adferd-type-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-svar-adferd-type-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-svar-anfall-anfallstype-vs.json ==
+INFORMATION: ValueSet/jodacare-svar-anfall-anfallstype-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-svar-anfall-anfallstype-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-svar-anfall-bevissthet-vs.json ==
+INFORMATION: ValueSet/jodacare-svar-anfall-bevissthet-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-svar-anfall-bevissthet-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-svar-dobesok-konsistens-vs.json ==
+INFORMATION: ValueSet/jodacare-svar-dobesok-konsistens-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-svar-dobesok-konsistens-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-svar-dobesok-mengde-vs.json ==
+INFORMATION: ValueSet/jodacare-svar-dobesok-mengde-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-svar-dobesok-mengde-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-svar-dobesok-type-vs.json ==
+INFORMATION: ValueSet/jodacare-svar-dobesok-type-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-svar-dobesok-type-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-svar-ernaering-konsistens-vs.json ==
+INFORMATION: ValueSet/jodacare-svar-ernaering-konsistens-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-svar-ernaering-konsistens-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-svar-ernaering-maltid-vs.json ==
+INFORMATION: ValueSet/jodacare-svar-ernaering-maltid-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-svar-ernaering-maltid-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-svar-ernaering-mengde-vs.json ==
+INFORMATION: ValueSet/jodacare-svar-ernaering-mengde-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-svar-ernaering-mengde-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-svar-humor-energi-vs.json ==
+INFORMATION: ValueSet/jodacare-svar-humor-energi-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-svar-humor-energi-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-svar-humor-sosial-vs.json ==
+INFORMATION: ValueSet/jodacare-svar-humor-sosial-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-svar-humor-sosial-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-svar-humor-stemning-vs.json ==
+INFORMATION: ValueSet/jodacare-svar-humor-stemning-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-svar-humor-stemning-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-jodacare-svar-sovn-kvalitet-vs.json ==
+INFORMATION: ValueSet/jodacare-svar-sovn-kvalitet-vs: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: Resource: The resource ValueSet/jodacare-svar-sovn-kvalitet-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 

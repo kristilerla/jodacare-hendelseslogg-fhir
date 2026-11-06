@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="jodacare-svar-humor-energi"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem jodacare-svar-humor-energi</b></p><a name="jodacare-svar-humor-energi"> </a><a name="hcjodacare-svar-humor-energi"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">hoyt<a name="jodacare-svar-humor-energi-hoyt"> </a></td><td>Høyt</td></tr><tr><td style="white-space:nowrap">normalt<a name="jodacare-svar-humor-energi-normalt"> </a></td><td>Normalt</td></tr><tr><td style="white-space:nowrap">lavt<a name="jodacare-svar-humor-energi-lavt"> </a></td><td>Lavt</td></tr></table></div>
+  </text>
+  <url value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi"/>
+  <version value="0.1.0"/>
+  <name value="JodaCareSvarHumorEnergi"/>
+  <title value="Humør: Energinivå"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2026-11-06T16:01:05+00:00"/>
+  <publisher value="Kristil Erla Håland"/>
+  <contact>
+    <name value="Kristil Erla Håland"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://jodacare.no"/>
+    </telecom>
+  </contact>
+  <description value="Svaralternativene for feltet energi i malen Humør."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="hoyt"/>
+    <display value="Høyt"/>
+  </concept>
+  <concept>
+    <code value="normalt"/>
+    <display value="Normalt"/>
+  </concept>
+  <concept>
+    <code value="lavt"/>
+    <display value="Lavt"/>
+  </concept>
+</CodeSystem>

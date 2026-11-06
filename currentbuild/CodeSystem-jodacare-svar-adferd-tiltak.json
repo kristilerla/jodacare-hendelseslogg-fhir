@@ -1,0 +1,58 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "jodacare-svar-adferd-tiltak",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jodacare-svar-adferd-tiltak</b></p><a name=\"jodacare-svar-adferd-tiltak\"> </a><a name=\"hcjodacare-svar-adferd-tiltak\"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">avledning<a name=\"jodacare-svar-adferd-tiltak-avledning\"> </a></td><td>Avledning</td></tr><tr><td style=\"white-space:nowrap\">tilbaketrekning<a name=\"jodacare-svar-adferd-tiltak-tilbaketrekning\"> </a></td><td>Tilbaketrekning</td></tr><tr><td style=\"white-space:nowrap\">samtale<a name=\"jodacare-svar-adferd-tiltak-samtale\"> </a></td><td>Samtale</td></tr><tr><td style=\"white-space:nowrap\">fysisk-holding<a name=\"jodacare-svar-adferd-tiltak-fysisk-holding\"> </a></td><td>Fysisk holding</td></tr><tr><td style=\"white-space:nowrap\">medisin<a name=\"jodacare-svar-adferd-tiltak-medisin\"> </a></td><td>Medisin</td></tr><tr><td style=\"white-space:nowrap\">annet<a name=\"jodacare-svar-adferd-tiltak-annet\"> </a></td><td>Annet</td></tr></table></div>"
+  },
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarAdferdTiltak",
+  "title" : "Adferd / uro: Tiltak",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06T16:01:05+00:00",
+  "publisher" : "Kristil Erla Håland",
+  "contact" : [{
+    "name" : "Kristil Erla Håland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://jodacare.no"
+    }]
+  }],
+  "description" : "Svaralternativene for feltet tiltak i malen Adferd / uro.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "avledning",
+    "display" : "Avledning"
+  },
+  {
+    "code" : "tilbaketrekning",
+    "display" : "Tilbaketrekning"
+  },
+  {
+    "code" : "samtale",
+    "display" : "Samtale"
+  },
+  {
+    "code" : "fysisk-holding",
+    "display" : "Fysisk holding"
+  },
+  {
+    "code" : "medisin",
+    "display" : "Medisin"
+  },
+  {
+    "code" : "annet",
+    "display" : "Annet"
+  }]
+}

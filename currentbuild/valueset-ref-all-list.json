@@ -11,7 +11,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1"],
     "uses" : {
     },
-    "StructureDefinition-mal-patient.html" : "Pasient"
+    "StructureDefinition-jodacare-tjenestemottaker.html" : "Tjenestemottaker"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -25,7 +25,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.141"],
     "uses" : {
     },
-    "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør",
+    "StructureDefinition-jodacare-hendelse-fall.html" : "Hendelse: Fall",
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk",
+    "StructureDefinition-jodacare-hendelse-sovn.html" : "Hendelse: Søvn",
+    "StructureDefinition-jodacare-hendelse.html" : "Hendelse",
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall",
+    "StructureDefinition-jodacare-hendelse-medisin.html" : "Hendelse: Behovsmedisin",
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro",
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
@@ -39,7 +47,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.5"],
     "uses" : {
     },
-    "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør",
+    "StructureDefinition-jodacare-hendelse-fall.html" : "Hendelse: Fall",
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk",
+    "StructureDefinition-jodacare-hendelse-sovn.html" : "Hendelse: Søvn",
+    "StructureDefinition-jodacare-hendelse.html" : "Hendelse",
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall",
+    "StructureDefinition-jodacare-hendelse-medisin.html" : "Hendelse: Behovsmedisin",
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro",
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -53,7 +69,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.45"],
     "uses" : {
     },
-    "StructureDefinition-mal-patient.html" : "Pasient"
+    "StructureDefinition-jodacare-tjenestemottaker.html" : "Tjenestemottaker"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -67,7 +83,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.57"],
     "uses" : {
     },
-    "StructureDefinition-mal-patient.html" : "Pasient"
+    "StructureDefinition-jodacare-tjenestemottaker.html" : "Tjenestemottaker"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -81,8 +97,16 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-mal-patient.html" : "Pasient",
-    "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør",
+    "StructureDefinition-jodacare-hendelse-fall.html" : "Hendelse: Fall",
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk",
+    "StructureDefinition-jodacare-hendelse-sovn.html" : "Hendelse: Søvn",
+    "StructureDefinition-jodacare-hendelse.html" : "Hendelse",
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall",
+    "StructureDefinition-jodacare-hendelse-medisin.html" : "Hendelse: Behovsmedisin",
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro",
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring",
+    "StructureDefinition-jodacare-tjenestemottaker.html" : "Tjenestemottaker"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -96,7 +120,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.423"],
     "uses" : {
     },
-    "StructureDefinition-mal-patient.html" : "Pasient"
+    "StructureDefinition-jodacare-tjenestemottaker.html" : "Tjenestemottaker"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/marital-status",
@@ -111,21 +135,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.29"],
     "uses" : {
     },
-    "StructureDefinition-mal-patient.html" : "Pasient"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/name-use",
-    "version" : "4.0.1",
-    "status" : "active",
-    "name" : "NameUse",
-    "title" : "NameUse",
-    "description" : "The use of a human name.",
-    "systems" : ["http://hl7.org/fhir/name-use"],
-    "oids" : ["2.16.840.1.113883.4.642.3.65"],
-    "sources" : ["2.16.840.1.113883.4.642.3.65"],
-    "uses" : {
-    },
-    "StructureDefinition-mal-patient.html" : "Pasient"
+    "StructureDefinition-jodacare-tjenestemottaker.html" : "Tjenestemottaker"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-category",
@@ -139,7 +149,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.403"],
     "uses" : {
     },
-    "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør",
+    "StructureDefinition-jodacare-hendelse-fall.html" : "Hendelse: Fall",
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk",
+    "StructureDefinition-jodacare-hendelse-sovn.html" : "Hendelse: Søvn",
+    "StructureDefinition-jodacare-hendelse.html" : "Hendelse",
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall",
+    "StructureDefinition-jodacare-hendelse-medisin.html" : "Hendelse: Behovsmedisin",
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro",
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -153,7 +171,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.396"],
     "uses" : {
     },
-    "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør",
+    "StructureDefinition-jodacare-hendelse-fall.html" : "Hendelse: Fall",
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk",
+    "StructureDefinition-jodacare-hendelse-sovn.html" : "Hendelse: Søvn",
+    "StructureDefinition-jodacare-hendelse.html" : "Hendelse",
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall",
+    "StructureDefinition-jodacare-hendelse-medisin.html" : "Hendelse: Behovsmedisin",
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro",
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -167,7 +193,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.399"],
     "uses" : {
     },
-    "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør",
+    "StructureDefinition-jodacare-hendelse-fall.html" : "Hendelse: Fall",
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk",
+    "StructureDefinition-jodacare-hendelse-sovn.html" : "Hendelse: Søvn",
+    "StructureDefinition-jodacare-hendelse.html" : "Hendelse",
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall",
+    "StructureDefinition-jodacare-hendelse-medisin.html" : "Hendelse: Behovsmedisin",
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro",
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -181,7 +215,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.395"],
     "uses" : {
     },
-    "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør",
+    "StructureDefinition-jodacare-hendelse-fall.html" : "Hendelse: Fall",
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk",
+    "StructureDefinition-jodacare-hendelse-sovn.html" : "Hendelse: Søvn",
+    "StructureDefinition-jodacare-hendelse.html" : "Hendelse",
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall",
+    "StructureDefinition-jodacare-hendelse-medisin.html" : "Hendelse: Behovsmedisin",
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro",
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -195,7 +237,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.400"],
     "uses" : {
     },
-    "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør",
+    "StructureDefinition-jodacare-hendelse-fall.html" : "Hendelse: Fall",
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk",
+    "StructureDefinition-jodacare-hendelse-sovn.html" : "Hendelse: Søvn",
+    "StructureDefinition-jodacare-hendelse.html" : "Hendelse",
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall",
+    "StructureDefinition-jodacare-hendelse-medisin.html" : "Hendelse: Behovsmedisin",
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro",
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -209,7 +259,24 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1130"],
     "uses" : {
     },
-    "StructureDefinition-mal-patient.html" : "Pasient"
+    "StructureDefinition-jodacare-tjenestemottaker.html" : "Tjenestemottaker"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "QuantityComparator",
+    "title" : "QuantityComparator",
+    "description" : "How the Quantity should be understood and represented.",
+    "systems" : ["http://hl7.org/fhir/quantity-comparator"],
+    "oids" : ["2.16.840.1.113883.4.642.3.59"],
+    "sources" : ["2.16.840.1.113883.4.642.3.59"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall",
+    "StructureDefinition-jodacare-hendelse-medisin.html" : "Hendelse: Behovsmedisin",
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro",
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -224,7 +291,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.407"],
     "uses" : {
     },
-    "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør",
+    "StructureDefinition-jodacare-hendelse-fall.html" : "Hendelse: Fall",
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk",
+    "StructureDefinition-jodacare-hendelse-sovn.html" : "Hendelse: Søvn",
+    "StructureDefinition-jodacare-hendelse.html" : "Hendelse",
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall",
+    "StructureDefinition-jodacare-hendelse-medisin.html" : "Hendelse: Behovsmedisin",
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro",
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -238,6 +313,238 @@
     "sources" : ["2.16.840.1.113883.4.642.3.397"],
     "uses" : {
     },
-    "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør",
+    "StructureDefinition-jodacare-hendelse-fall.html" : "Hendelse: Fall",
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk",
+    "StructureDefinition-jodacare-hendelse-sovn.html" : "Hendelse: Søvn",
+    "StructureDefinition-jodacare-hendelse.html" : "Hendelse",
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall",
+    "StructureDefinition-jodacare-hendelse-medisin.html" : "Hendelse: Behovsmedisin",
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro",
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-adferd-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareAlvorlighetsgradAdferdVS",
+    "title" : "Alvorlighetsgrad: Adferd / uro",
+    "description" : "Gyldige nivåer for alvorlighetsgrad i malen Adferd / uro.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-anfall-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareAlvorlighetsgradAnfallVS",
+    "title" : "Alvorlighetsgrad: Anfall",
+    "description" : "Gyldige nivåer for alvorlighetsgrad i malen Anfall.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-fall-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareAlvorlighetsgradFallVS",
+    "title" : "Alvorlighetsgrad: Fall",
+    "description" : "Gyldige nivåer for alvorlighetsgrad i malen Fall.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-fall.html" : "Hendelse: Fall"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-hendelsestype-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareHendelsestypeVS",
+    "title" : "Hendelsestyper i JodaCare",
+    "description" : "Alle hendelsestypene i standardmalene.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør",
+    "StructureDefinition-jodacare-hendelse-fall.html" : "Hendelse: Fall",
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk",
+    "StructureDefinition-jodacare-hendelse.html" : "Hendelse",
+    "StructureDefinition-jodacare-hendelse-sovn.html" : "Hendelse: Søvn",
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall",
+    "StructureDefinition-jodacare-hendelse-medisin.html" : "Hendelse: Behovsmedisin",
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro",
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-adferd-tiltak-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarAdferdTiltakVS",
+    "title" : "Adferd / uro: Tiltak",
+    "description" : "Gyldige svar for feltet tiltak i malen Adferd / uro.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-adferd-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarAdferdTypeVS",
+    "title" : "Adferd / uro: Type adferd",
+    "description" : "Gyldige svar for feltet type i malen Adferd / uro.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-anfall-anfallstype-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarAnfallAnfallstypeVS",
+    "title" : "Anfall: Anfallstype",
+    "description" : "Gyldige svar for feltet anfallstype i malen Anfall.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-anfall-bevissthet-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarAnfallBevissthetVS",
+    "title" : "Anfall: Bevissthet under anfall",
+    "description" : "Gyldige svar for feltet bevissthet i malen Anfall.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-konsistens-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarDobesokKonsistensVS",
+    "title" : "Dobesøk: Konsistens (Bristol 1-7)",
+    "description" : "Gyldige svar for feltet konsistens i malen Dobesøk.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-mengde-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarDobesokMengdeVS",
+    "title" : "Dobesøk: Mengde",
+    "description" : "Gyldige svar for feltet mengde i malen Dobesøk.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarDobesokTypeVS",
+    "title" : "Dobesøk: Type",
+    "description" : "Gyldige svar for feltet type i malen Dobesøk.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-konsistens-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarErnaeringKonsistensVS",
+    "title" : "Ernæring: Matkonsistens",
+    "description" : "Gyldige svar for feltet konsistens i malen Ernæring.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-maltid-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarErnaeringMaltidVS",
+    "title" : "Ernæring: Måltid",
+    "description" : "Gyldige svar for feltet maltid i malen Ernæring.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-mengde-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarErnaeringMengdeVS",
+    "title" : "Ernæring: Mengde spist",
+    "description" : "Gyldige svar for feltet mengde i malen Ernæring.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-energi-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarHumorEnergiVS",
+    "title" : "Humør: Energinivå",
+    "description" : "Gyldige svar for feltet energi i malen Humør.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-sosial-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarHumorSosialVS",
+    "title" : "Humør: Sosial",
+    "description" : "Gyldige svar for feltet sosial i malen Humør.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-stemning-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarHumorStemningVS",
+    "title" : "Humør: Stemning",
+    "description" : "Gyldige svar for feltet stemning i malen Humør.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-sovn-kvalitet-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarSovnKvalitetVS",
+    "title" : "Søvn: Søvnkvalitet",
+    "description" : "Gyldige svar for feltet kvalitet i malen Søvn.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-sovn.html" : "Hendelse: Søvn"
   }]
 }

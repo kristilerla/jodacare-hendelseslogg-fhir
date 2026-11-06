@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "jodacare-svar-humor-sosial",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jodacare-svar-humor-sosial</b></p><a name=\"jodacare-svar-humor-sosial\"> </a><a name=\"hcjodacare-svar-humor-sosial\"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">utadvendt<a name=\"jodacare-svar-humor-sosial-utadvendt\"> </a></td><td>Utadvendt</td></tr><tr><td style=\"white-space:nowrap\">normal<a name=\"jodacare-svar-humor-sosial-normal\"> </a></td><td>Normal</td></tr><tr><td style=\"white-space:nowrap\">tilbaketrukket<a name=\"jodacare-svar-humor-sosial-tilbaketrukket\"> </a></td><td>Tilbaketrukket</td></tr></table></div>"
+  },
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarHumorSosial",
+  "title" : "Humør: Sosial",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06T16:01:05+00:00",
+  "publisher" : "Kristil Erla Håland",
+  "contact" : [{
+    "name" : "Kristil Erla Håland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://jodacare.no"
+    }]
+  }],
+  "description" : "Svaralternativene for feltet sosial i malen Humør.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "utadvendt",
+    "display" : "Utadvendt"
+  },
+  {
+    "code" : "normal",
+    "display" : "Normal"
+  },
+  {
+    "code" : "tilbaketrukket",
+    "display" : "Tilbaketrukket"
+  }]
+}

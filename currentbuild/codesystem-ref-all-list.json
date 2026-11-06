@@ -36,18 +36,6 @@
     "http://hl7.org/fhir/R4/valueset-link-type.html" : "LinkType"
   },
   {
-    "url" : "http://hl7.org/fhir/name-use",
-    "version" : "4.0.1",
-    "status" : "active",
-    "name" : "NameUse",
-    "title" : "NameUse",
-    "description" : "The use of a human name.",
-    "oids" : ["2.16.840.1.113883.4.642.4.66"],
-    "uses" : {
-    },
-    "http://hl7.org/fhir/R4/valueset-name-use.html" : "NameUse"
-  },
-  {
     "url" : "http://hl7.org/fhir/observation-status",
     "version" : "4.0.1",
     "status" : "active",
@@ -60,6 +48,18 @@
     "http://hl7.org/fhir/R4/valueset-observation-status.html" : "ObservationStatus"
   },
   {
+    "url" : "http://hl7.org/fhir/quantity-comparator",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "QuantityComparator",
+    "title" : "QuantityComparator",
+    "description" : "How the Quantity should be understood and represented.",
+    "oids" : ["2.16.840.1.113883.4.642.4.60"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-quantity-comparator.html" : "QuantityComparator"
+  },
+  {
     "url" : "http://snomed.info/sct",
     "version" : null,
     "status" : "active",
@@ -69,9 +69,9 @@
     "oids" : ["2.16.840.1.113883.6.96"],
     "uses" : {
     },
-    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
     "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes"
+    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
@@ -168,5 +168,203 @@
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-observation-interpretation.html" : "Observation Interpretation Codes"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareAlvorlighetsgradAdferd",
+    "title" : "Alvorlighetsgrad: Adferd / uro",
+    "description" : "Nivåene for alvorlighetsgrad i malen Adferd / uro.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-alvorlighetsgrad-adferd-vs.html" : "Alvorlighetsgrad: Adferd / uro"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareAlvorlighetsgradAnfall",
+    "title" : "Alvorlighetsgrad: Anfall",
+    "description" : "Nivåene for alvorlighetsgrad i malen Anfall.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-alvorlighetsgrad-anfall-vs.html" : "Alvorlighetsgrad: Anfall"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareAlvorlighetsgradFall",
+    "title" : "Alvorlighetsgrad: Fall",
+    "description" : "Nivåene for alvorlighetsgrad i malen Fall.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-alvorlighetsgrad-fall-vs.html" : "Alvorlighetsgrad: Fall"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareHendelsestype",
+    "title" : "Hendelsestyper i JodaCare",
+    "description" : "De åtte standardmalene i hendelsesloggen i JodaCare. Et tjenestested kan i tillegg lage egne hendelsestyper.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-hendelsestype-vs.html" : "Hendelsestyper i JodaCare"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarAdferdTiltak",
+    "title" : "Adferd / uro: Tiltak",
+    "description" : "Svaralternativene for feltet tiltak i malen Adferd / uro.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-svar-adferd-tiltak-vs.html" : "Adferd / uro: Tiltak"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarAdferdType",
+    "title" : "Adferd / uro: Type adferd",
+    "description" : "Svaralternativene for feltet type i malen Adferd / uro.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-svar-adferd-type-vs.html" : "Adferd / uro: Type adferd"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarAnfallAnfallstype",
+    "title" : "Anfall: Anfallstype",
+    "description" : "Svaralternativene for feltet anfallstype i malen Anfall.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-svar-anfall-anfallstype-vs.html" : "Anfall: Anfallstype"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarAnfallBevissthet",
+    "title" : "Anfall: Bevissthet under anfall",
+    "description" : "Svaralternativene for feltet bevissthet i malen Anfall.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-svar-anfall-bevissthet-vs.html" : "Anfall: Bevissthet under anfall"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarDobesokKonsistens",
+    "title" : "Dobesøk: Konsistens (Bristol 1-7)",
+    "description" : "Svaralternativene for feltet konsistens i malen Dobesøk.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-svar-dobesok-konsistens-vs.html" : "Dobesøk: Konsistens (Bristol 1-7)"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarDobesokMengde",
+    "title" : "Dobesøk: Mengde",
+    "description" : "Svaralternativene for feltet mengde i malen Dobesøk.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-svar-dobesok-mengde-vs.html" : "Dobesøk: Mengde"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarDobesokType",
+    "title" : "Dobesøk: Type",
+    "description" : "Svaralternativene for feltet type i malen Dobesøk.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-svar-dobesok-type-vs.html" : "Dobesøk: Type"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarErnaeringKonsistens",
+    "title" : "Ernæring: Matkonsistens",
+    "description" : "Svaralternativene for feltet konsistens i malen Ernæring.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-svar-ernaering-konsistens-vs.html" : "Ernæring: Matkonsistens"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarErnaeringMaltid",
+    "title" : "Ernæring: Måltid",
+    "description" : "Svaralternativene for feltet maltid i malen Ernæring.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-svar-ernaering-maltid-vs.html" : "Ernæring: Måltid"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarErnaeringMengde",
+    "title" : "Ernæring: Mengde spist",
+    "description" : "Svaralternativene for feltet mengde i malen Ernæring.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-svar-ernaering-mengde-vs.html" : "Ernæring: Mengde spist"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarHumorEnergi",
+    "title" : "Humør: Energinivå",
+    "description" : "Svaralternativene for feltet energi i malen Humør.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-svar-humor-energi-vs.html" : "Humør: Energinivå"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarHumorSosial",
+    "title" : "Humør: Sosial",
+    "description" : "Svaralternativene for feltet sosial i malen Humør.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-svar-humor-sosial-vs.html" : "Humør: Sosial"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarHumorStemning",
+    "title" : "Humør: Stemning",
+    "description" : "Svaralternativene for feltet stemning i malen Humør.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-svar-humor-stemning-vs.html" : "Humør: Stemning"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarSovnKvalitet",
+    "title" : "Søvn: Søvnkvalitet",
+    "description" : "Svaralternativene for feltet kvalitet i malen Søvn.",
+    "uses" : {
+    },
+    "ValueSet-jodacare-svar-sovn-kvalitet-vs.html" : "Søvn: Søvnkvalitet"
   }]
 }

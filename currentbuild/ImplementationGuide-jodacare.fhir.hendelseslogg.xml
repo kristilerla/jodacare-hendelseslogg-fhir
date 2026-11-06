@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="jodacare.fhir.hendelseslogg"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide jodacare.fhir.hendelseslogg</b></p><a name="jodacare.fhir.hendelseslogg"> </a><a name="hcjodacare.fhir.hendelseslogg"> </a><h2>JodaCareHendelseslogg</h2><p>The official URL for this implementation guide is: </p><pre>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ImplementationGuide/jodacare.fhir.hendelseslogg</pre><div><p>Øvingsguide som beskriver hvordan hendelser fra hendelsesloggen i JodaCare kan uttrykkes i HL7 FHIR. Laget på Norwegian FHIR Hackathon 2026.</p>
+</div></div>
+  </text>
+  <url value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ImplementationGuide/jodacare.fhir.hendelseslogg"/>
+  <version value="0.1.0"/>
+  <name value="JodaCareHendelseslogg"/>
+  <title value="JodaCare hendelseslogg"/>
+  <status value="draft"/>
+  <date value="2026-11-06T16:01:05+00:00"/>
+  <publisher value="Kristil Erla Håland"/>
+  <contact>
+    <name value="Kristil Erla Håland"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://jodacare.no"/>
+    </telecom>
+  </contact>
+  <description value="Øvingsguide som beskriver hvordan hendelser fra hendelsesloggen i JodaCare kan uttrykkes i HL7 FHIR. Laget på Norwegian FHIR Hackathon 2026."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="jodacare.fhir.hendelseslogg"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
+    </extension>
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="7.5.0"/>
+  </dependsOn>
+  <dependsOn id="hl7ext">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
+    </extension>
+    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <packageId value="hl7.fhir.uv.extensions.r4"/>
+    <version value="5.4.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_no_basis">
+    <uri value="http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis"/>
+    <packageId value="hl7.fhir.no.basis"/>
+    <version value="2.2.2"/>
+  </dependsOn>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+      <valueCode value="hl7.fhir.uv.tools.r4#1.3.0"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2026+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ci-build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-wg"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="excludelogbinaryformat"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="tabbed-snapshots"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-svar-adferd-tiltak-vs"/>
+      </reference>
+      <name value="Adferd / uro: Tiltak"/>
+      <description value="Gyldige svar for feltet tiltak i malen Adferd / uro."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-svar-adferd-tiltak"/>
+      </reference>
+      <name value="Adferd / uro: Tiltak"/>
+      <description value="Svaralternativene for feltet tiltak i malen Adferd / uro."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-svar-adferd-type-vs"/>
+      </reference>
+      <name value="Adferd / uro: Type adferd"/>
+      <description value="Gyldige svar for feltet type i malen Adferd / uro."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-svar-adferd-type"/>
+      </reference>
+      <name value="Adferd / uro: Type adferd"/>
+      <description value="Svaralternativene for feltet type i malen Adferd / uro."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Ansatt-Ahmed"/>
+      </reference>
+      <name value="Ahmed Testesen"/>
+      <description value="Oppdiktet ansatt i Solsiden avlastningsbolig, med i teamet rundt Ida."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-alvorlighetsgrad-adferd-vs"/>
+      </reference>
+      <name value="Alvorlighetsgrad: Adferd / uro"/>
+      <description value="Gyldige nivåer for alvorlighetsgrad i malen Adferd / uro."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-alvorlighetsgrad-adferd"/>
+      </reference>
+      <name value="Alvorlighetsgrad: Adferd / uro"/>
+      <description value="Nivåene for alvorlighetsgrad i malen Adferd / uro."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-alvorlighetsgrad-anfall-vs"/>
+      </reference>
+      <name value="Alvorlighetsgrad: Anfall"/>
+      <description value="Gyldige nivåer for alvorlighetsgrad i malen Anfall."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-alvorlighetsgrad-anfall"/>
+      </reference>
+      <name value="Alvorlighetsgrad: Anfall"/>
+      <description value="Nivåene for alvorlighetsgrad i malen Anfall."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-alvorlighetsgrad-fall-vs"/>
+      </reference>
+      <name value="Alvorlighetsgrad: Fall"/>
+      <description value="Gyldige nivåer for alvorlighetsgrad i malen Fall."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-alvorlighetsgrad-fall"/>
+      </reference>
+      <name value="Alvorlighetsgrad: Fall"/>
+      <description value="Nivåene for alvorlighetsgrad i malen Fall."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Hendelse-Anfall-1"/>
+      </reference>
+      <name value="Anfall om natten"/>
+      <description value="Ahmed registrerer et anfall Ida hadde om natten i avlastningsboligen. Foreldrene og skolen ser hendelsen neste morgen."/>
+      <exampleCanonical value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-anfall"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-svar-anfall-anfallstype-vs"/>
+      </reference>
+      <name value="Anfall: Anfallstype"/>
+      <description value="Gyldige svar for feltet anfallstype i malen Anfall."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-svar-anfall-anfallstype"/>
+      </reference>
+      <name value="Anfall: Anfallstype"/>
+      <description value="Svaralternativene for feltet anfallstype i malen Anfall."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-svar-anfall-bevissthet-vs"/>
+      </reference>
+      <name value="Anfall: Bevissthet under anfall"/>
+      <description value="Gyldige svar for feltet bevissthet i malen Anfall."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-svar-anfall-bevissthet"/>
+      </reference>
+      <name value="Anfall: Bevissthet under anfall"/>
+      <description value="Svaralternativene for feltet bevissthet i malen Anfall."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-svar-dobesok-konsistens-vs"/>
+      </reference>
+      <name value="Dobesøk: Konsistens (Bristol 1-7)"/>
+      <description value="Gyldige svar for feltet konsistens i malen Dobesøk."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-svar-dobesok-konsistens"/>
+      </reference>
+      <name value="Dobesøk: Konsistens (Bristol 1-7)"/>
+      <description value="Svaralternativene for feltet konsistens i malen Dobesøk."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-svar-dobesok-mengde-vs"/>
+      </reference>
+      <name value="Dobesøk: Mengde"/>
+      <description value="Gyldige svar for feltet mengde i malen Dobesøk."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-svar-dobesok-mengde"/>
+      </reference>
+      <name value="Dobesøk: Mengde"/>
+      <description value="Svaralternativene for feltet mengde i malen Dobesøk."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-svar-dobesok-type-vs"/>
+      </reference>
+      <name value="Dobesøk: Type"/>
+      <description value="Gyldige svar for feltet type i malen Dobesøk."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-svar-dobesok-type"/>
+      </reference>
+      <name value="Dobesøk: Type"/>
+      <description value="Svaralternativene for feltet type i malen Dobesøk."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-svar-ernaering-konsistens-vs"/>
+      </reference>
+      <name value="Ernæring: Matkonsistens"/>
+      <description value="Gyldige svar for feltet konsistens i malen Ernæring."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-svar-ernaering-konsistens"/>
+      </reference>
+      <name value="Ernæring: Matkonsistens"/>
+      <description value="Svaralternativene for feltet konsistens i malen Ernæring."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-svar-ernaering-mengde-vs"/>
+      </reference>
+      <name value="Ernæring: Mengde spist"/>
+      <description value="Gyldige svar for feltet mengde i malen Ernæring."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-svar-ernaering-mengde"/>
+      </reference>
+      <name value="Ernæring: Mengde spist"/>
+      <description value="Svaralternativene for feltet mengde i malen Ernæring."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-svar-ernaering-maltid-vs"/>
+      </reference>
+      <name value="Ernæring: Måltid"/>
+      <description value="Gyldige svar for feltet maltid i malen Ernæring."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-svar-ernaering-maltid"/>
+      </reference>
+      <name value="Ernæring: Måltid"/>
+      <description value="Svaralternativene for feltet maltid i malen Ernæring."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-hendelsesfelt"/>
+      </reference>
+      <name value="Felter i hendelser i JodaCare"/>
+      <description value="Feltene (key) i standardmalene. Samme key kan brukes i flere maler, og betydningen avgjøres da av hendelsestypen."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/jodacare-hendelse"/>
+      </reference>
+      <name value="Hendelse"/>
+      <description value="Felles grunnprofil for en registrert hendelse i hendelsesloggen i JodaCare. En hendelse gjelder én tjenestemottaker, har et tidspunkt og en person som registrerte den. Hver hendelsestype har sin egen profil som bygger på denne."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/jodacare-hendelse-adferd"/>
+      </reference>
+      <name value="Hendelse: Adferd / uro"/>
+      <description value="En hendelse av typen Adferd / uro, med feltene fra standardmalen."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/jodacare-hendelse-anfall"/>
+      </reference>
+      <name value="Hendelse: Anfall"/>
+      <description value="En hendelse av typen Anfall, med feltene fra standardmalen."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/jodacare-hendelse-medisin"/>
+      </reference>
+      <name value="Hendelse: Behovsmedisin"/>
+      <description value="En hendelse av typen Behovsmedisin, med feltene fra standardmalen."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/jodacare-hendelse-dobesok"/>
+      </reference>
+      <name value="Hendelse: Dobesøk"/>
+      <description value="En hendelse av typen Dobesøk, med feltene fra standardmalen."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/jodacare-hendelse-ernaering"/>
+      </reference>
+      <name value="Hendelse: Ernæring"/>
+      <description value="En hendelse av typen Ernæring, med feltene fra standardmalen."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/jodacare-hendelse-fall"/>
+      </reference>
+      <name value="Hendelse: Fall"/>
+      <description value="En hendelse av typen Fall, med feltene fra standardmalen."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/jodacare-hendelse-humor"/>
+      </reference>
+      <name value="Hendelse: Humør"/>
+      <description value="En hendelse av typen Humør, med feltene fra standardmalen."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/jodacare-hendelse-sovn"/>
+      </reference>
+      <name value="Hendelse: Søvn"/>
+      <description value="En hendelse av typen Søvn, med feltene fra standardmalen."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-hendelsestype-vs"/>
+      </reference>
+      <name value="Hendelsestyper i JodaCare"/>
+      <description value="Alle hendelsestypene i standardmalene."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-hendelsestype"/>
+      </reference>
+      <name value="Hendelsestyper i JodaCare"/>
+      <description value="De åtte standardmalene i hendelsesloggen i JodaCare. Et tjenestested kan i tillegg lage egne hendelsestyper."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-svar-humor-energi-vs"/>
+      </reference>
+      <name value="Humør: Energinivå"/>
+      <description value="Gyldige svar for feltet energi i malen Humør."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-svar-humor-energi"/>
+      </reference>
+      <name value="Humør: Energinivå"/>
+      <description value="Svaralternativene for feltet energi i malen Humør."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-svar-humor-sosial-vs"/>
+      </reference>
+      <name value="Humør: Sosial"/>
+      <description value="Gyldige svar for feltet sosial i malen Humør."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-svar-humor-sosial"/>
+      </reference>
+      <name value="Humør: Sosial"/>
+      <description value="Svaralternativene for feltet sosial i malen Humør."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-svar-humor-stemning-vs"/>
+      </reference>
+      <name value="Humør: Stemning"/>
+      <description value="Gyldige svar for feltet stemning i malen Humør."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-svar-humor-stemning"/>
+      </reference>
+      <name value="Humør: Stemning"/>
+      <description value="Svaralternativene for feltet stemning i malen Humør."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Provenance"/>
+      </extension>
+      <reference>
+        <reference value="Provenance/Proveniens-Anfall-1"/>
+      </reference>
+      <name value="Hvem registrerte anfallet"/>
+      <description value="Sporbarhet for hendelsen: hvem som registrerte den og når. En endring innen 24 timer gir en ny Provenance."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/Tjenestemottaker-Ida"/>
+      </reference>
+      <name value="Ida Testvik"/>
+      <description value="Oppdiktet tjenestemottaker, 13 år, som har avlastning i Solsiden avlastningsbolig i Fjordvik kommune."/>
+      <exampleCanonical value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-tjenestemottaker"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Hendelse-Sovn-1"/>
+      </reference>
+      <name value="Natten etter anfallet"/>
+      <description value="Søvnregistrering for samme natt. Søvn har ingen alvorlighetsgrad."/>
+      <exampleCanonical value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-sovn"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jodacare-svar-sovn-kvalitet-vs"/>
+      </reference>
+      <name value="Søvn: Søvnkvalitet"/>
+      <description value="Gyldige svar for feltet kvalitet i malen Søvn."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/jodacare-svar-sovn-kvalitet"/>
+      </reference>
+      <name value="Søvn: Søvnkvalitet"/>
+      <description value="Svaralternativene for feltet kvalitet i malen Søvn."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/jodacare-tjenestemottaker"/>
+      </reference>
+      <name value="Tjenestemottaker"/>
+      <description value="Personen hendelsen gjelder. Bygger på pasientprofilen i no-basis."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <page>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+        <valueUrl value="toc.html"/>
+      </extension>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="index.html"/>
+        </extension>
+        <nameUrl value="index.html"/>
+        <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

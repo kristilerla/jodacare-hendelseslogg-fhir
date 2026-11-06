@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="Tjenestemottaker-Ida"/>
+  <meta>
+    <profile value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-tjenestemottaker"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient Tjenestemottaker-Ida</b></p><a name="Tjenestemottaker-Ida"> </a><a name="hcTjenestemottaker-Ida"> </a><div style="display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-jodacare-tjenestemottaker.html">Tjenestemottaker</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Ida Testvik  Female, DoB: 2013-03-13 ( urn:oid:2.16.578.1.12.4.1.4.1#Foedselsnummer#13031353453)</p><hr/></div>
+  </text>
+  <identifier>
+    <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+    <value value="13031353453"/>
+  </identifier>
+  <name>
+    <family value="Testvik"/>
+    <given value="Ida"/>
+  </name>
+  <gender value="female"/>
+  <birthDate value="2013-03-13"/>
+</Patient>

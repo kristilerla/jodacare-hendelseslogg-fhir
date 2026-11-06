@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="jodacare-svar-ernaering-maltid"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem jodacare-svar-ernaering-maltid</b></p><a name="jodacare-svar-ernaering-maltid"> </a><a name="hcjodacare-svar-ernaering-maltid"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">frokost<a name="jodacare-svar-ernaering-maltid-frokost"> </a></td><td>Frokost</td></tr><tr><td style="white-space:nowrap">lunsj<a name="jodacare-svar-ernaering-maltid-lunsj"> </a></td><td>Lunsj</td></tr><tr><td style="white-space:nowrap">middag<a name="jodacare-svar-ernaering-maltid-middag"> </a></td><td>Middag</td></tr><tr><td style="white-space:nowrap">kvelds<a name="jodacare-svar-ernaering-maltid-kvelds"> </a></td><td>Kvelds</td></tr><tr><td style="white-space:nowrap">mellommaltid<a name="jodacare-svar-ernaering-maltid-mellommaltid"> </a></td><td>Mellommåltid</td></tr></table></div>
+  </text>
+  <url value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid"/>
+  <version value="0.1.0"/>
+  <name value="JodaCareSvarErnaeringMaltid"/>
+  <title value="Ernæring: Måltid"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2026-11-06T16:01:05+00:00"/>
+  <publisher value="Kristil Erla Håland"/>
+  <contact>
+    <name value="Kristil Erla Håland"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://jodacare.no"/>
+    </telecom>
+  </contact>
+  <description value="Svaralternativene for feltet maltid i malen Ernæring."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="frokost"/>
+    <display value="Frokost"/>
+  </concept>
+  <concept>
+    <code value="lunsj"/>
+    <display value="Lunsj"/>
+  </concept>
+  <concept>
+    <code value="middag"/>
+    <display value="Middag"/>
+  </concept>
+  <concept>
+    <code value="kvelds"/>
+    <display value="Kvelds"/>
+  </concept>
+  <concept>
+    <code value="mellommaltid"/>
+    <display value="Mellommåltid"/>
+  </concept>
+</CodeSystem>

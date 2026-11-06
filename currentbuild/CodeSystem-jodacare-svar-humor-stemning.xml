@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="jodacare-svar-humor-stemning"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem jodacare-svar-humor-stemning</b></p><a name="jodacare-svar-humor-stemning"> </a><a name="hcjodacare-svar-humor-stemning"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">veldig-glad<a name="jodacare-svar-humor-stemning-veldig-glad"> </a></td><td>Veldig glad</td></tr><tr><td style="white-space:nowrap">glad<a name="jodacare-svar-humor-stemning-glad"> </a></td><td>Glad</td></tr><tr><td style="white-space:nowrap">noytral<a name="jodacare-svar-humor-stemning-noytral"> </a></td><td>Nøytral</td></tr><tr><td style="white-space:nowrap">trist<a name="jodacare-svar-humor-stemning-trist"> </a></td><td>Trist</td></tr><tr><td style="white-space:nowrap">veldig-trist<a name="jodacare-svar-humor-stemning-veldig-trist"> </a></td><td>Veldig trist</td></tr><tr><td style="white-space:nowrap">engstelig<a name="jodacare-svar-humor-stemning-engstelig"> </a></td><td>Engstelig</td></tr><tr><td style="white-space:nowrap">sint<a name="jodacare-svar-humor-stemning-sint"> </a></td><td>Sint</td></tr><tr><td style="white-space:nowrap">forvirret<a name="jodacare-svar-humor-stemning-forvirret"> </a></td><td>Forvirret</td></tr></table></div>
+  </text>
+  <url value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning"/>
+  <version value="0.1.0"/>
+  <name value="JodaCareSvarHumorStemning"/>
+  <title value="Humør: Stemning"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2026-11-06T16:01:05+00:00"/>
+  <publisher value="Kristil Erla Håland"/>
+  <contact>
+    <name value="Kristil Erla Håland"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://jodacare.no"/>
+    </telecom>
+  </contact>
+  <description value="Svaralternativene for feltet stemning i malen Humør."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="veldig-glad"/>
+    <display value="Veldig glad"/>
+  </concept>
+  <concept>
+    <code value="glad"/>
+    <display value="Glad"/>
+  </concept>
+  <concept>
+    <code value="noytral"/>
+    <display value="Nøytral"/>
+  </concept>
+  <concept>
+    <code value="trist"/>
+    <display value="Trist"/>
+  </concept>
+  <concept>
+    <code value="veldig-trist"/>
+    <display value="Veldig trist"/>
+  </concept>
+  <concept>
+    <code value="engstelig"/>
+    <display value="Engstelig"/>
+  </concept>
+  <concept>
+    <code value="sint"/>
+    <display value="Sint"/>
+  </concept>
+  <concept>
+    <code value="forvirret"/>
+    <display value="Forvirret"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,54 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "jodacare-svar-anfall-anfallstype",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jodacare-svar-anfall-anfallstype</b></p><a name=\"jodacare-svar-anfall-anfallstype\"> </a><a name=\"hcjodacare-svar-anfall-anfallstype\"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">tonisk-klonisk<a name=\"jodacare-svar-anfall-anfallstype-tonisk-klonisk\"> </a></td><td>Tonisk-klonisk</td></tr><tr><td style=\"white-space:nowrap\">absens<a name=\"jodacare-svar-anfall-anfallstype-absens\"> </a></td><td>Absens</td></tr><tr><td style=\"white-space:nowrap\">fokalt<a name=\"jodacare-svar-anfall-anfallstype-fokalt\"> </a></td><td>Fokalt</td></tr><tr><td style=\"white-space:nowrap\">myoklont<a name=\"jodacare-svar-anfall-anfallstype-myoklont\"> </a></td><td>Myoklont</td></tr><tr><td style=\"white-space:nowrap\">annet<a name=\"jodacare-svar-anfall-anfallstype-annet\"> </a></td><td>Annet</td></tr></table></div>"
+  },
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarAnfallAnfallstype",
+  "title" : "Anfall: Anfallstype",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06T16:01:05+00:00",
+  "publisher" : "Kristil Erla Håland",
+  "contact" : [{
+    "name" : "Kristil Erla Håland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://jodacare.no"
+    }]
+  }],
+  "description" : "Svaralternativene for feltet anfallstype i malen Anfall.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "tonisk-klonisk",
+    "display" : "Tonisk-klonisk"
+  },
+  {
+    "code" : "absens",
+    "display" : "Absens"
+  },
+  {
+    "code" : "fokalt",
+    "display" : "Fokalt"
+  },
+  {
+    "code" : "myoklont",
+    "display" : "Myoklont"
+  },
+  {
+    "code" : "annet",
+    "display" : "Annet"
+  }]
+}

@@ -1,4 +1,4 @@
-# hl7.fhir.no.mal#0.1.0: Mal
+# jodacare.fhir.hendelseslogg#0.1.0: JodaCare hendelseslogg
 
 ## Pages
 
@@ -7,15 +7,70 @@
 
 ## Resources
 
+### CodeSystems
+
+* [Alvorlighetsgrad: Adferd / uro](CodeSystem-jodacare-alvorlighetsgrad-adferd.md)
+* [Alvorlighetsgrad: Anfall](CodeSystem-jodacare-alvorlighetsgrad-anfall.md)
+* [Alvorlighetsgrad: Fall](CodeSystem-jodacare-alvorlighetsgrad-fall.md)
+* [Felter i hendelser i JodaCare](CodeSystem-jodacare-hendelsesfelt.md)
+* [Hendelsestyper i JodaCare](CodeSystem-jodacare-hendelsestype.md)
+* [Adferd / uro: Tiltak](CodeSystem-jodacare-svar-adferd-tiltak.md)
+* [Adferd / uro: Type adferd](CodeSystem-jodacare-svar-adferd-type.md)
+* [Anfall: Anfallstype](CodeSystem-jodacare-svar-anfall-anfallstype.md)
+* [Anfall: Bevissthet under anfall](CodeSystem-jodacare-svar-anfall-bevissthet.md)
+* [Dobesøk: Konsistens (Bristol 1-7)](CodeSystem-jodacare-svar-dobesok-konsistens.md)
+* [Dobesøk: Mengde](CodeSystem-jodacare-svar-dobesok-mengde.md)
+* [Dobesøk: Type](CodeSystem-jodacare-svar-dobesok-type.md)
+* [Ernæring: Matkonsistens](CodeSystem-jodacare-svar-ernaering-konsistens.md)
+* [Ernæring: Måltid](CodeSystem-jodacare-svar-ernaering-maltid.md)
+* [Ernæring: Mengde spist](CodeSystem-jodacare-svar-ernaering-mengde.md)
+* [Humør: Energinivå](CodeSystem-jodacare-svar-humor-energi.md)
+* [Humør: Sosial](CodeSystem-jodacare-svar-humor-sosial.md)
+* [Humør: Stemning](CodeSystem-jodacare-svar-humor-stemning.md)
+* [Søvn: Søvnkvalitet](CodeSystem-jodacare-svar-sovn-kvalitet.md)
+
+### ValueSets
+
+* [Alvorlighetsgrad: Adferd / uro](ValueSet-jodacare-alvorlighetsgrad-adferd-vs.md)
+* [Alvorlighetsgrad: Anfall](ValueSet-jodacare-alvorlighetsgrad-anfall-vs.md)
+* [Alvorlighetsgrad: Fall](ValueSet-jodacare-alvorlighetsgrad-fall-vs.md)
+* [Hendelsestyper i JodaCare](ValueSet-jodacare-hendelsestype-vs.md)
+* [Adferd / uro: Tiltak](ValueSet-jodacare-svar-adferd-tiltak-vs.md)
+* [Adferd / uro: Type adferd](ValueSet-jodacare-svar-adferd-type-vs.md)
+* [Anfall: Anfallstype](ValueSet-jodacare-svar-anfall-anfallstype-vs.md)
+* [Anfall: Bevissthet under anfall](ValueSet-jodacare-svar-anfall-bevissthet-vs.md)
+* [Dobesøk: Konsistens (Bristol 1-7)](ValueSet-jodacare-svar-dobesok-konsistens-vs.md)
+* [Dobesøk: Mengde](ValueSet-jodacare-svar-dobesok-mengde-vs.md)
+* [Dobesøk: Type](ValueSet-jodacare-svar-dobesok-type-vs.md)
+* [Ernæring: Matkonsistens](ValueSet-jodacare-svar-ernaering-konsistens-vs.md)
+* [Ernæring: Måltid](ValueSet-jodacare-svar-ernaering-maltid-vs.md)
+* [Ernæring: Mengde spist](ValueSet-jodacare-svar-ernaering-mengde-vs.md)
+* [Humør: Energinivå](ValueSet-jodacare-svar-humor-energi-vs.md)
+* [Humør: Sosial](ValueSet-jodacare-svar-humor-sosial-vs.md)
+* [Humør: Stemning](ValueSet-jodacare-svar-humor-stemning-vs.md)
+* [Søvn: Søvnkvalitet](ValueSet-jodacare-svar-sovn-kvalitet-vs.md)
+
 ### Resource Profiles
 
-* [Blodprøve](StructureDefinition-mal-observation-blodprove.md)
-* [Pasient](StructureDefinition-mal-patient.md)
+* [Hendelse: Adferd / uro](StructureDefinition-jodacare-hendelse-adferd.md)
+* [Hendelse: Anfall](StructureDefinition-jodacare-hendelse-anfall.md)
+* [Hendelse: Dobesøk](StructureDefinition-jodacare-hendelse-dobesok.md)
+* [Hendelse: Ernæring](StructureDefinition-jodacare-hendelse-ernaering.md)
+* [Hendelse: Fall](StructureDefinition-jodacare-hendelse-fall.md)
+* [Hendelse: Humør](StructureDefinition-jodacare-hendelse-humor.md)
+* [Hendelse: Behovsmedisin](StructureDefinition-jodacare-hendelse-medisin.md)
+* [Hendelse: Søvn](StructureDefinition-jodacare-hendelse-sovn.md)
+* [Hendelse](StructureDefinition-jodacare-hendelse.md)
+* [Tjenestemottaker](StructureDefinition-jodacare-tjenestemottaker.md)
 
 ### ImplementationGuides
 
-* [Mal](index.md)
+* [JodaCare hendelseslogg](index.md)
 
 ### Examples
 
-* [Pasient-1 (Patient)](Patient-Pasient-1.md)
+* [Hendelse-Anfall-1 (Observation)](Observation-Hendelse-Anfall-1.md)
+* [Hendelse-Sovn-1 (Observation)](Observation-Hendelse-Sovn-1.md)
+* [Tjenestemottaker-Ida (Patient)](Patient-Tjenestemottaker-Ida.md)
+* [Ansatt-Ahmed (Practitioner)](Practitioner-Ansatt-Ahmed.md)
+* [Proveniens-Anfall-1 (Provenance)](Provenance-Proveniens-Anfall-1.md)

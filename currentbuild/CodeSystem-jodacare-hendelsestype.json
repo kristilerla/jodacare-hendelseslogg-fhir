@@ -1,0 +1,66 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "jodacare-hendelsestype",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jodacare-hendelsestype</b></p><a name=\"jodacare-hendelsestype\"> </a><a name=\"hcjodacare-hendelsestype\"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">anfall<a name=\"jodacare-hendelsestype-anfall\"> </a></td><td>Anfall</td></tr><tr><td style=\"white-space:nowrap\">adferd<a name=\"jodacare-hendelsestype-adferd\"> </a></td><td>Adferd / uro</td></tr><tr><td style=\"white-space:nowrap\">dobesok<a name=\"jodacare-hendelsestype-dobesok\"> </a></td><td>Dobesøk</td></tr><tr><td style=\"white-space:nowrap\">fall<a name=\"jodacare-hendelsestype-fall\"> </a></td><td>Fall</td></tr><tr><td style=\"white-space:nowrap\">sovn<a name=\"jodacare-hendelsestype-sovn\"> </a></td><td>Søvn</td></tr><tr><td style=\"white-space:nowrap\">ernaering<a name=\"jodacare-hendelsestype-ernaering\"> </a></td><td>Ernæring</td></tr><tr><td style=\"white-space:nowrap\">medisin<a name=\"jodacare-hendelsestype-medisin\"> </a></td><td>Behovsmedisin</td></tr><tr><td style=\"white-space:nowrap\">humor<a name=\"jodacare-hendelsestype-humor\"> </a></td><td>Humør</td></tr></table></div>"
+  },
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype",
+  "version" : "0.1.0",
+  "name" : "JodaCareHendelsestype",
+  "title" : "Hendelsestyper i JodaCare",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06T16:01:05+00:00",
+  "publisher" : "Kristil Erla Håland",
+  "contact" : [{
+    "name" : "Kristil Erla Håland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://jodacare.no"
+    }]
+  }],
+  "description" : "De åtte standardmalene i hendelsesloggen i JodaCare. Et tjenestested kan i tillegg lage egne hendelsestyper.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "anfall",
+    "display" : "Anfall"
+  },
+  {
+    "code" : "adferd",
+    "display" : "Adferd / uro"
+  },
+  {
+    "code" : "dobesok",
+    "display" : "Dobesøk"
+  },
+  {
+    "code" : "fall",
+    "display" : "Fall"
+  },
+  {
+    "code" : "sovn",
+    "display" : "Søvn"
+  },
+  {
+    "code" : "ernaering",
+    "display" : "Ernæring"
+  },
+  {
+    "code" : "medisin",
+    "display" : "Behovsmedisin"
+  },
+  {
+    "code" : "humor",
+    "display" : "Humør"
+  }]
+}

@@ -1,5 +1,5 @@
 {
-  "package": "hl7.fhir.no.mal",
+  "package": "jodacare.fhir.hendelseslogg",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
@@ -7,21 +7,50 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-observation-blodprove",
-        "title": "Blodprøve"
+        "url": "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse",
+        "title": "Hendelse"
+      },
+      {
+        "url": "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-adferd",
+        "title": "Hendelse: Adferd / uro"
+      },
+      {
+        "url": "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-anfall",
+        "title": "Hendelse: Anfall"
+      },
+      {
+        "url": "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-dobesok",
+        "title": "Hendelse: Dobesøk"
+      },
+      {
+        "url": "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-ernaering",
+        "title": "Hendelse: Ernæring"
+      },
+      {
+        "url": "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-fall",
+        "title": "Hendelse: Fall"
+      },
+      {
+        "url": "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-humor",
+        "title": "Hendelse: Humør"
+      },
+      {
+        "url": "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-medisin",
+        "title": "Hendelse: Behovsmedisin"
+      },
+      {
+        "url": "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-sovn",
+        "title": "Hendelse: Søvn"
       }
     ],
     "Patient": [
       {
-        "url": "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient",
-        "title": "Pasient"
+        "url": "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-tjenestemottaker",
+        "title": "Tjenestemottaker"
       }
     ]
   },
   "usage": {
-    "http://hl7.no/fhir/StructureDefinition/no-basis-middlename": [
-      "Patient.name"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -61,9 +90,6 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
       "ImplementationGuide.dependsOn"
-    ],
-    "http://hl7.org/fhir/tools/StructureDefinition/implied-type-slice": [
-      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"

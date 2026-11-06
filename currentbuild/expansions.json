@@ -1,8 +1,1232 @@
 {
   "resourceType" : "Bundle",
-  "id" : "b9208e3f-965f-42e2-8765-cf6c70ce9243",
+  "id" : "942bbe8f-e7c1-4576-8b7a-6cf264983bd7",
   "meta" : {
-    "lastUpdated" : "2026-11-06T10:56:41.487+00:00"
+    "lastUpdated" : "2026-11-06T16:01:05.582+00:00"
   },
-  "type" : "collection"
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-adferd-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-alvorlighetsgrad-adferd.html\">codesystem Alvorlighetsgrad: Adferd / uro v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd-lav\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-alvorlighetsgrad-adferd.html#jodacare-alvorlighetsgrad-adferd-lav\">lav</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;lav&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;lav&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd-middels\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-alvorlighetsgrad-adferd.html#jodacare-alvorlighetsgrad-adferd-middels\">middels</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;middels&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;middels&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd-hoy\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-alvorlighetsgrad-adferd.html#jodacare-alvorlighetsgrad-adferd-hoy\">hoy</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;hoy&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;hoy&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-adferd-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareAlvorlighetsgradAdferdVS",
+      "title" : "Alvorlighetsgrad: Adferd / uro",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:6b374cb7-6b46-4f16-9a91-5cadef63a2cc",
+        "timestamp" : "2026-11-06T16:02:15+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd",
+          "code" : "lav"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd",
+          "code" : "middels"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd",
+          "code" : "hoy"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-anfall-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-alvorlighetsgrad-anfall.html\">codesystem Alvorlighetsgrad: Anfall v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall-mild\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-alvorlighetsgrad-anfall.html#jodacare-alvorlighetsgrad-anfall-mild\">mild</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;mild&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;mild&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall-moderat\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-alvorlighetsgrad-anfall.html#jodacare-alvorlighetsgrad-anfall-moderat\">moderat</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;moderat&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;moderat&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall-alvorlig\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-alvorlighetsgrad-anfall.html#jodacare-alvorlighetsgrad-anfall-alvorlig\">alvorlig</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;alvorlig&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;alvorlig&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-anfall-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareAlvorlighetsgradAnfallVS",
+      "title" : "Alvorlighetsgrad: Anfall",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:b1841d1f-ba8b-4ff3-a113-7dae25d4022a",
+        "timestamp" : "2026-11-06T16:02:15+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall",
+          "code" : "mild"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall",
+          "code" : "moderat"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall",
+          "code" : "alvorlig"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-fall-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-alvorlighetsgrad-fall.html\">codesystem Alvorlighetsgrad: Fall v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall-uskadet\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-alvorlighetsgrad-fall.html#jodacare-alvorlighetsgrad-fall-uskadet\">uskadet</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;uskadet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;uskadet&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall-lett-skadet\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-alvorlighetsgrad-fall.html#jodacare-alvorlighetsgrad-fall-lett-skadet\">lett-skadet</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;lett-skadet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;lett-skadet&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall-alvorlig-skadet\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-alvorlighetsgrad-fall.html#jodacare-alvorlighetsgrad-fall-alvorlig-skadet\">alvorlig-skadet</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;alvorlig-skadet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;alvorlig-skadet&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-fall-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareAlvorlighetsgradFallVS",
+      "title" : "Alvorlighetsgrad: Fall",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:e2d91d54-3740-4b4e-80f3-49313e5d2a62",
+        "timestamp" : "2026-11-06T16:02:15+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall",
+          "code" : "uskadet"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall",
+          "code" : "lett-skadet"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall",
+          "code" : "alvorlig-skadet"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-hendelsestype-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-hendelsestype.html\">codesystem Hendelsestyper i JodaCare v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 8 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype-anfall\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-hendelsestype.html#jodacare-hendelsestype-anfall\">anfall</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;anfall&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;anfall&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype-adferd\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-hendelsestype.html#jodacare-hendelsestype-adferd\">adferd</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;adferd&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;adferd&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype-dobesok\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-hendelsestype.html#jodacare-hendelsestype-dobesok\">dobesok</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;dobesok&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;dobesok&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype-fall\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-hendelsestype.html#jodacare-hendelsestype-fall\">fall</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;fall&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;fall&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype-sovn\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-hendelsestype.html#jodacare-hendelsestype-sovn\">sovn</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;sovn&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;sovn&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype-ernaering\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-hendelsestype.html#jodacare-hendelsestype-ernaering\">ernaering</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ernaering&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;ernaering&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype-medisin\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-hendelsestype.html#jodacare-hendelsestype-medisin\">medisin</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;medisin&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;medisin&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype-humor\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-hendelsestype.html#jodacare-hendelsestype-humor\">humor</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;humor&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;humor&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-hendelsestype-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareHendelsestypeVS",
+      "title" : "Hendelsestyper i JodaCare",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:f9bc1cd4-2bdb-4fe4-b937-d5ab9b98fdf7",
+        "timestamp" : "2026-11-06T16:02:15+00:00",
+        "total" : 8,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype",
+          "code" : "anfall"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype",
+          "code" : "adferd"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype",
+          "code" : "dobesok"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype",
+          "code" : "fall"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype",
+          "code" : "sovn"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype",
+          "code" : "ernaering"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype",
+          "code" : "medisin"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype",
+          "code" : "humor"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-adferd-tiltak-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-svar-adferd-tiltak.html\">codesystem Adferd / uro: Tiltak v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak-avledning\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-adferd-tiltak.html#jodacare-svar-adferd-tiltak-avledning\">avledning</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;avledning&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;avledning&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak-tilbaketrekning\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-adferd-tiltak.html#jodacare-svar-adferd-tiltak-tilbaketrekning\">tilbaketrekning</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;tilbaketrekning&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;tilbaketrekning&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak-samtale\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-adferd-tiltak.html#jodacare-svar-adferd-tiltak-samtale\">samtale</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;samtale&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;samtale&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak-fysisk-holding\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-adferd-tiltak.html#jodacare-svar-adferd-tiltak-fysisk-holding\">fysisk-holding</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;fysisk-holding&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;fysisk-holding&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak-medisin\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-adferd-tiltak.html#jodacare-svar-adferd-tiltak-medisin\">medisin</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;medisin&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;medisin&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak-annet\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-adferd-tiltak.html#jodacare-svar-adferd-tiltak-annet\">annet</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;annet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;annet&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-adferd-tiltak-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareSvarAdferdTiltakVS",
+      "title" : "Adferd / uro: Tiltak",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:3bcc015c-b3a7-4836-bae8-44b18d86f629",
+        "timestamp" : "2026-11-06T16:02:15+00:00",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak",
+          "code" : "avledning"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak",
+          "code" : "tilbaketrekning"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak",
+          "code" : "samtale"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak",
+          "code" : "fysisk-holding"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak",
+          "code" : "medisin"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak",
+          "code" : "annet"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-adferd-type-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-svar-adferd-type.html\">codesystem Adferd / uro: Type adferd v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type-verbal-uro\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-adferd-type.html#jodacare-svar-adferd-type-verbal-uro\">verbal-uro</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;verbal-uro&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;verbal-uro&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type-fysisk-uro\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-adferd-type.html#jodacare-svar-adferd-type-fysisk-uro\">fysisk-uro</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;fysisk-uro&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;fysisk-uro&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type-selvskading\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-adferd-type.html#jodacare-svar-adferd-type-selvskading\">selvskading</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;selvskading&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;selvskading&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type-aggresjon\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-adferd-type.html#jodacare-svar-adferd-type-aggresjon\">aggresjon</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;aggresjon&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;aggresjon&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type-romningsforsok\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-adferd-type.html#jodacare-svar-adferd-type-romningsforsok\">romningsforsok</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;romningsforsok&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;romningsforsok&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type-annet\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-adferd-type.html#jodacare-svar-adferd-type-annet\">annet</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;annet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;annet&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-adferd-type-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareSvarAdferdTypeVS",
+      "title" : "Adferd / uro: Type adferd",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:dfac9901-8731-4660-9b09-f5c16043fdae",
+        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type",
+          "code" : "verbal-uro"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type",
+          "code" : "fysisk-uro"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type",
+          "code" : "selvskading"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type",
+          "code" : "aggresjon"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type",
+          "code" : "romningsforsok"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type",
+          "code" : "annet"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-anfall-anfallstype-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-svar-anfall-anfallstype.html\">codesystem Anfall: Anfallstype v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype-tonisk-klonisk\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-anfall-anfallstype.html#jodacare-svar-anfall-anfallstype-tonisk-klonisk\">tonisk-klonisk</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;tonisk-klonisk&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;tonisk-klonisk&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype-absens\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-anfall-anfallstype.html#jodacare-svar-anfall-anfallstype-absens\">absens</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;absens&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;absens&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype-fokalt\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-anfall-anfallstype.html#jodacare-svar-anfall-anfallstype-fokalt\">fokalt</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;fokalt&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;fokalt&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype-myoklont\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-anfall-anfallstype.html#jodacare-svar-anfall-anfallstype-myoklont\">myoklont</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;myoklont&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;myoklont&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype-annet\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-anfall-anfallstype.html#jodacare-svar-anfall-anfallstype-annet\">annet</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;annet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;annet&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-anfall-anfallstype-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareSvarAnfallAnfallstypeVS",
+      "title" : "Anfall: Anfallstype",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:065390c3-2f74-4b61-8d32-081f22d3780e",
+        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype",
+          "code" : "tonisk-klonisk"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype",
+          "code" : "absens"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype",
+          "code" : "fokalt"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype",
+          "code" : "myoklont"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype",
+          "code" : "annet"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-anfall-bevissthet-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-svar-anfall-bevissthet.html\">codesystem Anfall: Bevissthet under anfall v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet-ja\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-anfall-bevissthet.html#jodacare-svar-anfall-bevissthet-ja\">ja</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ja&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;ja&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet-nei\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-anfall-bevissthet.html#jodacare-svar-anfall-bevissthet-nei\">nei</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;nei&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;nei&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet-delvis\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-anfall-bevissthet.html#jodacare-svar-anfall-bevissthet-delvis\">delvis</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;delvis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;delvis&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-anfall-bevissthet-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareSvarAnfallBevissthetVS",
+      "title" : "Anfall: Bevissthet under anfall",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:d8fd9638-9ec5-443b-9819-28ecf7281997",
+        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet",
+          "code" : "ja"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet",
+          "code" : "nei"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet",
+          "code" : "delvis"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-konsistens-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-svar-dobesok-konsistens.html\">codesystem Dobesøk: Konsistens (Bristol 1-7) v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 7 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens-1\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-dobesok-konsistens.html#jodacare-svar-dobesok-konsistens-1\">1</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;1&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;1&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens-2\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-dobesok-konsistens.html#jodacare-svar-dobesok-konsistens-2\">2</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;2&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;2&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens-3\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-dobesok-konsistens.html#jodacare-svar-dobesok-konsistens-3\">3</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;3&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;3&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens-4\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-dobesok-konsistens.html#jodacare-svar-dobesok-konsistens-4\">4</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;4&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;4&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens-5\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-dobesok-konsistens.html#jodacare-svar-dobesok-konsistens-5\">5</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;5&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;5&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens-6\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-dobesok-konsistens.html#jodacare-svar-dobesok-konsistens-6\">6</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;6&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;6&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens-7\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-dobesok-konsistens.html#jodacare-svar-dobesok-konsistens-7\">7</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;7&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;7&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-konsistens-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareSvarDobesokKonsistensVS",
+      "title" : "Dobesøk: Konsistens (Bristol 1-7)",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:02a89bc2-bbe8-4109-bb9d-b494cb675fa6",
+        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "total" : 7,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens",
+          "code" : "1"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens",
+          "code" : "2"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens",
+          "code" : "3"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens",
+          "code" : "4"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens",
+          "code" : "5"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens",
+          "code" : "6"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens",
+          "code" : "7"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-mengde-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-svar-dobesok-mengde.html\">codesystem Dobesøk: Mengde v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde-lite\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-dobesok-mengde.html#jodacare-svar-dobesok-mengde-lite\">lite</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;lite&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;lite&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde-normalt\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-dobesok-mengde.html#jodacare-svar-dobesok-mengde-normalt\">normalt</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;normalt&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;normalt&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde-mye\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-dobesok-mengde.html#jodacare-svar-dobesok-mengde-mye\">mye</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;mye&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;mye&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-mengde-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareSvarDobesokMengdeVS",
+      "title" : "Dobesøk: Mengde",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:8cb4706e-4514-4441-9f69-90204acab11e",
+        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde",
+          "code" : "lite"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde",
+          "code" : "normalt"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde",
+          "code" : "mye"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-type-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-svar-dobesok-type.html\">codesystem Dobesøk: Type v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type-urin\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-dobesok-type.html#jodacare-svar-dobesok-type-urin\">urin</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;urin&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;urin&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type-avforing\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-dobesok-type.html#jodacare-svar-dobesok-type-avforing\">avforing</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;avforing&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;avforing&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type-begge\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-dobesok-type.html#jodacare-svar-dobesok-type-begge\">begge</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;begge&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;begge&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-type-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareSvarDobesokTypeVS",
+      "title" : "Dobesøk: Type",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:0967ab3b-88d5-46d1-8a8f-12189dd998da",
+        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type",
+          "code" : "urin"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type",
+          "code" : "avforing"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type",
+          "code" : "begge"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-konsistens-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-svar-ernaering-konsistens.html\">codesystem Ernæring: Matkonsistens v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens-normal\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-ernaering-konsistens.html#jodacare-svar-ernaering-konsistens-normal\">normal</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;normal&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;normal&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens-most\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-ernaering-konsistens.html#jodacare-svar-ernaering-konsistens-most\">most</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;most&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;most&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens-findelt\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-ernaering-konsistens.html#jodacare-svar-ernaering-konsistens-findelt\">findelt</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;findelt&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;findelt&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens-flytende\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-ernaering-konsistens.html#jodacare-svar-ernaering-konsistens-flytende\">flytende</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;flytende&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;flytende&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-konsistens-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareSvarErnaeringKonsistensVS",
+      "title" : "Ernæring: Matkonsistens",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:6e5c32cc-51d2-40a8-b761-ddecfdf4f449",
+        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "total" : 4,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens",
+          "code" : "normal"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens",
+          "code" : "most"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens",
+          "code" : "findelt"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens",
+          "code" : "flytende"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-maltid-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-svar-ernaering-maltid.html\">codesystem Ernæring: Måltid v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid-frokost\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-ernaering-maltid.html#jodacare-svar-ernaering-maltid-frokost\">frokost</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;frokost&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;frokost&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid-lunsj\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-ernaering-maltid.html#jodacare-svar-ernaering-maltid-lunsj\">lunsj</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;lunsj&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;lunsj&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid-middag\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-ernaering-maltid.html#jodacare-svar-ernaering-maltid-middag\">middag</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;middag&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;middag&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid-kvelds\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-ernaering-maltid.html#jodacare-svar-ernaering-maltid-kvelds\">kvelds</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;kvelds&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;kvelds&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid-mellommaltid\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-ernaering-maltid.html#jodacare-svar-ernaering-maltid-mellommaltid\">mellommaltid</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;mellommaltid&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;mellommaltid&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-maltid-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareSvarErnaeringMaltidVS",
+      "title" : "Ernæring: Måltid",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:e6885d9b-0cb5-4536-bab3-1f0044750db0",
+        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid",
+          "code" : "frokost"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid",
+          "code" : "lunsj"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid",
+          "code" : "middag"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid",
+          "code" : "kvelds"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid",
+          "code" : "mellommaltid"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-mengde-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-svar-ernaering-mengde.html\">codesystem Ernæring: Mengde spist v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde-ingenting\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-ernaering-mengde.html#jodacare-svar-ernaering-mengde-ingenting\">ingenting</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ingenting&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;ingenting&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde-lite\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-ernaering-mengde.html#jodacare-svar-ernaering-mengde-lite\">lite</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;lite&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;lite&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde-halvparten\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-ernaering-mengde.html#jodacare-svar-ernaering-mengde-halvparten\">halvparten</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;halvparten&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;halvparten&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde-det-meste\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-ernaering-mengde.html#jodacare-svar-ernaering-mengde-det-meste\">det-meste</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;det-meste&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;det-meste&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde-alt\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-ernaering-mengde.html#jodacare-svar-ernaering-mengde-alt\">alt</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;alt&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;alt&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-mengde-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareSvarErnaeringMengdeVS",
+      "title" : "Ernæring: Mengde spist",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:b352b6a4-5de2-4151-8680-ccc0407be272",
+        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde",
+          "code" : "ingenting"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde",
+          "code" : "lite"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde",
+          "code" : "halvparten"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde",
+          "code" : "det-meste"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde",
+          "code" : "alt"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-energi-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-svar-humor-energi.html\">codesystem Humør: Energinivå v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi-hoyt\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-humor-energi.html#jodacare-svar-humor-energi-hoyt\">hoyt</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;hoyt&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;hoyt&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi-normalt\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-humor-energi.html#jodacare-svar-humor-energi-normalt\">normalt</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;normalt&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;normalt&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi-lavt\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-humor-energi.html#jodacare-svar-humor-energi-lavt\">lavt</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;lavt&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;lavt&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-energi-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareSvarHumorEnergiVS",
+      "title" : "Humør: Energinivå",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:66de979c-be04-4e5c-95cc-5e6652995b58",
+        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi",
+          "code" : "hoyt"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi",
+          "code" : "normalt"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi",
+          "code" : "lavt"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-sosial-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-svar-humor-sosial.html\">codesystem Humør: Sosial v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial-utadvendt\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-humor-sosial.html#jodacare-svar-humor-sosial-utadvendt\">utadvendt</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;utadvendt&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;utadvendt&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial-normal\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-humor-sosial.html#jodacare-svar-humor-sosial-normal\">normal</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;normal&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;normal&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial-tilbaketrukket\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-humor-sosial.html#jodacare-svar-humor-sosial-tilbaketrukket\">tilbaketrukket</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;tilbaketrukket&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;tilbaketrukket&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-sosial-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareSvarHumorSosialVS",
+      "title" : "Humør: Sosial",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:22a306f6-9090-4bcf-be14-22a4379911c4",
+        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial",
+          "code" : "utadvendt"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial",
+          "code" : "normal"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial",
+          "code" : "tilbaketrukket"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-stemning-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-svar-humor-stemning.html\">codesystem Humør: Stemning v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 8 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning-veldig-glad\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-humor-stemning.html#jodacare-svar-humor-stemning-veldig-glad\">veldig-glad</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;veldig-glad&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;veldig-glad&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning-glad\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-humor-stemning.html#jodacare-svar-humor-stemning-glad\">glad</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;glad&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;glad&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning-noytral\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-humor-stemning.html#jodacare-svar-humor-stemning-noytral\">noytral</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;noytral&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;noytral&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning-trist\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-humor-stemning.html#jodacare-svar-humor-stemning-trist\">trist</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;trist&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;trist&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning-veldig-trist\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-humor-stemning.html#jodacare-svar-humor-stemning-veldig-trist\">veldig-trist</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;veldig-trist&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;veldig-trist&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning-engstelig\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-humor-stemning.html#jodacare-svar-humor-stemning-engstelig\">engstelig</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;engstelig&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;engstelig&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning-sint\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-humor-stemning.html#jodacare-svar-humor-stemning-sint\">sint</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;sint&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;sint&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning-forvirret\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-humor-stemning.html#jodacare-svar-humor-stemning-forvirret\">forvirret</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;forvirret&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;forvirret&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-stemning-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareSvarHumorStemningVS",
+      "title" : "Humør: Stemning",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:2f71c2eb-f6f1-4b79-9b59-51e8fe8bc807",
+        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "total" : 8,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning",
+          "code" : "veldig-glad"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning",
+          "code" : "glad"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning",
+          "code" : "noytral"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning",
+          "code" : "trist"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning",
+          "code" : "veldig-trist"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning",
+          "code" : "engstelig"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning",
+          "code" : "sint"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning",
+          "code" : "forvirret"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-sovn-kvalitet-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-jodacare-svar-sovn-kvalitet.html\">codesystem Søvn: Søvnkvalitet v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (no)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet-god\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-sovn-kvalitet.html#jodacare-svar-sovn-kvalitet-god\">god</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;god&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;god&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet-urolig\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-sovn-kvalitet.html#jodacare-svar-sovn-kvalitet-urolig\">urolig</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;urolig&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;urolig&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet-darlig\"> </a><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-jodacare-svar-sovn-kvalitet.html#jodacare-svar-sovn-kvalitet-darlig\">darlig</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;darlig&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;darlig&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-sovn-kvalitet-vs",
+      "version" : "0.1.0",
+      "name" : "JodaCareSvarSovnKvalitetVS",
+      "title" : "Søvn: Søvnkvalitet",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06T16:01:05+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:4cd88897-017e-44dc-8986-11d02609b34f",
+        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet",
+          "code" : "god"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet",
+          "code" : "urolig"
+        },
+        {
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet",
+          "code" : "darlig"
+        }]
+      }
+    }
+  }]
 }

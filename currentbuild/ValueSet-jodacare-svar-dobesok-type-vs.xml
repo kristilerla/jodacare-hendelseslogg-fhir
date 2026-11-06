@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="jodacare-svar-dobesok-type-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet jodacare-svar-dobesok-type-vs</b></p><a name="jodacare-svar-dobesok-type-vs"> </a><a name="hcjodacare-svar-dobesok-type-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-jodacare-svar-dobesok-type.html"><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-type-vs"/>
+  <version value="0.1.0"/>
+  <name value="JodaCareSvarDobesokTypeVS"/>
+  <title value="Dobesøk: Type"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2026-11-06T16:01:05+00:00"/>
+  <publisher value="Kristil Erla Håland"/>
+  <contact>
+    <name value="Kristil Erla Håland"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://jodacare.no"/>
+    </telecom>
+  </contact>
+  <description value="Gyldige svar for feltet type i malen Dobesøk."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type"/>
+    </include>
+  </compose>
+</ValueSet>

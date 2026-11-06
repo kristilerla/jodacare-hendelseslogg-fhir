@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Felter i hendelser i JodaCare - JodaCare hendelseslogg v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2.42"}
+    h3,h4,h5,h6{--heading-prefix:"2.42"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+            
+<div id="family-nav">
+	<a id="logo" no-external="true" href="http://hl7.org/fhir"> <img
+		alt="logo fhir" height="50" src="assets/images/fhir-logo-www.png" />
+	</a>
+</div>
+
+
+            
+<div id="hl7-nav">
+    <a id="hl7-logo" no-external="true" href="https://github.com/HL7Norway">
+        <img alt="visit the hl7 website" height="60" src="assets/images/HL7-norway-logo.png" />
+    </a>            
+</div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">JodaCare hendelseslogg</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+
+  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li>
+    <a href="toc.html">TOC</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Felter i hendelser i JodaCare</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">JodaCare hendelseslogg - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://kristilerla.github.io/jodacare-hendelseslogg-fhir/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-jodacare-hendelsesfelt.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-jodacare-hendelsesfelt.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-jodacare-hendelsesfelt.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: Felter i hendelser i JodaCare
+(Experimental)
+  </h2>
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2026-11-06
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">JodaCareHendelsesfelt</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Feltene (key) i standardmalene. Samme key kan brukes i flere maler, og betydningen avgjøres da av hendelsestypen.</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul><li>This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</li></ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="jodacare-hendelsesfelt"> </a><a name="hcjodacare-hendelsesfelt"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt</code> defines the following codes:</p>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr>
+<tr><td style="white-space:nowrap">alvorlighetsgrad<a name="jodacare-hendelsesfelt-alvorlighetsgrad"> </a></td>
+<td>Alvorlighetsgrad</td>
+<td>Alvorlighetsgrad (severity). Hver hendelsestype har egne nivåer.</td></tr>
+<tr><td style="white-space:nowrap">anfallstype<a name="jodacare-hendelsesfelt-anfallstype"> </a></td>
+<td>Anfallstype</td>
+<td>Brukes i Anfall: Anfallstype.</td></tr>
+<tr><td style="white-space:nowrap">varighet_minutter<a name="jodacare-hendelsesfelt-varighet_minutter"> </a></td>
+<td>Varighet (minutter)</td>
+<td>Brukes i Anfall: Varighet (minutter); Adferd / uro: Varighet (minutter).</td></tr>
+<tr><td style="white-space:nowrap">bevissthet<a name="jodacare-hendelsesfelt-bevissthet"> </a></td>
+<td>Bevissthet under anfall</td>
+<td>Brukes i Anfall: Bevissthet under anfall.</td></tr>
+<tr><td style="white-space:nowrap">nodmedisin_gitt<a name="jodacare-hendelsesfelt-nodmedisin_gitt"> </a></td>
+<td>Nødmedisin gitt?</td>
+<td>Brukes i Anfall: Nødmedisin gitt.</td></tr>
+<tr><td style="white-space:nowrap">hvilken_medisin<a name="jodacare-hendelsesfelt-hvilken_medisin"> </a></td>
+<td>Hvilken medisin</td>
+<td>Brukes i Anfall: Hvilken medisin.</td></tr>
+<tr><td style="white-space:nowrap">hva_skjedde_for<a name="jodacare-hendelsesfelt-hva_skjedde_for"> </a></td>
+<td>Hva skjedde før</td>
+<td>Brukes i Anfall: Hva skjedde før anfallet; Adferd / uro: Hva skjedde før (antecedent).</td></tr>
+<tr><td style="white-space:nowrap">hva_skjedde_etter<a name="jodacare-hendelsesfelt-hva_skjedde_etter"> </a></td>
+<td>Hva skjedde etter</td>
+<td>Brukes i Anfall: Hva skjedde etter anfallet; Adferd / uro: Hva skjedde etter (consequence).</td></tr>
+<tr><td style="white-space:nowrap">type<a name="jodacare-hendelsesfelt-type"> </a></td>
+<td>Type</td>
+<td>Brukes i Adferd / uro: Type adferd; Dobesøk: Type.</td></tr>
+<tr><td style="white-space:nowrap">beskrivelse<a name="jodacare-hendelsesfelt-beskrivelse"> </a></td>
+<td>Beskriv hendelsen (behavior)</td>
+<td>Brukes i Adferd / uro: Beskriv hendelsen (behavior).</td></tr>
+<tr><td style="white-space:nowrap">tiltak<a name="jodacare-hendelsesfelt-tiltak"> </a></td>
+<td>Tiltak</td>
+<td>Brukes i Adferd / uro: Tiltak; Fall: Tiltak utført.</td></tr>
+<tr><td style="white-space:nowrap">tiltak_notater<a name="jodacare-hendelsesfelt-tiltak_notater"> </a></td>
+<td>Tiltak-notater</td>
+<td>Brukes i Adferd / uro: Tiltak-notater.</td></tr>
+<tr><td style="white-space:nowrap">mengde<a name="jodacare-hendelsesfelt-mengde"> </a></td>
+<td>Mengde</td>
+<td>Brukes i Dobesøk: Mengde; Ernæring: Mengde spist.</td></tr>
+<tr><td style="white-space:nowrap">konsistens<a name="jodacare-hendelsesfelt-konsistens"> </a></td>
+<td>Konsistens</td>
+<td>Brukes i Dobesøk: Konsistens (Bristol 1-7); Ernæring: Matkonsistens.</td></tr>
+<tr><td style="white-space:nowrap">uhell<a name="jodacare-hendelsesfelt-uhell"> </a></td>
+<td>Inkontinens/uhell</td>
+<td>Brukes i Dobesøk: Inkontinens/uhell.</td></tr>
+<tr><td style="white-space:nowrap">sted<a name="jodacare-hendelsesfelt-sted"> </a></td>
+<td>Hvor skjedde fallet</td>
+<td>Brukes i Fall: Hvor skjedde fallet.</td></tr>
+<tr><td style="white-space:nowrap">aktivitet<a name="jodacare-hendelsesfelt-aktivitet"> </a></td>
+<td>Hva gjorde personen</td>
+<td>Brukes i Fall: Hva gjorde personen.</td></tr>
+<tr><td style="white-space:nowrap">skade<a name="jodacare-hendelsesfelt-skade"> </a></td>
+<td>Skadebeskrivelse</td>
+<td>Brukes i Fall: Skadebeskrivelse.</td></tr>
+<tr><td style="white-space:nowrap">lege_kontaktet<a name="jodacare-hendelsesfelt-lege_kontaktet"> </a></td>
+<td>Lege kontaktet</td>
+<td>Brukes i Fall: Lege kontaktet.</td></tr>
+<tr><td style="white-space:nowrap">parorende_varslet<a name="jodacare-hendelsesfelt-parorende_varslet"> </a></td>
+<td>Pårørende varslet</td>
+<td>Brukes i Fall: Pårørende varslet.</td></tr>
+<tr><td style="white-space:nowrap">la_seg<a name="jodacare-hendelsesfelt-la_seg"> </a></td>
+<td>La seg</td>
+<td>Brukes i Søvn: La seg.</td></tr>
+<tr><td style="white-space:nowrap">sovnet<a name="jodacare-hendelsesfelt-sovnet"> </a></td>
+<td>Sovnet ca.</td>
+<td>Brukes i Søvn: Sovnet ca.</td></tr>
+<tr><td style="white-space:nowrap">oppvakninger<a name="jodacare-hendelsesfelt-oppvakninger"> </a></td>
+<td>Antall oppvåkninger</td>
+<td>Brukes i Søvn: Antall oppvåkninger.</td></tr>
+<tr><td style="white-space:nowrap">stod_opp<a name="jodacare-hendelsesfelt-stod_opp"> </a></td>
+<td>Stod opp</td>
+<td>Brukes i Søvn: Stod opp.</td></tr>
+<tr><td style="white-space:nowrap">kvalitet<a name="jodacare-hendelsesfelt-kvalitet"> </a></td>
+<td>Søvnkvalitet</td>
+<td>Brukes i Søvn: Søvnkvalitet.</td></tr>
+<tr><td style="white-space:nowrap">maltid<a name="jodacare-hendelsesfelt-maltid"> </a></td>
+<td>Måltid</td>
+<td>Brukes i Ernæring: Måltid.</td></tr>
+<tr><td style="white-space:nowrap">drikke_ml<a name="jodacare-hendelsesfelt-drikke_ml"> </a></td>
+<td>Drikke (ml)</td>
+<td>Brukes i Ernæring: Drikke (ml).</td></tr>
+<tr><td style="white-space:nowrap">medikament<a name="jodacare-hendelsesfelt-medikament"> </a></td>
+<td>Medikament</td>
+<td>Brukes i Behovsmedisin: Medikament.</td></tr>
+<tr><td style="white-space:nowrap">dose<a name="jodacare-hendelsesfelt-dose"> </a></td>
+<td>Dose</td>
+<td>Brukes i Behovsmedisin: Dose.</td></tr>
+<tr><td style="white-space:nowrap">grunn<a name="jodacare-hendelsesfelt-grunn"> </a></td>
+<td>Grunn for medisinering</td>
+<td>Brukes i Behovsmedisin: Grunn for medisinering.</td></tr>
+<tr><td style="white-space:nowrap">effekt<a name="jodacare-hendelsesfelt-effekt"> </a></td>
+<td>Observert effekt</td>
+<td>Brukes i Behovsmedisin: Observert effekt.</td></tr>
+<tr><td style="white-space:nowrap">tid_til_effekt<a name="jodacare-hendelsesfelt-tid_til_effekt"> </a></td>
+<td>Tid til effekt (min)</td>
+<td>Brukes i Behovsmedisin: Tid til effekt (min).</td></tr>
+<tr><td style="white-space:nowrap">stemning<a name="jodacare-hendelsesfelt-stemning"> </a></td>
+<td>Stemning</td>
+<td>Brukes i Humør: Stemning.</td></tr>
+<tr><td style="white-space:nowrap">energi<a name="jodacare-hendelsesfelt-energi"> </a></td>
+<td>Energinivå</td>
+<td>Brukes i Humør: Energinivå.</td></tr>
+<tr><td style="white-space:nowrap">sosial<a name="jodacare-hendelsesfelt-sosial"> </a></td>
+<td>Sosial</td>
+<td>Brukes i Humør: Sosial.</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://jodacare.no">Kristil Erla Håland</a>.  Package jodacare.fhir.hendelseslogg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 6, 2026 16:01+0000">2026-11-06</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

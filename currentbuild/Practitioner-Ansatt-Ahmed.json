@@ -1,0 +1,12 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "Ansatt-Ahmed",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner Ansatt-Ahmed</b></p><a name=\"Ansatt-Ahmed\"> </a><a name=\"hcAnsatt-Ahmed\"> </a><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Ahmed Testesen</p><hr/></div>"
+  },
+  "name" : [{
+    "family" : "Testesen",
+    "given" : ["Ahmed"]
+  }]
+}

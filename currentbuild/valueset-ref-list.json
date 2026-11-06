@@ -1,3 +1,218 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [{
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-adferd-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareAlvorlighetsgradAdferdVS",
+    "title" : "Alvorlighetsgrad: Adferd / uro",
+    "description" : "Gyldige nivåer for alvorlighetsgrad i malen Adferd / uro.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-anfall-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareAlvorlighetsgradAnfallVS",
+    "title" : "Alvorlighetsgrad: Anfall",
+    "description" : "Gyldige nivåer for alvorlighetsgrad i malen Anfall.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-fall-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareAlvorlighetsgradFallVS",
+    "title" : "Alvorlighetsgrad: Fall",
+    "description" : "Gyldige nivåer for alvorlighetsgrad i malen Fall.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-fall.html" : "Hendelse: Fall"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-hendelsestype-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareHendelsestypeVS",
+    "title" : "Hendelsestyper i JodaCare",
+    "description" : "Alle hendelsestypene i standardmalene.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse.html" : "Hendelse"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-adferd-tiltak-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarAdferdTiltakVS",
+    "title" : "Adferd / uro: Tiltak",
+    "description" : "Gyldige svar for feltet tiltak i malen Adferd / uro.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-adferd-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarAdferdTypeVS",
+    "title" : "Adferd / uro: Type adferd",
+    "description" : "Gyldige svar for feltet type i malen Adferd / uro.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-adferd.html" : "Hendelse: Adferd / uro"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-anfall-anfallstype-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarAnfallAnfallstypeVS",
+    "title" : "Anfall: Anfallstype",
+    "description" : "Gyldige svar for feltet anfallstype i malen Anfall.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-anfall-bevissthet-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarAnfallBevissthetVS",
+    "title" : "Anfall: Bevissthet under anfall",
+    "description" : "Gyldige svar for feltet bevissthet i malen Anfall.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-anfall.html" : "Hendelse: Anfall"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-konsistens-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarDobesokKonsistensVS",
+    "title" : "Dobesøk: Konsistens (Bristol 1-7)",
+    "description" : "Gyldige svar for feltet konsistens i malen Dobesøk.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-mengde-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarDobesokMengdeVS",
+    "title" : "Dobesøk: Mengde",
+    "description" : "Gyldige svar for feltet mengde i malen Dobesøk.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarDobesokTypeVS",
+    "title" : "Dobesøk: Type",
+    "description" : "Gyldige svar for feltet type i malen Dobesøk.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-dobesok.html" : "Hendelse: Dobesøk"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-konsistens-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarErnaeringKonsistensVS",
+    "title" : "Ernæring: Matkonsistens",
+    "description" : "Gyldige svar for feltet konsistens i malen Ernæring.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-maltid-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarErnaeringMaltidVS",
+    "title" : "Ernæring: Måltid",
+    "description" : "Gyldige svar for feltet maltid i malen Ernæring.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-mengde-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarErnaeringMengdeVS",
+    "title" : "Ernæring: Mengde spist",
+    "description" : "Gyldige svar for feltet mengde i malen Ernæring.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-ernaering.html" : "Hendelse: Ernæring"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-energi-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarHumorEnergiVS",
+    "title" : "Humør: Energinivå",
+    "description" : "Gyldige svar for feltet energi i malen Humør.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-sosial-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarHumorSosialVS",
+    "title" : "Humør: Sosial",
+    "description" : "Gyldige svar for feltet sosial i malen Humør.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-stemning-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarHumorStemningVS",
+    "title" : "Humør: Stemning",
+    "description" : "Gyldige svar for feltet stemning i malen Humør.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-humor.html" : "Hendelse: Humør"
+  },
+  {
+    "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-sovn-kvalitet-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "JodaCareSvarSovnKvalitetVS",
+    "title" : "Søvn: Søvnkvalitet",
+    "description" : "Gyldige svar for feltet kvalitet i malen Søvn.",
+    "systems" : ["https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet"],
+    "uses" : {
+    },
+    "StructureDefinition-jodacare-hendelse-sovn.html" : "Hendelse: Søvn"
+  }]
 }

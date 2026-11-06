@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="jodacare-svar-adferd-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem jodacare-svar-adferd-type</b></p><a name="jodacare-svar-adferd-type"> </a><a name="hcjodacare-svar-adferd-type"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">verbal-uro<a name="jodacare-svar-adferd-type-verbal-uro"> </a></td><td>Verbal uro</td></tr><tr><td style="white-space:nowrap">fysisk-uro<a name="jodacare-svar-adferd-type-fysisk-uro"> </a></td><td>Fysisk uro</td></tr><tr><td style="white-space:nowrap">selvskading<a name="jodacare-svar-adferd-type-selvskading"> </a></td><td>Selvskading</td></tr><tr><td style="white-space:nowrap">aggresjon<a name="jodacare-svar-adferd-type-aggresjon"> </a></td><td>Aggresjon</td></tr><tr><td style="white-space:nowrap">romningsforsok<a name="jodacare-svar-adferd-type-romningsforsok"> </a></td><td>Rømningsforsøk</td></tr><tr><td style="white-space:nowrap">annet<a name="jodacare-svar-adferd-type-annet"> </a></td><td>Annet</td></tr></table></div>
+  </text>
+  <url value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type"/>
+  <version value="0.1.0"/>
+  <name value="JodaCareSvarAdferdType"/>
+  <title value="Adferd / uro: Type adferd"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2026-11-06T16:01:05+00:00"/>
+  <publisher value="Kristil Erla Håland"/>
+  <contact>
+    <name value="Kristil Erla Håland"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://jodacare.no"/>
+    </telecom>
+  </contact>
+  <description value="Svaralternativene for feltet type i malen Adferd / uro."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="verbal-uro"/>
+    <display value="Verbal uro"/>
+  </concept>
+  <concept>
+    <code value="fysisk-uro"/>
+    <display value="Fysisk uro"/>
+  </concept>
+  <concept>
+    <code value="selvskading"/>
+    <display value="Selvskading"/>
+  </concept>
+  <concept>
+    <code value="aggresjon"/>
+    <display value="Aggresjon"/>
+  </concept>
+  <concept>
+    <code value="romningsforsok"/>
+    <display value="Rømningsforsøk"/>
+  </concept>
+  <concept>
+    <code value="annet"/>
+    <display value="Annet"/>
+  </concept>
+</CodeSystem>

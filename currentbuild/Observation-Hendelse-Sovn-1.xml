@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="Hendelse-Sovn-1"/>
+  <meta>
+    <profile value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-sovn"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation Hendelse-Sovn-1</b></p><a name="Hendelse-Sovn-1"> </a><a name="hcHendelse-Sovn-1"> </a><div style="display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-jodacare-hendelse-sovn.html">Hendelse: Søvn</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype sovn}">Søvn</span></p><p><b>subject</b>: <a href="Patient-Tjenestemottaker-Ida.html">Ida Testvik  Female, DoB: 2013-03-13 ( urn:oid:2.16.578.1.12.4.1.4.1#Foedselsnummer#13031353453)</a></p><p><b>effective</b>: 2026-11-08 07:00:00+0100</p><p><b>performer</b>: <a href="Practitioner-Ansatt-Ahmed.html">Ahmed Testesen</a></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt la_seg}">La seg</span></p><p><b>value</b>: 20:30:00</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt sovnet}">Sovnet ca.</span></p><p><b>value</b>: 21:00:00</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt oppvakninger}">Antall oppvåkninger</span></p><p><b>value</b>: 1</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt stod_opp}">Stod opp</span></p><p><b>value</b>: 06:45:00</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt kvalitet}">Søvnkvalitet</span></p><p><b>value</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet urolig}">Urolig</span></p></blockquote></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype"/>
+      <code value="sovn"/>
+      <display value="Søvn"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/Tjenestemottaker-Ida"/>
+  </subject>
+  <effectiveDateTime value="2026-11-08T07:00:00+01:00"/>
+  <performer>
+    <reference value="Practitioner/Ansatt-Ahmed"/>
+  </performer>
+  <component>
+    <code>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt"/>
+        <code value="la_seg"/>
+      </coding>
+    </code>
+    <valueTime value="20:30:00"/>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt"/>
+        <code value="sovnet"/>
+      </coding>
+    </code>
+    <valueTime value="21:00:00"/>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt"/>
+        <code value="oppvakninger"/>
+      </coding>
+    </code>
+    <valueInteger value="1"/>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt"/>
+        <code value="stod_opp"/>
+      </coding>
+    </code>
+    <valueTime value="06:45:00"/>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt"/>
+        <code value="kvalitet"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet"/>
+        <code value="urolig"/>
+        <display value="Urolig"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+</Observation>

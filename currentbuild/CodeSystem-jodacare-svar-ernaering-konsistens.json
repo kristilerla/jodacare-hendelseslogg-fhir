@@ -1,0 +1,50 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "jodacare-svar-ernaering-konsistens",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jodacare-svar-ernaering-konsistens</b></p><a name=\"jodacare-svar-ernaering-konsistens\"> </a><a name=\"hcjodacare-svar-ernaering-konsistens\"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">normal<a name=\"jodacare-svar-ernaering-konsistens-normal\"> </a></td><td>Normal</td></tr><tr><td style=\"white-space:nowrap\">most<a name=\"jodacare-svar-ernaering-konsistens-most\"> </a></td><td>Most</td></tr><tr><td style=\"white-space:nowrap\">findelt<a name=\"jodacare-svar-ernaering-konsistens-findelt\"> </a></td><td>Findelt</td></tr><tr><td style=\"white-space:nowrap\">flytende<a name=\"jodacare-svar-ernaering-konsistens-flytende\"> </a></td><td>Flytende</td></tr></table></div>"
+  },
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarErnaeringKonsistens",
+  "title" : "Ernæring: Matkonsistens",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06T16:01:05+00:00",
+  "publisher" : "Kristil Erla Håland",
+  "contact" : [{
+    "name" : "Kristil Erla Håland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://jodacare.no"
+    }]
+  }],
+  "description" : "Svaralternativene for feltet konsistens i malen Ernæring.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "normal",
+    "display" : "Normal"
+  },
+  {
+    "code" : "most",
+    "display" : "Most"
+  },
+  {
+    "code" : "findelt",
+    "display" : "Findelt"
+  },
+  {
+    "code" : "flytende",
+    "display" : "Flytende"
+  }]
+}

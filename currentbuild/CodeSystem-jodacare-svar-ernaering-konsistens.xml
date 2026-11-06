@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="jodacare-svar-ernaering-konsistens"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem jodacare-svar-ernaering-konsistens</b></p><a name="jodacare-svar-ernaering-konsistens"> </a><a name="hcjodacare-svar-ernaering-konsistens"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">normal<a name="jodacare-svar-ernaering-konsistens-normal"> </a></td><td>Normal</td></tr><tr><td style="white-space:nowrap">most<a name="jodacare-svar-ernaering-konsistens-most"> </a></td><td>Most</td></tr><tr><td style="white-space:nowrap">findelt<a name="jodacare-svar-ernaering-konsistens-findelt"> </a></td><td>Findelt</td></tr><tr><td style="white-space:nowrap">flytende<a name="jodacare-svar-ernaering-konsistens-flytende"> </a></td><td>Flytende</td></tr></table></div>
+  </text>
+  <url value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens"/>
+  <version value="0.1.0"/>
+  <name value="JodaCareSvarErnaeringKonsistens"/>
+  <title value="Ernæring: Matkonsistens"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2026-11-06T16:01:05+00:00"/>
+  <publisher value="Kristil Erla Håland"/>
+  <contact>
+    <name value="Kristil Erla Håland"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://jodacare.no"/>
+    </telecom>
+  </contact>
+  <description value="Svaralternativene for feltet konsistens i malen Ernæring."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="normal"/>
+    <display value="Normal"/>
+  </concept>
+  <concept>
+    <code value="most"/>
+    <display value="Most"/>
+  </concept>
+  <concept>
+    <code value="findelt"/>
+    <display value="Findelt"/>
+  </concept>
+  <concept>
+    <code value="flytende"/>
+    <display value="Flytende"/>
+  </concept>
+</CodeSystem>

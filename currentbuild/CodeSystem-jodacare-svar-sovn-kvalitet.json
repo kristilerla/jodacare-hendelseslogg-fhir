@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "jodacare-svar-sovn-kvalitet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jodacare-svar-sovn-kvalitet</b></p><a name=\"jodacare-svar-sovn-kvalitet\"> </a><a name=\"hcjodacare-svar-sovn-kvalitet\"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">god<a name=\"jodacare-svar-sovn-kvalitet-god\"> </a></td><td>God</td></tr><tr><td style=\"white-space:nowrap\">urolig<a name=\"jodacare-svar-sovn-kvalitet-urolig\"> </a></td><td>Urolig</td></tr><tr><td style=\"white-space:nowrap\">darlig<a name=\"jodacare-svar-sovn-kvalitet-darlig\"> </a></td><td>Dårlig</td></tr></table></div>"
+  },
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarSovnKvalitet",
+  "title" : "Søvn: Søvnkvalitet",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06T16:01:05+00:00",
+  "publisher" : "Kristil Erla Håland",
+  "contact" : [{
+    "name" : "Kristil Erla Håland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://jodacare.no"
+    }]
+  }],
+  "description" : "Svaralternativene for feltet kvalitet i malen Søvn.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "god",
+    "display" : "God"
+  },
+  {
+    "code" : "urolig",
+    "display" : "Urolig"
+  },
+  {
+    "code" : "darlig",
+    "display" : "Dårlig"
+  }]
+}

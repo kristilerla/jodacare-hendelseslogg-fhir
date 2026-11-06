@@ -1,0 +1,54 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "jodacare-svar-ernaering-mengde",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jodacare-svar-ernaering-mengde</b></p><a name=\"jodacare-svar-ernaering-mengde\"> </a><a name=\"hcjodacare-svar-ernaering-mengde\"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ingenting<a name=\"jodacare-svar-ernaering-mengde-ingenting\"> </a></td><td>Ingenting</td></tr><tr><td style=\"white-space:nowrap\">lite<a name=\"jodacare-svar-ernaering-mengde-lite\"> </a></td><td>Lite</td></tr><tr><td style=\"white-space:nowrap\">halvparten<a name=\"jodacare-svar-ernaering-mengde-halvparten\"> </a></td><td>Halvparten</td></tr><tr><td style=\"white-space:nowrap\">det-meste<a name=\"jodacare-svar-ernaering-mengde-det-meste\"> </a></td><td>Det meste</td></tr><tr><td style=\"white-space:nowrap\">alt<a name=\"jodacare-svar-ernaering-mengde-alt\"> </a></td><td>Alt</td></tr></table></div>"
+  },
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarErnaeringMengde",
+  "title" : "Ernæring: Mengde spist",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06T16:01:05+00:00",
+  "publisher" : "Kristil Erla Håland",
+  "contact" : [{
+    "name" : "Kristil Erla Håland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://jodacare.no"
+    }]
+  }],
+  "description" : "Svaralternativene for feltet mengde i malen Ernæring.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "ingenting",
+    "display" : "Ingenting"
+  },
+  {
+    "code" : "lite",
+    "display" : "Lite"
+  },
+  {
+    "code" : "halvparten",
+    "display" : "Halvparten"
+  },
+  {
+    "code" : "det-meste",
+    "display" : "Det meste"
+  },
+  {
+    "code" : "alt",
+    "display" : "Alt"
+  }]
+}

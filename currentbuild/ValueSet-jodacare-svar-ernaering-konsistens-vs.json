@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "jodacare-svar-ernaering-konsistens-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jodacare-svar-ernaering-konsistens-vs</b></p><a name=\"jodacare-svar-ernaering-konsistens-vs\"> </a><a name=\"hcjodacare-svar-ernaering-konsistens-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-jodacare-svar-ernaering-konsistens.html\"><code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-konsistens-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarErnaeringKonsistensVS",
+  "title" : "Ernæring: Matkonsistens",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06T16:01:05+00:00",
+  "publisher" : "Kristil Erla Håland",
+  "contact" : [{
+    "name" : "Kristil Erla Håland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://jodacare.no"
+    }]
+  }],
+  "description" : "Gyldige svar for feltet konsistens i malen Ernæring.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens"
+    }]
+  }
+}

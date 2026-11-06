@@ -1,0 +1,62 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "jodacare-svar-dobesok-konsistens",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jodacare-svar-dobesok-konsistens</b></p><a name=\"jodacare-svar-dobesok-konsistens\"> </a><a name=\"hcjodacare-svar-dobesok-konsistens\"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"jodacare-svar-dobesok-konsistens-1\"> </a></td><td>1 - Hard</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"jodacare-svar-dobesok-konsistens-2\"> </a></td><td>2 - Klumpete</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"jodacare-svar-dobesok-konsistens-3\"> </a></td><td>3 - Pølseformet</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"jodacare-svar-dobesok-konsistens-4\"> </a></td><td>4 - Glatt</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"jodacare-svar-dobesok-konsistens-5\"> </a></td><td>5 - Myk</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"jodacare-svar-dobesok-konsistens-6\"> </a></td><td>6 - Grøtaktig</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"jodacare-svar-dobesok-konsistens-7\"> </a></td><td>7 - Flytende</td></tr></table></div>"
+  },
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarDobesokKonsistens",
+  "title" : "Dobesøk: Konsistens (Bristol 1-7)",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06T16:01:05+00:00",
+  "publisher" : "Kristil Erla Håland",
+  "contact" : [{
+    "name" : "Kristil Erla Håland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://jodacare.no"
+    }]
+  }],
+  "description" : "Svaralternativene for feltet konsistens i malen Dobesøk.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 7,
+  "concept" : [{
+    "code" : "1",
+    "display" : "1 - Hard"
+  },
+  {
+    "code" : "2",
+    "display" : "2 - Klumpete"
+  },
+  {
+    "code" : "3",
+    "display" : "3 - Pølseformet"
+  },
+  {
+    "code" : "4",
+    "display" : "4 - Glatt"
+  },
+  {
+    "code" : "5",
+    "display" : "5 - Myk"
+  },
+  {
+    "code" : "6",
+    "display" : "6 - Grøtaktig"
+  },
+  {
+    "code" : "7",
+    "display" : "7 - Flytende"
+  }]
+}

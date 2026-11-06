@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="jodacare-svar-adferd-tiltak"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem jodacare-svar-adferd-tiltak</b></p><a name="jodacare-svar-adferd-tiltak"> </a><a name="hcjodacare-svar-adferd-tiltak"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">avledning<a name="jodacare-svar-adferd-tiltak-avledning"> </a></td><td>Avledning</td></tr><tr><td style="white-space:nowrap">tilbaketrekning<a name="jodacare-svar-adferd-tiltak-tilbaketrekning"> </a></td><td>Tilbaketrekning</td></tr><tr><td style="white-space:nowrap">samtale<a name="jodacare-svar-adferd-tiltak-samtale"> </a></td><td>Samtale</td></tr><tr><td style="white-space:nowrap">fysisk-holding<a name="jodacare-svar-adferd-tiltak-fysisk-holding"> </a></td><td>Fysisk holding</td></tr><tr><td style="white-space:nowrap">medisin<a name="jodacare-svar-adferd-tiltak-medisin"> </a></td><td>Medisin</td></tr><tr><td style="white-space:nowrap">annet<a name="jodacare-svar-adferd-tiltak-annet"> </a></td><td>Annet</td></tr></table></div>
+  </text>
+  <url value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak"/>
+  <version value="0.1.0"/>
+  <name value="JodaCareSvarAdferdTiltak"/>
+  <title value="Adferd / uro: Tiltak"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2026-11-06T16:01:05+00:00"/>
+  <publisher value="Kristil Erla Håland"/>
+  <contact>
+    <name value="Kristil Erla Håland"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://jodacare.no"/>
+    </telecom>
+  </contact>
+  <description value="Svaralternativene for feltet tiltak i malen Adferd / uro."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="avledning"/>
+    <display value="Avledning"/>
+  </concept>
+  <concept>
+    <code value="tilbaketrekning"/>
+    <display value="Tilbaketrekning"/>
+  </concept>
+  <concept>
+    <code value="samtale"/>
+    <display value="Samtale"/>
+  </concept>
+  <concept>
+    <code value="fysisk-holding"/>
+    <display value="Fysisk holding"/>
+  </concept>
+  <concept>
+    <code value="medisin"/>
+    <display value="Medisin"/>
+  </concept>
+  <concept>
+    <code value="annet"/>
+    <display value="Annet"/>
+  </concept>
+</CodeSystem>

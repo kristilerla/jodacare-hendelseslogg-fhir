@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "jodacare-svar-dobesok-mengde",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jodacare-svar-dobesok-mengde</b></p><a name=\"jodacare-svar-dobesok-mengde\"> </a><a name=\"hcjodacare-svar-dobesok-mengde\"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">lite<a name=\"jodacare-svar-dobesok-mengde-lite\"> </a></td><td>Lite</td></tr><tr><td style=\"white-space:nowrap\">normalt<a name=\"jodacare-svar-dobesok-mengde-normalt\"> </a></td><td>Normalt</td></tr><tr><td style=\"white-space:nowrap\">mye<a name=\"jodacare-svar-dobesok-mengde-mye\"> </a></td><td>Mye</td></tr></table></div>"
+  },
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarDobesokMengde",
+  "title" : "Dobesøk: Mengde",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06T16:01:05+00:00",
+  "publisher" : "Kristil Erla Håland",
+  "contact" : [{
+    "name" : "Kristil Erla Håland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://jodacare.no"
+    }]
+  }],
+  "description" : "Svaralternativene for feltet mengde i malen Dobesøk.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "lite",
+    "display" : "Lite"
+  },
+  {
+    "code" : "normalt",
+    "display" : "Normalt"
+  },
+  {
+    "code" : "mye",
+    "display" : "Mye"
+  }]
+}

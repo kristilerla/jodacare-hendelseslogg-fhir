@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Artifacts Summary - Mal v0.1.0</title>
+    <title>Artifacts Summary - JodaCare hendelseslogg v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -67,7 +67,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Mal</span>
+          <p><span style="font-size:12pt;font-weight:bold">JodaCare hendelseslogg</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
 
@@ -141,7 +141,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Mal - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/mal/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">JodaCare hendelseslogg - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://kristilerla.github.io/jodacare-hendelseslogg-fhir/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -156,7 +156,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#1">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#2">Example: Example Instances</a>
+         <a href="#2">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#4">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -172,25 +178,446 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-mal-observation-blodprove.html"
-                  title="StructureDefinition/mal-observation-blodprove">Blodprøve</a>
+               <a href="StructureDefinition-jodacare-hendelse.html"
+                  title="StructureDefinition/jodacare-hendelse">Hendelse</a>
             </td>
             <td>
-<p>Profil for vanlige blodprøver</p>
+<p>Felles grunnprofil for en registrert hendelse i hendelsesloggen i JodaCare. En hendelse gjelder én tjenestemottaker, har et tidspunkt og en person som registrerte den. Hver hendelsestype har sin egen profil som bygger på denne.</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-mal-patient.html"
-                  title="StructureDefinition/mal-patient">Pasient</a>
+               <a href="StructureDefinition-jodacare-hendelse-adferd.html"
+                  title="StructureDefinition/jodacare-hendelse-adferd">Hendelse: Adferd / uro</a>
             </td>
             <td>
-<p>Informasjon om pasienten, basert på no-basis.</p>
+<p>En hendelse av typen Adferd / uro, med feltene fra standardmalen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-jodacare-hendelse-anfall.html"
+                  title="StructureDefinition/jodacare-hendelse-anfall">Hendelse: Anfall</a>
+            </td>
+            <td>
+<p>En hendelse av typen Anfall, med feltene fra standardmalen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-jodacare-hendelse-medisin.html"
+                  title="StructureDefinition/jodacare-hendelse-medisin">Hendelse: Behovsmedisin</a>
+            </td>
+            <td>
+<p>En hendelse av typen Behovsmedisin, med feltene fra standardmalen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-jodacare-hendelse-dobesok.html"
+                  title="StructureDefinition/jodacare-hendelse-dobesok">Hendelse: Dobesøk</a>
+            </td>
+            <td>
+<p>En hendelse av typen Dobesøk, med feltene fra standardmalen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-jodacare-hendelse-ernaering.html"
+                  title="StructureDefinition/jodacare-hendelse-ernaering">Hendelse: Ernæring</a>
+            </td>
+            <td>
+<p>En hendelse av typen Ernæring, med feltene fra standardmalen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-jodacare-hendelse-fall.html"
+                  title="StructureDefinition/jodacare-hendelse-fall">Hendelse: Fall</a>
+            </td>
+            <td>
+<p>En hendelse av typen Fall, med feltene fra standardmalen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-jodacare-hendelse-humor.html"
+                  title="StructureDefinition/jodacare-hendelse-humor">Hendelse: Humør</a>
+            </td>
+            <td>
+<p>En hendelse av typen Humør, med feltene fra standardmalen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-jodacare-hendelse-sovn.html"
+                  title="StructureDefinition/jodacare-hendelse-sovn">Hendelse: Søvn</a>
+            </td>
+            <td>
+<p>En hendelse av typen Søvn, med feltene fra standardmalen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-jodacare-tjenestemottaker.html"
+                  title="StructureDefinition/jodacare-tjenestemottaker">Tjenestemottaker</a>
+            </td>
+            <td>
+<p>Personen hendelsen gjelder. Bygger på pasientprofilen i no-basis.</p>
 </td>
          </tr>
       </tbody>
    </table>
    <a name="2"> </a>
+   <h3>Terminology: Value Sets </h3>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-svar-adferd-tiltak-vs.html"
+                  title="ValueSet/jodacare-svar-adferd-tiltak-vs">Adferd / uro: Tiltak</a>
+            </td>
+            <td>
+<p>Gyldige svar for feltet tiltak i malen Adferd / uro.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-svar-adferd-type-vs.html"
+                  title="ValueSet/jodacare-svar-adferd-type-vs">Adferd / uro: Type adferd</a>
+            </td>
+            <td>
+<p>Gyldige svar for feltet type i malen Adferd / uro.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-alvorlighetsgrad-adferd-vs.html"
+                  title="ValueSet/jodacare-alvorlighetsgrad-adferd-vs">Alvorlighetsgrad: Adferd / uro</a>
+            </td>
+            <td>
+<p>Gyldige nivåer for alvorlighetsgrad i malen Adferd / uro.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-alvorlighetsgrad-anfall-vs.html"
+                  title="ValueSet/jodacare-alvorlighetsgrad-anfall-vs">Alvorlighetsgrad: Anfall</a>
+            </td>
+            <td>
+<p>Gyldige nivåer for alvorlighetsgrad i malen Anfall.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-alvorlighetsgrad-fall-vs.html"
+                  title="ValueSet/jodacare-alvorlighetsgrad-fall-vs">Alvorlighetsgrad: Fall</a>
+            </td>
+            <td>
+<p>Gyldige nivåer for alvorlighetsgrad i malen Fall.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-svar-anfall-anfallstype-vs.html"
+                  title="ValueSet/jodacare-svar-anfall-anfallstype-vs">Anfall: Anfallstype</a>
+            </td>
+            <td>
+<p>Gyldige svar for feltet anfallstype i malen Anfall.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-svar-anfall-bevissthet-vs.html"
+                  title="ValueSet/jodacare-svar-anfall-bevissthet-vs">Anfall: Bevissthet under anfall</a>
+            </td>
+            <td>
+<p>Gyldige svar for feltet bevissthet i malen Anfall.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-svar-dobesok-konsistens-vs.html"
+                  title="ValueSet/jodacare-svar-dobesok-konsistens-vs">Dobesøk: Konsistens (Bristol 1-7)</a>
+            </td>
+            <td>
+<p>Gyldige svar for feltet konsistens i malen Dobesøk.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-svar-dobesok-mengde-vs.html"
+                  title="ValueSet/jodacare-svar-dobesok-mengde-vs">Dobesøk: Mengde</a>
+            </td>
+            <td>
+<p>Gyldige svar for feltet mengde i malen Dobesøk.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-svar-dobesok-type-vs.html"
+                  title="ValueSet/jodacare-svar-dobesok-type-vs">Dobesøk: Type</a>
+            </td>
+            <td>
+<p>Gyldige svar for feltet type i malen Dobesøk.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-svar-ernaering-konsistens-vs.html"
+                  title="ValueSet/jodacare-svar-ernaering-konsistens-vs">Ernæring: Matkonsistens</a>
+            </td>
+            <td>
+<p>Gyldige svar for feltet konsistens i malen Ernæring.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-svar-ernaering-mengde-vs.html"
+                  title="ValueSet/jodacare-svar-ernaering-mengde-vs">Ernæring: Mengde spist</a>
+            </td>
+            <td>
+<p>Gyldige svar for feltet mengde i malen Ernæring.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-svar-ernaering-maltid-vs.html"
+                  title="ValueSet/jodacare-svar-ernaering-maltid-vs">Ernæring: Måltid</a>
+            </td>
+            <td>
+<p>Gyldige svar for feltet maltid i malen Ernæring.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-hendelsestype-vs.html"
+                  title="ValueSet/jodacare-hendelsestype-vs">Hendelsestyper i JodaCare</a>
+            </td>
+            <td>
+<p>Alle hendelsestypene i standardmalene.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-svar-humor-energi-vs.html"
+                  title="ValueSet/jodacare-svar-humor-energi-vs">Humør: Energinivå</a>
+            </td>
+            <td>
+<p>Gyldige svar for feltet energi i malen Humør.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-svar-humor-sosial-vs.html"
+                  title="ValueSet/jodacare-svar-humor-sosial-vs">Humør: Sosial</a>
+            </td>
+            <td>
+<p>Gyldige svar for feltet sosial i malen Humør.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-svar-humor-stemning-vs.html"
+                  title="ValueSet/jodacare-svar-humor-stemning-vs">Humør: Stemning</a>
+            </td>
+            <td>
+<p>Gyldige svar for feltet stemning i malen Humør.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jodacare-svar-sovn-kvalitet-vs.html"
+                  title="ValueSet/jodacare-svar-sovn-kvalitet-vs">Søvn: Søvnkvalitet</a>
+            </td>
+            <td>
+<p>Gyldige svar for feltet kvalitet i malen Søvn.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="3"> </a>
+   <h3>Terminology: Code Systems </h3>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-svar-adferd-tiltak.html"
+                  title="CodeSystem/jodacare-svar-adferd-tiltak">Adferd / uro: Tiltak</a>
+            </td>
+            <td>
+<p>Svaralternativene for feltet tiltak i malen Adferd / uro.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-svar-adferd-type.html"
+                  title="CodeSystem/jodacare-svar-adferd-type">Adferd / uro: Type adferd</a>
+            </td>
+            <td>
+<p>Svaralternativene for feltet type i malen Adferd / uro.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-alvorlighetsgrad-adferd.html"
+                  title="CodeSystem/jodacare-alvorlighetsgrad-adferd">Alvorlighetsgrad: Adferd / uro</a>
+            </td>
+            <td>
+<p>Nivåene for alvorlighetsgrad i malen Adferd / uro.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-alvorlighetsgrad-anfall.html"
+                  title="CodeSystem/jodacare-alvorlighetsgrad-anfall">Alvorlighetsgrad: Anfall</a>
+            </td>
+            <td>
+<p>Nivåene for alvorlighetsgrad i malen Anfall.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-alvorlighetsgrad-fall.html"
+                  title="CodeSystem/jodacare-alvorlighetsgrad-fall">Alvorlighetsgrad: Fall</a>
+            </td>
+            <td>
+<p>Nivåene for alvorlighetsgrad i malen Fall.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-svar-anfall-anfallstype.html"
+                  title="CodeSystem/jodacare-svar-anfall-anfallstype">Anfall: Anfallstype</a>
+            </td>
+            <td>
+<p>Svaralternativene for feltet anfallstype i malen Anfall.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-svar-anfall-bevissthet.html"
+                  title="CodeSystem/jodacare-svar-anfall-bevissthet">Anfall: Bevissthet under anfall</a>
+            </td>
+            <td>
+<p>Svaralternativene for feltet bevissthet i malen Anfall.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-svar-dobesok-konsistens.html"
+                  title="CodeSystem/jodacare-svar-dobesok-konsistens">Dobesøk: Konsistens (Bristol 1-7)</a>
+            </td>
+            <td>
+<p>Svaralternativene for feltet konsistens i malen Dobesøk.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-svar-dobesok-mengde.html"
+                  title="CodeSystem/jodacare-svar-dobesok-mengde">Dobesøk: Mengde</a>
+            </td>
+            <td>
+<p>Svaralternativene for feltet mengde i malen Dobesøk.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-svar-dobesok-type.html"
+                  title="CodeSystem/jodacare-svar-dobesok-type">Dobesøk: Type</a>
+            </td>
+            <td>
+<p>Svaralternativene for feltet type i malen Dobesøk.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-svar-ernaering-konsistens.html"
+                  title="CodeSystem/jodacare-svar-ernaering-konsistens">Ernæring: Matkonsistens</a>
+            </td>
+            <td>
+<p>Svaralternativene for feltet konsistens i malen Ernæring.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-svar-ernaering-mengde.html"
+                  title="CodeSystem/jodacare-svar-ernaering-mengde">Ernæring: Mengde spist</a>
+            </td>
+            <td>
+<p>Svaralternativene for feltet mengde i malen Ernæring.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-svar-ernaering-maltid.html"
+                  title="CodeSystem/jodacare-svar-ernaering-maltid">Ernæring: Måltid</a>
+            </td>
+            <td>
+<p>Svaralternativene for feltet maltid i malen Ernæring.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-hendelsesfelt.html"
+                  title="CodeSystem/jodacare-hendelsesfelt">Felter i hendelser i JodaCare</a>
+            </td>
+            <td>
+<p>Feltene (key) i standardmalene. Samme key kan brukes i flere maler, og betydningen avgjøres da av hendelsestypen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-hendelsestype.html"
+                  title="CodeSystem/jodacare-hendelsestype">Hendelsestyper i JodaCare</a>
+            </td>
+            <td>
+<p>De åtte standardmalene i hendelsesloggen i JodaCare. Et tjenestested kan i tillegg lage egne hendelsestyper.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-svar-humor-energi.html"
+                  title="CodeSystem/jodacare-svar-humor-energi">Humør: Energinivå</a>
+            </td>
+            <td>
+<p>Svaralternativene for feltet energi i malen Humør.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-svar-humor-sosial.html"
+                  title="CodeSystem/jodacare-svar-humor-sosial">Humør: Sosial</a>
+            </td>
+            <td>
+<p>Svaralternativene for feltet sosial i malen Humør.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-svar-humor-stemning.html"
+                  title="CodeSystem/jodacare-svar-humor-stemning">Humør: Stemning</a>
+            </td>
+            <td>
+<p>Svaralternativene for feltet stemning i malen Humør.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-jodacare-svar-sovn-kvalitet.html"
+                  title="CodeSystem/jodacare-svar-sovn-kvalitet">Søvn: Søvnkvalitet</a>
+            </td>
+            <td>
+<p>Svaralternativene for feltet kvalitet i malen Søvn.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="4"> </a>
    <h3>Example: Example Instances </h3>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
 <table class="grid">
@@ -198,10 +625,46 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="Patient-Pasient-1.html" title="Patient/Pasient-1">Pasient-1</a>
+               <a href="Practitioner-Ansatt-Ahmed.html" title="Practitioner/Ansatt-Ahmed">Ahmed Testesen</a>
             </td>
             <td>
-<p>Eksempel på norsk pasient med fødselsnummer, navn og kontaktinformasjon</p>
+<p>Oppdiktet ansatt i Solsiden avlastningsbolig, med i teamet rundt Ida.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-Hendelse-Anfall-1.html"
+                  title="Observation/Hendelse-Anfall-1">Anfall om natten</a>
+            </td>
+            <td>
+<p>Ahmed registrerer et anfall Ida hadde om natten i avlastningsboligen. Foreldrene og skolen ser hendelsen neste morgen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Provenance-Proveniens-Anfall-1.html"
+                  title="Provenance/Proveniens-Anfall-1">Hvem registrerte anfallet</a>
+            </td>
+            <td>
+<p>Sporbarhet for hendelsen: hvem som registrerte den og når. En endring innen 24 timer gir en ny Provenance.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-Tjenestemottaker-Ida.html"
+                  title="Patient/Tjenestemottaker-Ida">Ida Testvik</a>
+            </td>
+            <td>
+<p>Oppdiktet tjenestemottaker, 13 år, som har avlastning i Solsiden avlastningsbolig i Fjordvik kommune.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-Hendelse-Sovn-1.html"
+                  title="Observation/Hendelse-Sovn-1">Natten etter anfallet</a>
+            </td>
+            <td>
+<p>Søvnregistrering for samme natt. Søvn har ingen alvorlighetsgrad.</p>
 </td>
          </tr>
       </tbody>
@@ -224,7 +687,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.mal#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 6, 2026 10:56+0000">2026-11-06</span>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://jodacare.no">Kristil Erla Håland</a>.  Package jodacare.fhir.hendelseslogg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 6, 2026 16:01+0000">2026-11-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

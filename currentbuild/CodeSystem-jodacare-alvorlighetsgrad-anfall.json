@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "jodacare-alvorlighetsgrad-anfall",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jodacare-alvorlighetsgrad-anfall</b></p><a name=\"jodacare-alvorlighetsgrad-anfall\"> </a><a name=\"hcjodacare-alvorlighetsgrad-anfall\"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">mild<a name=\"jodacare-alvorlighetsgrad-anfall-mild\"> </a></td><td>Mild</td></tr><tr><td style=\"white-space:nowrap\">moderat<a name=\"jodacare-alvorlighetsgrad-anfall-moderat\"> </a></td><td>Moderat</td></tr><tr><td style=\"white-space:nowrap\">alvorlig<a name=\"jodacare-alvorlighetsgrad-anfall-alvorlig\"> </a></td><td>Alvorlig</td></tr></table></div>"
+  },
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall",
+  "version" : "0.1.0",
+  "name" : "JodaCareAlvorlighetsgradAnfall",
+  "title" : "Alvorlighetsgrad: Anfall",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06T16:01:05+00:00",
+  "publisher" : "Kristil Erla Håland",
+  "contact" : [{
+    "name" : "Kristil Erla Håland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://jodacare.no"
+    }]
+  }],
+  "description" : "Nivåene for alvorlighetsgrad i malen Anfall.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "mild",
+    "display" : "Mild"
+  },
+  {
+    "code" : "moderat",
+    "display" : "Moderat"
+  },
+  {
+    "code" : "alvorlig",
+    "display" : "Alvorlig"
+  }]
+}

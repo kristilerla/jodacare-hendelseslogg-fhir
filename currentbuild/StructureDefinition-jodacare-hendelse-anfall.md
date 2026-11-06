@@ -1,0 +1,334 @@
+# Hendelse: Anfall - JodaCare hendelseslogg v0.1.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **Hendelse: Anfall**
+
+## Resource Profile: Hendelse: Anfall ( Experimental ) 
+
+| | |
+| :--- | :--- |
+| *Official URL*:https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-anfall | *Version*:0.1.0 |
+| Draft as of 2026-11-06 | *Computable Name*:JodaCareHendelseAnfall |
+
+ 
+En hendelse av typen Anfall, med feltene fra standardmalen. 
+
+**Usages:**
+
+* Examples for this Profile: [Observation/Hendelse-Anfall-1](Observation-Hendelse-Anfall-1.md)
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/jodacare.fhir.hendelseslogg|current/StructureDefinition/StructureDefinition-jodacare-hendelse-anfall.json)
+
+### Formal Views of Profile Content
+
+ [Description of Profiles, Differentials, Snapshots and how the different presentations work](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](StructureDefinition-jodacare-hendelse-anfall.csv), [Excel](StructureDefinition-jodacare-hendelse-anfall.xlsx), [Schematron](StructureDefinition-jodacare-hendelse-anfall.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "jodacare-hendelse-anfall",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-anfall",
+  "version" : "0.1.0",
+  "name" : "JodaCareHendelseAnfall",
+  "title" : "Hendelse: Anfall",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06T16:01:05+00:00",
+  "publisher" : "Kristil Erla Håland",
+  "contact" : [{
+    "name" : "Kristil Erla Håland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://jodacare.no"
+    }]
+  }],
+  "description" : "En hendelse av typen Anfall, med feltene fra standardmalen.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "workflow",
+    "uri" : "http://hl7.org/fhir/workflow",
+    "name" : "Workflow Pattern"
+  },
+  {
+    "identity" : "sct-concept",
+    "uri" : "http://snomed.info/conceptdomain",
+    "name" : "SNOMED CT Concept Domain Binding"
+  },
+  {
+    "identity" : "v2",
+    "uri" : "http://hl7.org/v2",
+    "name" : "HL7 v2 Mapping"
+  },
+  {
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  },
+  {
+    "identity" : "w5",
+    "uri" : "http://hl7.org/fhir/fivews",
+    "name" : "FiveWs Pattern Mapping"
+  },
+  {
+    "identity" : "sct-attr",
+    "uri" : "http://snomed.org/attributebinding",
+    "name" : "SNOMED CT Attribute Binding"
+  }],
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Observation",
+  "baseDefinition" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Observation",
+      "path" : "Observation"
+    },
+    {
+      "id" : "Observation.code",
+      "path" : "Observation.code",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype",
+          "code" : "anfall"
+        }]
+      }
+    },
+    {
+      "id" : "Observation.component",
+      "path" : "Observation.component",
+      "min" : 3
+    },
+    {
+      "id" : "Observation.component:alvorlighetsgrad",
+      "path" : "Observation.component",
+      "sliceName" : "alvorlighetsgrad"
+    },
+    {
+      "id" : "Observation.component:alvorlighetsgrad.value[x]",
+      "path" : "Observation.component.value[x]",
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-anfall-vs"
+      }
+    },
+    {
+      "id" : "Observation.component:anfallstype",
+      "path" : "Observation.component",
+      "sliceName" : "anfallstype",
+      "short" : "Anfallstype",
+      "min" : 1,
+      "max" : "1",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Observation.component:anfallstype.code",
+      "path" : "Observation.component.code",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt",
+          "code" : "anfallstype"
+        }]
+      }
+    },
+    {
+      "id" : "Observation.component:anfallstype.value[x]",
+      "path" : "Observation.component.value[x]",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-anfall-anfallstype-vs"
+      }
+    },
+    {
+      "id" : "Observation.component:varighet_minutter",
+      "path" : "Observation.component",
+      "sliceName" : "varighet_minutter",
+      "short" : "Varighet (minutter)",
+      "min" : 1,
+      "max" : "1",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Observation.component:varighet_minutter.code",
+      "path" : "Observation.component.code",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt",
+          "code" : "varighet_minutter"
+        }]
+      }
+    },
+    {
+      "id" : "Observation.component:varighet_minutter.value[x]",
+      "path" : "Observation.component.value[x]",
+      "type" : [{
+        "code" : "Quantity"
+      }]
+    },
+    {
+      "id" : "Observation.component:varighet_minutter.value[x].system",
+      "path" : "Observation.component.value[x].system",
+      "patternUri" : "http://unitsofmeasure.org"
+    },
+    {
+      "id" : "Observation.component:varighet_minutter.value[x].code",
+      "path" : "Observation.component.value[x].code",
+      "patternCode" : "min"
+    },
+    {
+      "id" : "Observation.component:bevissthet",
+      "path" : "Observation.component",
+      "sliceName" : "bevissthet",
+      "short" : "Bevissthet under anfall",
+      "min" : 1,
+      "max" : "1",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Observation.component:bevissthet.code",
+      "path" : "Observation.component.code",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt",
+          "code" : "bevissthet"
+        }]
+      }
+    },
+    {
+      "id" : "Observation.component:bevissthet.value[x]",
+      "path" : "Observation.component.value[x]",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-anfall-bevissthet-vs"
+      }
+    },
+    {
+      "id" : "Observation.component:nodmedisin_gitt",
+      "path" : "Observation.component",
+      "sliceName" : "nodmedisin_gitt",
+      "short" : "Nødmedisin gitt?",
+      "min" : 0,
+      "max" : "1",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Observation.component:nodmedisin_gitt.code",
+      "path" : "Observation.component.code",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt",
+          "code" : "nodmedisin_gitt"
+        }]
+      }
+    },
+    {
+      "id" : "Observation.component:nodmedisin_gitt.value[x]",
+      "path" : "Observation.component.value[x]",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "Observation.component:hvilken_medisin",
+      "path" : "Observation.component",
+      "sliceName" : "hvilken_medisin",
+      "short" : "Hvilken medisin",
+      "min" : 0,
+      "max" : "1",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Observation.component:hvilken_medisin.code",
+      "path" : "Observation.component.code",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt",
+          "code" : "hvilken_medisin"
+        }]
+      }
+    },
+    {
+      "id" : "Observation.component:hvilken_medisin.value[x]",
+      "path" : "Observation.component.value[x]",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Observation.component:hva_skjedde_for",
+      "path" : "Observation.component",
+      "sliceName" : "hva_skjedde_for",
+      "short" : "Hva skjedde før anfallet",
+      "min" : 0,
+      "max" : "1",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Observation.component:hva_skjedde_for.code",
+      "path" : "Observation.component.code",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt",
+          "code" : "hva_skjedde_for"
+        }]
+      }
+    },
+    {
+      "id" : "Observation.component:hva_skjedde_for.value[x]",
+      "path" : "Observation.component.value[x]",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Observation.component:hva_skjedde_etter",
+      "path" : "Observation.component",
+      "sliceName" : "hva_skjedde_etter",
+      "short" : "Hva skjedde etter anfallet",
+      "min" : 0,
+      "max" : "1",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Observation.component:hva_skjedde_etter.code",
+      "path" : "Observation.component.code",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt",
+          "code" : "hva_skjedde_etter"
+        }]
+      }
+    },
+    {
+      "id" : "Observation.component:hva_skjedde_etter.value[x]",
+      "path" : "Observation.component.value[x]",
+      "type" : [{
+        "code" : "string"
+      }]
+    }]
+  }
+}
+
+```

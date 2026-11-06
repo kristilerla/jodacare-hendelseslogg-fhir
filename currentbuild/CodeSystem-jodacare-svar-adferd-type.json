@@ -1,0 +1,58 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "jodacare-svar-adferd-type",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jodacare-svar-adferd-type</b></p><a name=\"jodacare-svar-adferd-type\"> </a><a name=\"hcjodacare-svar-adferd-type\"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">verbal-uro<a name=\"jodacare-svar-adferd-type-verbal-uro\"> </a></td><td>Verbal uro</td></tr><tr><td style=\"white-space:nowrap\">fysisk-uro<a name=\"jodacare-svar-adferd-type-fysisk-uro\"> </a></td><td>Fysisk uro</td></tr><tr><td style=\"white-space:nowrap\">selvskading<a name=\"jodacare-svar-adferd-type-selvskading\"> </a></td><td>Selvskading</td></tr><tr><td style=\"white-space:nowrap\">aggresjon<a name=\"jodacare-svar-adferd-type-aggresjon\"> </a></td><td>Aggresjon</td></tr><tr><td style=\"white-space:nowrap\">romningsforsok<a name=\"jodacare-svar-adferd-type-romningsforsok\"> </a></td><td>Rømningsforsøk</td></tr><tr><td style=\"white-space:nowrap\">annet<a name=\"jodacare-svar-adferd-type-annet\"> </a></td><td>Annet</td></tr></table></div>"
+  },
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarAdferdType",
+  "title" : "Adferd / uro: Type adferd",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06T16:01:05+00:00",
+  "publisher" : "Kristil Erla Håland",
+  "contact" : [{
+    "name" : "Kristil Erla Håland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://jodacare.no"
+    }]
+  }],
+  "description" : "Svaralternativene for feltet type i malen Adferd / uro.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "verbal-uro",
+    "display" : "Verbal uro"
+  },
+  {
+    "code" : "fysisk-uro",
+    "display" : "Fysisk uro"
+  },
+  {
+    "code" : "selvskading",
+    "display" : "Selvskading"
+  },
+  {
+    "code" : "aggresjon",
+    "display" : "Aggresjon"
+  },
+  {
+    "code" : "romningsforsok",
+    "display" : "Rømningsforsøk"
+  },
+  {
+    "code" : "annet",
+    "display" : "Annet"
+  }]
+}

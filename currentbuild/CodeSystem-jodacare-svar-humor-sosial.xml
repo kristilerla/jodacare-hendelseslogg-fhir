@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="jodacare-svar-humor-sosial"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem jodacare-svar-humor-sosial</b></p><a name="jodacare-svar-humor-sosial"> </a><a name="hcjodacare-svar-humor-sosial"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">utadvendt<a name="jodacare-svar-humor-sosial-utadvendt"> </a></td><td>Utadvendt</td></tr><tr><td style="white-space:nowrap">normal<a name="jodacare-svar-humor-sosial-normal"> </a></td><td>Normal</td></tr><tr><td style="white-space:nowrap">tilbaketrukket<a name="jodacare-svar-humor-sosial-tilbaketrukket"> </a></td><td>Tilbaketrukket</td></tr></table></div>
+  </text>
+  <url value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial"/>
+  <version value="0.1.0"/>
+  <name value="JodaCareSvarHumorSosial"/>
+  <title value="Humør: Sosial"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2026-11-06T16:01:05+00:00"/>
+  <publisher value="Kristil Erla Håland"/>
+  <contact>
+    <name value="Kristil Erla Håland"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://jodacare.no"/>
+    </telecom>
+  </contact>
+  <description value="Svaralternativene for feltet sosial i malen Humør."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="utadvendt"/>
+    <display value="Utadvendt"/>
+  </concept>
+  <concept>
+    <code value="normal"/>
+    <display value="Normal"/>
+  </concept>
+  <concept>
+    <code value="tilbaketrukket"/>
+    <display value="Tilbaketrukket"/>
+  </concept>
+</CodeSystem>

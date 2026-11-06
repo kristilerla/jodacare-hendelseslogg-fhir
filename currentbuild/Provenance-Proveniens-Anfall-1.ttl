@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://kristilerla.github.io/jodacare-hendelseslogg-fhir/Provenance/Proveniens-Anfall-1> a fhir:Provenance ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "Proveniens-Anfall-1"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Provenance Proveniens-Anfall-1</b></p><a name=\"Proveniens-Anfall-1\"> </a><a name=\"hcProveniens-Anfall-1\"> </a><p>Provenance for <a href=\"Observation-Hendelse-Anfall-1.html\">Observation Anfall</a></p><p>Summary</p><table class=\"grid\"><tr><td>Recorded</td><td>2026-11-08 02:25:00+0100</td></tr><tr><td>Activity</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-DataOperation CREATE}\">create</span></td></tr></table><p><b>Agents</b></p><table class=\"grid\"><tr><td><b>Type</b></td><td><b>who</b></td></tr><tr><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/provenance-participant-type author}\">Author</span></td><td><a href=\"Practitioner-Ansatt-Ahmed.html\">Ahmed Testesen</a></td></tr></table></div>"
+  ] ;
+  fhir:Provenance.target [
+     fhir:index 0 ;
+     fhir:link <https://kristilerla.github.io/jodacare-hendelseslogg-fhir/Observation/Hendelse-Anfall-1> ;
+     fhir:Reference.reference [ fhir:value "Observation/Hendelse-Anfall-1" ]
+  ] ;
+  fhir:Provenance.recorded [ fhir:value "2026-11-08T02:25:00+01:00"^^xsd:dateTime] ;
+  fhir:Provenance.activity [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-DataOperation" ] ;
+       fhir:Coding.code [ fhir:value "CREATE" ] ;
+       fhir:Coding.display [ fhir:value "create" ]
+     ]
+  ] ;
+  fhir:Provenance.agent [
+     fhir:index 0 ;
+     fhir:Provenance.agent.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/provenance-participant-type" ] ;
+         fhir:Coding.code [ fhir:value "author" ] ;
+         fhir:Coding.display [ fhir:value "Author" ]
+       ]
+     ] ;
+     fhir:Provenance.agent.who [
+       fhir:link <https://kristilerla.github.io/jodacare-hendelseslogg-fhir/Practitioner/Ansatt-Ahmed> ;
+       fhir:Reference.reference [ fhir:value "Practitioner/Ansatt-Ahmed" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://kristilerla.github.io/jodacare-hendelseslogg-fhir/Provenance/Proveniens-Anfall-1.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

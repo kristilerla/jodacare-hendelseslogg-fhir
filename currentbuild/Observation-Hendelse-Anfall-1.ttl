@@ -1,0 +1,142 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://kristilerla.github.io/jodacare-hendelseslogg-fhir/Observation/Hendelse-Anfall-1> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "Hendelse-Anfall-1"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-anfall" ;
+       fhir:index 0 ;
+       fhir:link <https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-anfall>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation Hendelse-Anfall-1</b></p><a name=\"Hendelse-Anfall-1\"> </a><a name=\"hcHendelse-Anfall-1\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-jodacare-hendelse-anfall.html\">Hendelse: Anfall</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype anfall}\">Anfall</span></p><p><b>subject</b>: <a href=\"Patient-Tjenestemottaker-Ida.html\">Ida Testvik  Female, DoB: 2013-03-13 ( urn:oid:2.16.578.1.12.4.1.4.1#Foedselsnummer#13031353453)</a></p><p><b>effective</b>: 2026-11-08 02:14:00+0100 --&gt; 2026-11-08 02:17:00+0100</p><p><b>performer</b>: <a href=\"Practitioner-Ansatt-Ahmed.html\">Ahmed Testesen</a></p><p><b>note</b>: </p><blockquote><div><p>Ida sovnet igjen kl. 02.40. Hun kan være trøtt på skolen i dag.</p>\n</div></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt anfallstype}\">Anfallstype</span></p><p><b>value</b>: <span title=\"Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype tonisk-klonisk}\">Tonisk-klonisk</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt varighet_minutter}\">Varighet (minutter)</span></p><p><b>value</b>: 3 min<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemin = 'min')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt bevissthet}\">Bevissthet under anfall</span></p><p><b>value</b>: <span title=\"Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet nei}\">Nei</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt alvorlighetsgrad}\">Alvorlighetsgrad</span></p><p><b>value</b>: <span title=\"Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall moderat}\">Moderat</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt nodmedisin_gitt}\">Nødmedisin gitt?</span></p><p><b>value</b>: false</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt hva_skjedde_etter}\">Hva skjedde etter</span></p><p><b>value</b>: Lagt i sideleie. Var urolig i ca. 10 minutter etterpå.</p></blockquote></div>"
+  ] ;
+  fhir:Observation.status [ fhir:value "final"] ;
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype" ] ;
+       fhir:Coding.code [ fhir:value "anfall" ] ;
+       fhir:Coding.display [ fhir:value "Anfall" ]
+     ]
+  ] ;
+  fhir:Observation.subject [
+     fhir:link <https://kristilerla.github.io/jodacare-hendelseslogg-fhir/Patient/Tjenestemottaker-Ida> ;
+     fhir:Reference.reference [ fhir:value "Patient/Tjenestemottaker-Ida" ]
+  ] ;
+  fhir:Observation.effectivePeriod [
+     fhir:Period.start [ fhir:value "2026-11-08T02:14:00+01:00"^^xsd:dateTime ] ;
+     fhir:Period.end [ fhir:value "2026-11-08T02:17:00+01:00"^^xsd:dateTime ]
+  ] ;
+  fhir:Observation.performer [
+     fhir:index 0 ;
+     fhir:link <https://kristilerla.github.io/jodacare-hendelseslogg-fhir/Practitioner/Ansatt-Ahmed> ;
+     fhir:Reference.reference [ fhir:value "Practitioner/Ansatt-Ahmed" ]
+  ] ;
+  fhir:Observation.note [
+     fhir:index 0 ;
+     fhir:Annotation.text [ fhir:value "Ida sovnet igjen kl. 02.40. Hun kan være trøtt på skolen i dag." ]
+  ] ;
+  fhir:Observation.component [
+     fhir:index 0 ;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt" ] ;
+         fhir:Coding.code [ fhir:value "anfallstype" ]
+       ]
+     ] ;
+     fhir:Observation.component.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype" ] ;
+         fhir:Coding.code [ fhir:value "tonisk-klonisk" ] ;
+         fhir:Coding.display [ fhir:value "Tonisk-klonisk" ]
+       ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt" ] ;
+         fhir:Coding.code [ fhir:value "varighet_minutter" ]
+       ]
+     ] ;
+     fhir:Observation.component.valueQuantity [
+       fhir:Quantity.value [ fhir:value "3"^^xsd:decimal ] ;
+       fhir:Quantity.unit [ fhir:value "min" ] ;
+       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+       fhir:Quantity.code [ fhir:value "min" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt" ] ;
+         fhir:Coding.code [ fhir:value "bevissthet" ]
+       ]
+     ] ;
+     fhir:Observation.component.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet" ] ;
+         fhir:Coding.code [ fhir:value "nei" ] ;
+         fhir:Coding.display [ fhir:value "Nei" ]
+       ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt" ] ;
+         fhir:Coding.code [ fhir:value "alvorlighetsgrad" ]
+       ]
+     ] ;
+     fhir:Observation.component.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall" ] ;
+         fhir:Coding.code [ fhir:value "moderat" ] ;
+         fhir:Coding.display [ fhir:value "Moderat" ]
+       ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt" ] ;
+         fhir:Coding.code [ fhir:value "nodmedisin_gitt" ]
+       ]
+     ] ;
+     fhir:Observation.component.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+  ], [
+     fhir:index 5 ;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt" ] ;
+         fhir:Coding.code [ fhir:value "hva_skjedde_etter" ]
+       ]
+     ] ;
+     fhir:Observation.component.valueString [ fhir:value "Lagt i sideleie. Var urolig i ca. 10 minutter etterpå." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://kristilerla.github.io/jodacare-hendelseslogg-fhir/Observation/Hendelse-Anfall-1.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

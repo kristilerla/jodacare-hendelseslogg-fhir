@@ -1,21 +1,336 @@
 [{
-  "id" : "hl7.fhir.no.mal",
+  "id" : "jodacare-alvorlighetsgrad-adferd",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-adferd",
+  "version" : "0.1.0",
+  "name" : "JodaCareAlvorlighetsgradAdferd"
+},
+{
+  "id" : "jodacare-alvorlighetsgrad-anfall",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall",
+  "version" : "0.1.0",
+  "name" : "JodaCareAlvorlighetsgradAnfall"
+},
+{
+  "id" : "jodacare-alvorlighetsgrad-fall",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-fall",
+  "version" : "0.1.0",
+  "name" : "JodaCareAlvorlighetsgradFall"
+},
+{
+  "id" : "jodacare-hendelsesfelt",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt",
+  "version" : "0.1.0",
+  "name" : "JodaCareHendelsesfelt"
+},
+{
+  "id" : "jodacare-hendelsestype",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype",
+  "version" : "0.1.0",
+  "name" : "JodaCareHendelsestype"
+},
+{
+  "id" : "jodacare-svar-adferd-tiltak",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-tiltak",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarAdferdTiltak"
+},
+{
+  "id" : "jodacare-svar-adferd-type",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-adferd-type",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarAdferdType"
+},
+{
+  "id" : "jodacare-svar-anfall-anfallstype",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarAnfallAnfallstype"
+},
+{
+  "id" : "jodacare-svar-anfall-bevissthet",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarAnfallBevissthet"
+},
+{
+  "id" : "jodacare-svar-dobesok-konsistens",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-konsistens",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarDobesokKonsistens"
+},
+{
+  "id" : "jodacare-svar-dobesok-mengde",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-mengde",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarDobesokMengde"
+},
+{
+  "id" : "jodacare-svar-dobesok-type",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-dobesok-type",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarDobesokType"
+},
+{
+  "id" : "jodacare-svar-ernaering-konsistens",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-konsistens",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarErnaeringKonsistens"
+},
+{
+  "id" : "jodacare-svar-ernaering-maltid",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-maltid",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarErnaeringMaltid"
+},
+{
+  "id" : "jodacare-svar-ernaering-mengde",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-ernaering-mengde",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarErnaeringMengde"
+},
+{
+  "id" : "jodacare-svar-humor-energi",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-energi",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarHumorEnergi"
+},
+{
+  "id" : "jodacare-svar-humor-sosial",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-sosial",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarHumorSosial"
+},
+{
+  "id" : "jodacare-svar-humor-stemning",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-humor-stemning",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarHumorStemning"
+},
+{
+  "id" : "jodacare-svar-sovn-kvalitet",
+  "type" : "CodeSystem",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-sovn-kvalitet",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarSovnKvalitet"
+},
+{
+  "id" : "jodacare.fhir.hendelseslogg",
   "type" : "ImplementationGuide",
-  "url" : "http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ImplementationGuide/jodacare.fhir.hendelseslogg",
   "version" : "0.1.0",
-  "name" : "Mal"
+  "name" : "JodaCareHendelseslogg"
 },
 {
-  "id" : "mal-observation-blodprove",
+  "id" : "jodacare-hendelse",
   "type" : "StructureDefinition",
-  "url" : "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-observation-blodprove",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse",
   "version" : "0.1.0",
-  "name" : "MalObservationBlood"
+  "name" : "JodaCareHendelse"
 },
 {
-  "id" : "mal-patient",
+  "id" : "jodacare-hendelse-adferd",
   "type" : "StructureDefinition",
-  "url" : "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-adferd",
   "version" : "0.1.0",
-  "name" : "MalPatient"
+  "name" : "JodaCareHendelseAdferd"
+},
+{
+  "id" : "jodacare-hendelse-anfall",
+  "type" : "StructureDefinition",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-anfall",
+  "version" : "0.1.0",
+  "name" : "JodaCareHendelseAnfall"
+},
+{
+  "id" : "jodacare-hendelse-dobesok",
+  "type" : "StructureDefinition",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-dobesok",
+  "version" : "0.1.0",
+  "name" : "JodaCareHendelseDobesok"
+},
+{
+  "id" : "jodacare-hendelse-ernaering",
+  "type" : "StructureDefinition",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-ernaering",
+  "version" : "0.1.0",
+  "name" : "JodaCareHendelseErnaering"
+},
+{
+  "id" : "jodacare-hendelse-fall",
+  "type" : "StructureDefinition",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-fall",
+  "version" : "0.1.0",
+  "name" : "JodaCareHendelseFall"
+},
+{
+  "id" : "jodacare-hendelse-humor",
+  "type" : "StructureDefinition",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-humor",
+  "version" : "0.1.0",
+  "name" : "JodaCareHendelseHumor"
+},
+{
+  "id" : "jodacare-hendelse-medisin",
+  "type" : "StructureDefinition",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-medisin",
+  "version" : "0.1.0",
+  "name" : "JodaCareHendelseBehovsmedisin"
+},
+{
+  "id" : "jodacare-hendelse-sovn",
+  "type" : "StructureDefinition",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-sovn",
+  "version" : "0.1.0",
+  "name" : "JodaCareHendelseSovn"
+},
+{
+  "id" : "jodacare-tjenestemottaker",
+  "type" : "StructureDefinition",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-tjenestemottaker",
+  "version" : "0.1.0",
+  "name" : "JodaCareTjenestemottaker"
+},
+{
+  "id" : "jodacare-alvorlighetsgrad-adferd-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-adferd-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareAlvorlighetsgradAdferdVS"
+},
+{
+  "id" : "jodacare-alvorlighetsgrad-anfall-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-anfall-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareAlvorlighetsgradAnfallVS"
+},
+{
+  "id" : "jodacare-alvorlighetsgrad-fall-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-alvorlighetsgrad-fall-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareAlvorlighetsgradFallVS"
+},
+{
+  "id" : "jodacare-hendelsestype-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-hendelsestype-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareHendelsestypeVS"
+},
+{
+  "id" : "jodacare-svar-adferd-tiltak-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-adferd-tiltak-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarAdferdTiltakVS"
+},
+{
+  "id" : "jodacare-svar-adferd-type-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-adferd-type-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarAdferdTypeVS"
+},
+{
+  "id" : "jodacare-svar-anfall-anfallstype-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-anfall-anfallstype-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarAnfallAnfallstypeVS"
+},
+{
+  "id" : "jodacare-svar-anfall-bevissthet-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-anfall-bevissthet-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarAnfallBevissthetVS"
+},
+{
+  "id" : "jodacare-svar-dobesok-konsistens-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-konsistens-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarDobesokKonsistensVS"
+},
+{
+  "id" : "jodacare-svar-dobesok-mengde-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-mengde-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarDobesokMengdeVS"
+},
+{
+  "id" : "jodacare-svar-dobesok-type-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-type-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarDobesokTypeVS"
+},
+{
+  "id" : "jodacare-svar-ernaering-konsistens-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-konsistens-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarErnaeringKonsistensVS"
+},
+{
+  "id" : "jodacare-svar-ernaering-maltid-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-maltid-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarErnaeringMaltidVS"
+},
+{
+  "id" : "jodacare-svar-ernaering-mengde-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-ernaering-mengde-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarErnaeringMengdeVS"
+},
+{
+  "id" : "jodacare-svar-humor-energi-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-energi-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarHumorEnergiVS"
+},
+{
+  "id" : "jodacare-svar-humor-sosial-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-sosial-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarHumorSosialVS"
+},
+{
+  "id" : "jodacare-svar-humor-stemning-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-humor-stemning-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarHumorStemningVS"
+},
+{
+  "id" : "jodacare-svar-sovn-kvalitet-vs",
+  "type" : "ValueSet",
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-sovn-kvalitet-vs",
+  "version" : "0.1.0",
+  "name" : "JodaCareSvarSovnKvalitetVS"
 }]

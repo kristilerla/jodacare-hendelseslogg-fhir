@@ -1,0 +1,209 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "jodacare-hendelsesfelt",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jodacare-hendelsesfelt</b></p><a name=\"jodacare-hendelsesfelt\"> </a><a name=\"hcjodacare-hendelsesfelt\"> </a><p>This case-sensitive code system <code>https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">alvorlighetsgrad<a name=\"jodacare-hendelsesfelt-alvorlighetsgrad\"> </a></td><td>Alvorlighetsgrad</td><td>Alvorlighetsgrad (severity). Hver hendelsestype har egne nivåer.</td></tr><tr><td style=\"white-space:nowrap\">anfallstype<a name=\"jodacare-hendelsesfelt-anfallstype\"> </a></td><td>Anfallstype</td><td>Brukes i Anfall: Anfallstype.</td></tr><tr><td style=\"white-space:nowrap\">varighet_minutter<a name=\"jodacare-hendelsesfelt-varighet_minutter\"> </a></td><td>Varighet (minutter)</td><td>Brukes i Anfall: Varighet (minutter); Adferd / uro: Varighet (minutter).</td></tr><tr><td style=\"white-space:nowrap\">bevissthet<a name=\"jodacare-hendelsesfelt-bevissthet\"> </a></td><td>Bevissthet under anfall</td><td>Brukes i Anfall: Bevissthet under anfall.</td></tr><tr><td style=\"white-space:nowrap\">nodmedisin_gitt<a name=\"jodacare-hendelsesfelt-nodmedisin_gitt\"> </a></td><td>Nødmedisin gitt?</td><td>Brukes i Anfall: Nødmedisin gitt.</td></tr><tr><td style=\"white-space:nowrap\">hvilken_medisin<a name=\"jodacare-hendelsesfelt-hvilken_medisin\"> </a></td><td>Hvilken medisin</td><td>Brukes i Anfall: Hvilken medisin.</td></tr><tr><td style=\"white-space:nowrap\">hva_skjedde_for<a name=\"jodacare-hendelsesfelt-hva_skjedde_for\"> </a></td><td>Hva skjedde før</td><td>Brukes i Anfall: Hva skjedde før anfallet; Adferd / uro: Hva skjedde før (antecedent).</td></tr><tr><td style=\"white-space:nowrap\">hva_skjedde_etter<a name=\"jodacare-hendelsesfelt-hva_skjedde_etter\"> </a></td><td>Hva skjedde etter</td><td>Brukes i Anfall: Hva skjedde etter anfallet; Adferd / uro: Hva skjedde etter (consequence).</td></tr><tr><td style=\"white-space:nowrap\">type<a name=\"jodacare-hendelsesfelt-type\"> </a></td><td>Type</td><td>Brukes i Adferd / uro: Type adferd; Dobesøk: Type.</td></tr><tr><td style=\"white-space:nowrap\">beskrivelse<a name=\"jodacare-hendelsesfelt-beskrivelse\"> </a></td><td>Beskriv hendelsen (behavior)</td><td>Brukes i Adferd / uro: Beskriv hendelsen (behavior).</td></tr><tr><td style=\"white-space:nowrap\">tiltak<a name=\"jodacare-hendelsesfelt-tiltak\"> </a></td><td>Tiltak</td><td>Brukes i Adferd / uro: Tiltak; Fall: Tiltak utført.</td></tr><tr><td style=\"white-space:nowrap\">tiltak_notater<a name=\"jodacare-hendelsesfelt-tiltak_notater\"> </a></td><td>Tiltak-notater</td><td>Brukes i Adferd / uro: Tiltak-notater.</td></tr><tr><td style=\"white-space:nowrap\">mengde<a name=\"jodacare-hendelsesfelt-mengde\"> </a></td><td>Mengde</td><td>Brukes i Dobesøk: Mengde; Ernæring: Mengde spist.</td></tr><tr><td style=\"white-space:nowrap\">konsistens<a name=\"jodacare-hendelsesfelt-konsistens\"> </a></td><td>Konsistens</td><td>Brukes i Dobesøk: Konsistens (Bristol 1-7); Ernæring: Matkonsistens.</td></tr><tr><td style=\"white-space:nowrap\">uhell<a name=\"jodacare-hendelsesfelt-uhell\"> </a></td><td>Inkontinens/uhell</td><td>Brukes i Dobesøk: Inkontinens/uhell.</td></tr><tr><td style=\"white-space:nowrap\">sted<a name=\"jodacare-hendelsesfelt-sted\"> </a></td><td>Hvor skjedde fallet</td><td>Brukes i Fall: Hvor skjedde fallet.</td></tr><tr><td style=\"white-space:nowrap\">aktivitet<a name=\"jodacare-hendelsesfelt-aktivitet\"> </a></td><td>Hva gjorde personen</td><td>Brukes i Fall: Hva gjorde personen.</td></tr><tr><td style=\"white-space:nowrap\">skade<a name=\"jodacare-hendelsesfelt-skade\"> </a></td><td>Skadebeskrivelse</td><td>Brukes i Fall: Skadebeskrivelse.</td></tr><tr><td style=\"white-space:nowrap\">lege_kontaktet<a name=\"jodacare-hendelsesfelt-lege_kontaktet\"> </a></td><td>Lege kontaktet</td><td>Brukes i Fall: Lege kontaktet.</td></tr><tr><td style=\"white-space:nowrap\">parorende_varslet<a name=\"jodacare-hendelsesfelt-parorende_varslet\"> </a></td><td>Pårørende varslet</td><td>Brukes i Fall: Pårørende varslet.</td></tr><tr><td style=\"white-space:nowrap\">la_seg<a name=\"jodacare-hendelsesfelt-la_seg\"> </a></td><td>La seg</td><td>Brukes i Søvn: La seg.</td></tr><tr><td style=\"white-space:nowrap\">sovnet<a name=\"jodacare-hendelsesfelt-sovnet\"> </a></td><td>Sovnet ca.</td><td>Brukes i Søvn: Sovnet ca.</td></tr><tr><td style=\"white-space:nowrap\">oppvakninger<a name=\"jodacare-hendelsesfelt-oppvakninger\"> </a></td><td>Antall oppvåkninger</td><td>Brukes i Søvn: Antall oppvåkninger.</td></tr><tr><td style=\"white-space:nowrap\">stod_opp<a name=\"jodacare-hendelsesfelt-stod_opp\"> </a></td><td>Stod opp</td><td>Brukes i Søvn: Stod opp.</td></tr><tr><td style=\"white-space:nowrap\">kvalitet<a name=\"jodacare-hendelsesfelt-kvalitet\"> </a></td><td>Søvnkvalitet</td><td>Brukes i Søvn: Søvnkvalitet.</td></tr><tr><td style=\"white-space:nowrap\">maltid<a name=\"jodacare-hendelsesfelt-maltid\"> </a></td><td>Måltid</td><td>Brukes i Ernæring: Måltid.</td></tr><tr><td style=\"white-space:nowrap\">drikke_ml<a name=\"jodacare-hendelsesfelt-drikke_ml\"> </a></td><td>Drikke (ml)</td><td>Brukes i Ernæring: Drikke (ml).</td></tr><tr><td style=\"white-space:nowrap\">medikament<a name=\"jodacare-hendelsesfelt-medikament\"> </a></td><td>Medikament</td><td>Brukes i Behovsmedisin: Medikament.</td></tr><tr><td style=\"white-space:nowrap\">dose<a name=\"jodacare-hendelsesfelt-dose\"> </a></td><td>Dose</td><td>Brukes i Behovsmedisin: Dose.</td></tr><tr><td style=\"white-space:nowrap\">grunn<a name=\"jodacare-hendelsesfelt-grunn\"> </a></td><td>Grunn for medisinering</td><td>Brukes i Behovsmedisin: Grunn for medisinering.</td></tr><tr><td style=\"white-space:nowrap\">effekt<a name=\"jodacare-hendelsesfelt-effekt\"> </a></td><td>Observert effekt</td><td>Brukes i Behovsmedisin: Observert effekt.</td></tr><tr><td style=\"white-space:nowrap\">tid_til_effekt<a name=\"jodacare-hendelsesfelt-tid_til_effekt\"> </a></td><td>Tid til effekt (min)</td><td>Brukes i Behovsmedisin: Tid til effekt (min).</td></tr><tr><td style=\"white-space:nowrap\">stemning<a name=\"jodacare-hendelsesfelt-stemning\"> </a></td><td>Stemning</td><td>Brukes i Humør: Stemning.</td></tr><tr><td style=\"white-space:nowrap\">energi<a name=\"jodacare-hendelsesfelt-energi\"> </a></td><td>Energinivå</td><td>Brukes i Humør: Energinivå.</td></tr><tr><td style=\"white-space:nowrap\">sosial<a name=\"jodacare-hendelsesfelt-sosial\"> </a></td><td>Sosial</td><td>Brukes i Humør: Sosial.</td></tr></table></div>"
+  },
+  "url" : "https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt",
+  "version" : "0.1.0",
+  "name" : "JodaCareHendelsesfelt",
+  "title" : "Felter i hendelser i JodaCare",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06T16:01:05+00:00",
+  "publisher" : "Kristil Erla Håland",
+  "contact" : [{
+    "name" : "Kristil Erla Håland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://jodacare.no"
+    }]
+  }],
+  "description" : "Feltene (key) i standardmalene. Samme key kan brukes i flere maler, og betydningen avgjøres da av hendelsestypen.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 35,
+  "concept" : [{
+    "code" : "alvorlighetsgrad",
+    "display" : "Alvorlighetsgrad",
+    "definition" : "Alvorlighetsgrad (severity). Hver hendelsestype har egne nivåer."
+  },
+  {
+    "code" : "anfallstype",
+    "display" : "Anfallstype",
+    "definition" : "Brukes i Anfall: Anfallstype."
+  },
+  {
+    "code" : "varighet_minutter",
+    "display" : "Varighet (minutter)",
+    "definition" : "Brukes i Anfall: Varighet (minutter); Adferd / uro: Varighet (minutter)."
+  },
+  {
+    "code" : "bevissthet",
+    "display" : "Bevissthet under anfall",
+    "definition" : "Brukes i Anfall: Bevissthet under anfall."
+  },
+  {
+    "code" : "nodmedisin_gitt",
+    "display" : "Nødmedisin gitt?",
+    "definition" : "Brukes i Anfall: Nødmedisin gitt."
+  },
+  {
+    "code" : "hvilken_medisin",
+    "display" : "Hvilken medisin",
+    "definition" : "Brukes i Anfall: Hvilken medisin."
+  },
+  {
+    "code" : "hva_skjedde_for",
+    "display" : "Hva skjedde før",
+    "definition" : "Brukes i Anfall: Hva skjedde før anfallet; Adferd / uro: Hva skjedde før (antecedent)."
+  },
+  {
+    "code" : "hva_skjedde_etter",
+    "display" : "Hva skjedde etter",
+    "definition" : "Brukes i Anfall: Hva skjedde etter anfallet; Adferd / uro: Hva skjedde etter (consequence)."
+  },
+  {
+    "code" : "type",
+    "display" : "Type",
+    "definition" : "Brukes i Adferd / uro: Type adferd; Dobesøk: Type."
+  },
+  {
+    "code" : "beskrivelse",
+    "display" : "Beskriv hendelsen (behavior)",
+    "definition" : "Brukes i Adferd / uro: Beskriv hendelsen (behavior)."
+  },
+  {
+    "code" : "tiltak",
+    "display" : "Tiltak",
+    "definition" : "Brukes i Adferd / uro: Tiltak; Fall: Tiltak utført."
+  },
+  {
+    "code" : "tiltak_notater",
+    "display" : "Tiltak-notater",
+    "definition" : "Brukes i Adferd / uro: Tiltak-notater."
+  },
+  {
+    "code" : "mengde",
+    "display" : "Mengde",
+    "definition" : "Brukes i Dobesøk: Mengde; Ernæring: Mengde spist."
+  },
+  {
+    "code" : "konsistens",
+    "display" : "Konsistens",
+    "definition" : "Brukes i Dobesøk: Konsistens (Bristol 1-7); Ernæring: Matkonsistens."
+  },
+  {
+    "code" : "uhell",
+    "display" : "Inkontinens/uhell",
+    "definition" : "Brukes i Dobesøk: Inkontinens/uhell."
+  },
+  {
+    "code" : "sted",
+    "display" : "Hvor skjedde fallet",
+    "definition" : "Brukes i Fall: Hvor skjedde fallet."
+  },
+  {
+    "code" : "aktivitet",
+    "display" : "Hva gjorde personen",
+    "definition" : "Brukes i Fall: Hva gjorde personen."
+  },
+  {
+    "code" : "skade",
+    "display" : "Skadebeskrivelse",
+    "definition" : "Brukes i Fall: Skadebeskrivelse."
+  },
+  {
+    "code" : "lege_kontaktet",
+    "display" : "Lege kontaktet",
+    "definition" : "Brukes i Fall: Lege kontaktet."
+  },
+  {
+    "code" : "parorende_varslet",
+    "display" : "Pårørende varslet",
+    "definition" : "Brukes i Fall: Pårørende varslet."
+  },
+  {
+    "code" : "la_seg",
+    "display" : "La seg",
+    "definition" : "Brukes i Søvn: La seg."
+  },
+  {
+    "code" : "sovnet",
+    "display" : "Sovnet ca.",
+    "definition" : "Brukes i Søvn: Sovnet ca."
+  },
+  {
+    "code" : "oppvakninger",
+    "display" : "Antall oppvåkninger",
+    "definition" : "Brukes i Søvn: Antall oppvåkninger."
+  },
+  {
+    "code" : "stod_opp",
+    "display" : "Stod opp",
+    "definition" : "Brukes i Søvn: Stod opp."
+  },
+  {
+    "code" : "kvalitet",
+    "display" : "Søvnkvalitet",
+    "definition" : "Brukes i Søvn: Søvnkvalitet."
+  },
+  {
+    "code" : "maltid",
+    "display" : "Måltid",
+    "definition" : "Brukes i Ernæring: Måltid."
+  },
+  {
+    "code" : "drikke_ml",
+    "display" : "Drikke (ml)",
+    "definition" : "Brukes i Ernæring: Drikke (ml)."
+  },
+  {
+    "code" : "medikament",
+    "display" : "Medikament",
+    "definition" : "Brukes i Behovsmedisin: Medikament."
+  },
+  {
+    "code" : "dose",
+    "display" : "Dose",
+    "definition" : "Brukes i Behovsmedisin: Dose."
+  },
+  {
+    "code" : "grunn",
+    "display" : "Grunn for medisinering",
+    "definition" : "Brukes i Behovsmedisin: Grunn for medisinering."
+  },
+  {
+    "code" : "effekt",
+    "display" : "Observert effekt",
+    "definition" : "Brukes i Behovsmedisin: Observert effekt."
+  },
+  {
+    "code" : "tid_til_effekt",
+    "display" : "Tid til effekt (min)",
+    "definition" : "Brukes i Behovsmedisin: Tid til effekt (min)."
+  },
+  {
+    "code" : "stemning",
+    "display" : "Stemning",
+    "definition" : "Brukes i Humør: Stemning."
+  },
+  {
+    "code" : "energi",
+    "display" : "Energinivå",
+    "definition" : "Brukes i Humør: Energinivå."
+  },
+  {
+    "code" : "sosial",
+    "display" : "Sosial",
+    "definition" : "Brukes i Humør: Sosial."
+  }]
+}

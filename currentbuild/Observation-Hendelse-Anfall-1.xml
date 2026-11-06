@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="Hendelse-Anfall-1"/>
+  <meta>
+    <profile value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-anfall"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation Hendelse-Anfall-1</b></p><a name="Hendelse-Anfall-1"> </a><a name="hcHendelse-Anfall-1"> </a><div style="display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-jodacare-hendelse-anfall.html">Hendelse: Anfall</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype anfall}">Anfall</span></p><p><b>subject</b>: <a href="Patient-Tjenestemottaker-Ida.html">Ida Testvik  Female, DoB: 2013-03-13 ( urn:oid:2.16.578.1.12.4.1.4.1#Foedselsnummer#13031353453)</a></p><p><b>effective</b>: 2026-11-08 02:14:00+0100 --&gt; 2026-11-08 02:17:00+0100</p><p><b>performer</b>: <a href="Practitioner-Ansatt-Ahmed.html">Ahmed Testesen</a></p><p><b>note</b>: </p><blockquote><div><p>Ida sovnet igjen kl. 02.40. Hun kan være trøtt på skolen i dag.</p>
+</div></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt anfallstype}">Anfallstype</span></p><p><b>value</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype tonisk-klonisk}">Tonisk-klonisk</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt varighet_minutter}">Varighet (minutter)</span></p><p><b>value</b>: 3 min<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemin = 'min')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt bevissthet}">Bevissthet under anfall</span></p><p><b>value</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet nei}">Nei</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt alvorlighetsgrad}">Alvorlighetsgrad</span></p><p><b>value</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall moderat}">Moderat</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt nodmedisin_gitt}">Nødmedisin gitt?</span></p><p><b>value</b>: false</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt hva_skjedde_etter}">Hva skjedde etter</span></p><p><b>value</b>: Lagt i sideleie. Var urolig i ca. 10 minutter etterpå.</p></blockquote></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsestype"/>
+      <code value="anfall"/>
+      <display value="Anfall"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/Tjenestemottaker-Ida"/>
+  </subject>
+  <effectivePeriod>
+    <start value="2026-11-08T02:14:00+01:00"/>
+    <end value="2026-11-08T02:17:00+01:00"/>
+  </effectivePeriod>
+  <performer>
+    <reference value="Practitioner/Ansatt-Ahmed"/>
+  </performer>
+  <note>
+    <text value="Ida sovnet igjen kl. 02.40. Hun kan være trøtt på skolen i dag."/>
+  </note>
+  <component>
+    <code>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt"/>
+        <code value="anfallstype"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype"/>
+        <code value="tonisk-klonisk"/>
+        <display value="Tonisk-klonisk"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt"/>
+        <code value="varighet_minutter"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="3"/>
+      <unit value="min"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="min"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt"/>
+        <code value="bevissthet"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-bevissthet"/>
+        <code value="nei"/>
+        <display value="Nei"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt"/>
+        <code value="alvorlighetsgrad"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-alvorlighetsgrad-anfall"/>
+        <code value="moderat"/>
+        <display value="Moderat"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt"/>
+        <code value="nodmedisin_gitt"/>
+      </coding>
+    </code>
+    <valueBoolean value="false"/>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt"/>
+        <code value="hva_skjedde_etter"/>
+      </coding>
+    </code>
+    <valueString value="Lagt i sideleie. Var urolig i ca. 10 minutter etterpå."/>
+  </component>
+</Observation>
