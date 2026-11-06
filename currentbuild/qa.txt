@@ -3,7 +3,7 @@ JodaCareHendelseslogg : Validation Results
 
 err = 1, warn = 60, info = 194, broken links = 0
 IG Publisher Version: 3.0.3
-Generated Fri Nov 06 16:02:28 UTC 2026. FHIR version 4.0.1 for jodacare.fhir.hendelseslogg#0.1.0 (canonical = https://kristilerla.github.io/jodacare-hendelseslogg-fhir)
+Generated Fri Nov 06 16:58:02 UTC 2026. FHIR version 4.0.1 for jodacare.fhir.hendelseslogg#0.1.0 (canonical = https://kristilerla.github.io/jodacare-hendelseslogg-fhir)
  Build Errors : 0 / 13 / 0
  /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-alvorlighetsgrad-adferd : 0 / 1 / 2
  /__w/jodacare-hendelseslogg-fhir/jodacare-hendelseslogg-fhir/mal/fsh-generated/resources/CodeSystem-jodacare-alvorlighetsgrad-anfall : 0 / 1 / 2

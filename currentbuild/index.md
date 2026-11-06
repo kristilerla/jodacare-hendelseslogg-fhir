@@ -109,7 +109,7 @@ Alle åtte er foreløpig profilert som Observation, slik at de følger samme mø
   "name" : "JodaCareHendelseslogg",
   "title" : "JodaCare hendelseslogg",
   "status" : "draft",
-  "date" : "2026-11-06T16:01:05+00:00",
+  "date" : "2026-11-06T16:56:31+00:00",
   "publisher" : "Kristil Erla Håland",
   "contact" : [{
     "name" : "Kristil Erla Håland",

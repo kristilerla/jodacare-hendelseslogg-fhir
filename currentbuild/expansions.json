@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "942bbe8f-e7c1-4576-8b7a-6cf264983bd7",
+  "id" : "b06cb104-d4a0-45cd-a72b-02e384976e52",
   "meta" : {
-    "lastUpdated" : "2026-11-06T16:01:05.582+00:00"
+    "lastUpdated" : "2026-11-06T16:56:31.059+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "Alvorlighetsgrad: Adferd / uro",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6b374cb7-6b46-4f16-9a91-5cadef63a2cc",
-        "timestamp" : "2026-11-06T16:02:15+00:00",
+        "identifier" : "urn:uuid:eb5736bd-36aa-49c4-a515-d7e32ce95c55",
+        "timestamp" : "2026-11-06T16:57:43+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -81,7 +81,7 @@
       "title" : "Alvorlighetsgrad: Anfall",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -90,8 +90,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b1841d1f-ba8b-4ff3-a113-7dae25d4022a",
-        "timestamp" : "2026-11-06T16:02:15+00:00",
+        "identifier" : "urn:uuid:ce33fe60-e8f9-48a2-be4e-dc4277ef9b4d",
+        "timestamp" : "2026-11-06T16:57:43+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -143,7 +143,7 @@
       "title" : "Alvorlighetsgrad: Fall",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -152,8 +152,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e2d91d54-3740-4b4e-80f3-49313e5d2a62",
-        "timestamp" : "2026-11-06T16:02:15+00:00",
+        "identifier" : "urn:uuid:50588a9c-1d52-430b-8515-573a847a3ba2",
+        "timestamp" : "2026-11-06T16:57:43+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -205,7 +205,7 @@
       "title" : "Hendelsestyper i JodaCare",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -214,8 +214,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f9bc1cd4-2bdb-4fe4-b937-d5ab9b98fdf7",
-        "timestamp" : "2026-11-06T16:02:15+00:00",
+        "identifier" : "urn:uuid:4c0cc192-ffc9-4eda-b4f0-829267bcf265",
+        "timestamp" : "2026-11-06T16:57:43+00:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -287,7 +287,7 @@
       "title" : "Adferd / uro: Tiltak",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -296,8 +296,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3bcc015c-b3a7-4836-bae8-44b18d86f629",
-        "timestamp" : "2026-11-06T16:02:15+00:00",
+        "identifier" : "urn:uuid:5deae714-9bcc-446c-9bd8-f968e014aa7e",
+        "timestamp" : "2026-11-06T16:57:43+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -361,7 +361,7 @@
       "title" : "Adferd / uro: Type adferd",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -370,8 +370,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:dfac9901-8731-4660-9b09-f5c16043fdae",
-        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "identifier" : "urn:uuid:fb248b89-1ac1-4f82-8ce4-fb6d92364617",
+        "timestamp" : "2026-11-06T16:57:43+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -435,7 +435,7 @@
       "title" : "Anfall: Anfallstype",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -444,8 +444,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:065390c3-2f74-4b61-8d32-081f22d3780e",
-        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "identifier" : "urn:uuid:759949ff-cd5e-4abe-81f0-a366f7fb2c28",
+        "timestamp" : "2026-11-06T16:57:43+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -505,7 +505,7 @@
       "title" : "Anfall: Bevissthet under anfall",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -514,8 +514,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d8fd9638-9ec5-443b-9819-28ecf7281997",
-        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "identifier" : "urn:uuid:fe155315-28a5-4506-826c-9e6461018bf5",
+        "timestamp" : "2026-11-06T16:57:43+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -567,7 +567,7 @@
       "title" : "Dobesøk: Konsistens (Bristol 1-7)",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -576,8 +576,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:02a89bc2-bbe8-4109-bb9d-b494cb675fa6",
-        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "identifier" : "urn:uuid:408532f2-72b0-4b4a-af14-37399e64345c",
+        "timestamp" : "2026-11-06T16:57:43+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -645,7 +645,7 @@
       "title" : "Dobesøk: Mengde",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -654,8 +654,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8cb4706e-4514-4441-9f69-90204acab11e",
-        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "identifier" : "urn:uuid:9a46c276-8575-4979-976c-2416f0f0e344",
+        "timestamp" : "2026-11-06T16:57:44+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -707,7 +707,7 @@
       "title" : "Dobesøk: Type",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -716,8 +716,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0967ab3b-88d5-46d1-8a8f-12189dd998da",
-        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "identifier" : "urn:uuid:1f30183f-fae3-4371-926b-230bae213ce2",
+        "timestamp" : "2026-11-06T16:57:44+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -769,7 +769,7 @@
       "title" : "Ernæring: Matkonsistens",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -778,8 +778,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6e5c32cc-51d2-40a8-b761-ddecfdf4f449",
-        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "identifier" : "urn:uuid:90263859-5028-4e02-b422-53a1d13fe07b",
+        "timestamp" : "2026-11-06T16:57:44+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -835,7 +835,7 @@
       "title" : "Ernæring: Måltid",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -844,8 +844,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e6885d9b-0cb5-4536-bab3-1f0044750db0",
-        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "identifier" : "urn:uuid:7754d059-1872-49ed-8170-13f24290e2b8",
+        "timestamp" : "2026-11-06T16:57:44+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -905,7 +905,7 @@
       "title" : "Ernæring: Mengde spist",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -914,8 +914,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b352b6a4-5de2-4151-8680-ccc0407be272",
-        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "identifier" : "urn:uuid:4e464714-ef4d-4167-9859-1ce77f94d96a",
+        "timestamp" : "2026-11-06T16:57:44+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -975,7 +975,7 @@
       "title" : "Humør: Energinivå",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -984,8 +984,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:66de979c-be04-4e5c-95cc-5e6652995b58",
-        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "identifier" : "urn:uuid:276c4e6b-e5f7-4526-9102-9a3a72407e5a",
+        "timestamp" : "2026-11-06T16:57:44+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -1037,7 +1037,7 @@
       "title" : "Humør: Sosial",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1046,8 +1046,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:22a306f6-9090-4bcf-be14-22a4379911c4",
-        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "identifier" : "urn:uuid:dccbed0c-4992-4c20-babb-feef131f6bc9",
+        "timestamp" : "2026-11-06T16:57:44+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -1099,7 +1099,7 @@
       "title" : "Humør: Stemning",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1108,8 +1108,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2f71c2eb-f6f1-4b79-9b59-51e8fe8bc807",
-        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "identifier" : "urn:uuid:07234e11-3941-413f-93b2-e1c08cb1f4e3",
+        "timestamp" : "2026-11-06T16:57:44+00:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -1181,7 +1181,7 @@
       "title" : "Søvn: Søvnkvalitet",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-06T16:01:05+00:00",
+      "date" : "2026-11-06T16:56:31+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1190,8 +1190,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4cd88897-017e-44dc-8986-11d02609b34f",
-        "timestamp" : "2026-11-06T16:02:16+00:00",
+        "identifier" : "urn:uuid:8d962410-7371-48bf-8854-9acb9373bc24",
+        "timestamp" : "2026-11-06T16:57:44+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
