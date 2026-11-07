@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-hendelsesfelt | *Version*:0.1.0 |
-| Draft as of 2026-11-06 | *Computable Name*:JodaCareHendelsesfelt |
+| Draft as of 2026-11-07 | *Computable Name*:JodaCareHendelsesfelt |
 
  
 Feltene (key) i standardmalene. Samme key kan brukes i flere maler, og betydningen avgjøres da av hendelsestypen. 
@@ -32,7 +32,7 @@ Feltene (key) i standardmalene. Samme key kan brukes i flere maler, og betydning
   "title" : "Felter i hendelser i JodaCare",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-11-06T16:56:31+00:00",
+  "date" : "2026-11-07T05:45:39+00:00",
   "publisher" : "Kristil Erla Håland",
   "contact" : [{
     "name" : "Kristil Erla Håland",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse | *Version*:0.1.0 |
-| Draft as of 2026-11-06 | *Computable Name*:JodaCareHendelse |
+| Draft as of 2026-11-07 | *Computable Name*:JodaCareHendelse |
 
  
 Felles grunnprofil for en registrert hendelse i hendelsesloggen i JodaCare. En hendelse gjelder én tjenestemottaker, har et tidspunkt og en person som registrerte den. Hver hendelsestype har sin egen profil som bygger på denne. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-jodacare-hendelse.cs
   "title" : "Hendelse",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-11-06T16:56:31+00:00",
+  "date" : "2026-11-07T05:45:39+00:00",
   "publisher" : "Kristil Erla Håland",
   "contact" : [{
     "name" : "Kristil Erla Håland",

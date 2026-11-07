@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-dobesok-konsistens-vs | *Version*:0.1.0 |
-| Draft as of 2026-11-06 | *Computable Name*:JodaCareSvarDobesokKonsistensVS |
+| Draft as of 2026-11-07 | *Computable Name*:JodaCareSvarDobesokKonsistensVS |
 
  
 Gyldige svar for feltet konsistens i malen Dobesøk. 
@@ -51,7 +51,7 @@ Gyldige svar for feltet konsistens i malen Dobesøk.
   "title" : "Dobesøk: Konsistens (Bristol 1-7)",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-11-06T16:56:31+00:00",
+  "date" : "2026-11-07T05:45:39+00:00",
   "publisher" : "Kristil Erla Håland",
   "contact" : [{
     "name" : "Kristil Erla Håland",

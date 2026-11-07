@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ImplementationGuide/jodacare.fhir.hendelseslogg | *Version*:0.1.0 |
-| Draft as of 2026-11-06 | *Computable Name*:JodaCareHendelseslogg |
+| Draft as of 2026-11-07 | *Computable Name*:JodaCareHendelseslogg |
 
 ### Om denne guiden
 
@@ -88,6 +88,16 @@ Alle åtte er foreløpig profilert som Observation, slik at de følger samme mø
 1. Flere maler bruker samme key med ulik betydning, for eksempel konsistens (Bristol-skala i dobesøk og matkonsistens i ernæring). Er det godt nok at hendelsestypen avgjør betydningen, eller bør hver mal ha egne feltkoder?
 1. Hvor bør tjenestestedet hendelsen ble registrert på uttrykkes?
 
+### Spørsmål til Aidn
+
+Aidn er et journalsystem for kommunal helse og omsorg, og Open Aidn bruker FHIR R4. I dokumentasjonen kan en tredjepart lese Observation og Composition, men det er ikke beskrevet hvordan man skriver inn data.
+
+1. Kan en tredjepart som JodaCare skrive en hendelse, for eksempel et anfall, inn i Aidn som en Observation, slik at helsepersonell kan godkjenne den?
+1. Kan JodaCare lese hendelser og observasjoner fra Aidn, slik at teamet rundt tjenestemottakeren ser det som er registrert i journalen?
+1. Hvordan får man tilgang til demomiljøet (open.demo.aidn.no)?
+1. Har Aidn planer om å bygge den kommende Aidn-profilen på no-basis?
+1. Kan abonnementene (patient-changed og episode-of-care-changed) brukes til å varsle teamet i JodaCare når noe endrer seg i journalen?
+
 ### Eksempler
 
 * [Ida Testvik](Patient-Tjenestemottaker-Ida.md), oppdiktet tjenestemottaker
@@ -109,7 +119,7 @@ Alle åtte er foreløpig profilert som Observation, slik at de følger samme mø
   "name" : "JodaCareHendelseslogg",
   "title" : "JodaCare hendelseslogg",
   "status" : "draft",
-  "date" : "2026-11-06T16:56:31+00:00",
+  "date" : "2026-11-07T05:45:39+00:00",
   "publisher" : "Kristil Erla Håland",
   "contact" : [{
     "name" : "Kristil Erla Håland",

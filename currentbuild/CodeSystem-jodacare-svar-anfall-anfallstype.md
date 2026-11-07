@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://kristilerla.github.io/jodacare-hendelseslogg-fhir/CodeSystem/jodacare-svar-anfall-anfallstype | *Version*:0.1.0 |
-| Draft as of 2026-11-06 | *Computable Name*:JodaCareSvarAnfallAnfallstype |
+| Draft as of 2026-11-07 | *Computable Name*:JodaCareSvarAnfallAnfallstype |
 
  
 Svaralternativene for feltet anfallstype i malen Anfall. 
@@ -32,7 +32,7 @@ Svaralternativene for feltet anfallstype i malen Anfall.
   "title" : "Anfall: Anfallstype",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-11-06T16:56:31+00:00",
+  "date" : "2026-11-07T05:45:39+00:00",
   "publisher" : "Kristil Erla Håland",
   "contact" : [{
     "name" : "Kristil Erla Håland",

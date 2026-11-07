@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://kristilerla.github.io/jodacare-hendelseslogg-fhir/StructureDefinition/jodacare-hendelse-medisin | *Version*:0.1.0 |
-| Draft as of 2026-11-06 | *Computable Name*:JodaCareHendelseBehovsmedisin |
+| Draft as of 2026-11-07 | *Computable Name*:JodaCareHendelseBehovsmedisin |
 
  
 En hendelse av typen Behovsmedisin, med feltene fra standardmalen. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-jodacare-hendelse-me
   "title" : "Hendelse: Behovsmedisin",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-11-06T16:56:31+00:00",
+  "date" : "2026-11-07T05:45:39+00:00",
   "publisher" : "Kristil Erla Håland",
   "contact" : [{
     "name" : "Kristil Erla Håland",

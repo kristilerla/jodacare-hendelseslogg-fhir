@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://kristilerla.github.io/jodacare-hendelseslogg-fhir/ValueSet/jodacare-svar-adferd-type-vs | *Version*:0.1.0 |
-| Draft as of 2026-11-06 | *Computable Name*:JodaCareSvarAdferdTypeVS |
+| Draft as of 2026-11-07 | *Computable Name*:JodaCareSvarAdferdTypeVS |
 
  
 Gyldige svar for feltet type i malen Adferd / uro. 
@@ -51,7 +51,7 @@ Gyldige svar for feltet type i malen Adferd / uro.
   "title" : "Adferd / uro: Type adferd",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-11-06T16:56:31+00:00",
+  "date" : "2026-11-07T05:45:39+00:00",
   "publisher" : "Kristil Erla Håland",
   "contact" : [{
     "name" : "Kristil Erla Håland",
